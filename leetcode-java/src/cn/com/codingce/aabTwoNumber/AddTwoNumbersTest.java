@@ -1,4 +1,4 @@
-package cn.com.codingce;
+package cn.com.codingce.aabTwoNumber;
 
 /**
  * @author xzMa
@@ -63,8 +63,4 @@ public class AddTwoNumbersTest {
     }
 
 }
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
+
