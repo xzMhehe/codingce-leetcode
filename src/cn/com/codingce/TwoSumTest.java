@@ -1,4 +1,4 @@
-package cn.com.codingce.mytest;
+package cn.com.codingce;
 
 import java.util.HashMap;
 import java.util.Map;
