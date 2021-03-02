@@ -1,4 +1,4 @@
-package cn.com.codingce.aadcandyswap;
+package cn.com.codingce.faircandyswap;
 
 import java.util.HashSet;
 import java.util.Set;
