@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/reverse/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/sort/BubbleSort.java" afterDir="false" />
+    <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment=":art: 修改包名">
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/reflection/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/reflection/TestReflection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/tjise/DiamondTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/tjise/LawTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/tjise/MultiplicationTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/tjise/NumberTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/aaaTwoNumAdd/TwoSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/twonumadd/TwoSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/aabTwoNumber/AddTwoNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/twonumber/AddTwoNumbersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/aabTwoNumber/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/twonumber/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/aaclengthoflongestsubstring/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/lengthoflongestsubstring/LengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/aadcandyswap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/fairCandySwap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/reverse/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/reverse/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.NumberTwo">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="DiamondTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.tjise.DiamondTest" />
       <module name="leetcode-java" />
@@ -92,32 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.faircandyswap.Main" />
-      <module name="leetcode-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.faircandyswap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiplicationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.tjise.MultiplicationTest" />
-      <module name="leetcode-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.tjise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NumberTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.tjise.NumberTwo" />
       <module name="leetcode-java" />
@@ -131,13 +101,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.reverse.Solution" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.reverse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.reflection.TestReflection" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.TestReflection" />
         <item itemvalue="Application.NumberTwo" />
         <item itemvalue="Application.DiamondTest" />
         <item itemvalue="Application.LawTest" />
-        <item itemvalue="Application.MultiplicationTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +160,10 @@
       <workItem from="1614669303924" duration="60000" />
       <workItem from="1614669409112" duration="494000" />
       <workItem from="1614677721762" duration="3699000" />
-      <workItem from="1614684484302" duration="5124000" />
+      <workItem from="1614684484302" duration="5354000" />
+      <workItem from="1614727993775" duration="2268000" />
+      <workItem from="1614730709716" duration="4617000" />
+      <workItem from="1614740932992" duration="2303000" />
     </task>
     <task id="LOCAL-00001" summary="F 修改java项目位置">
       <created>1610759775555</created>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613188955048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":art: 修改包名">
+      <created>1614691350773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614691350773</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,61 +224,62 @@
     <MESSAGE value="F 修改java项目" />
     <MESSAGE value="A leetcode - 3无重复字符的最长子串" />
     <MESSAGE value="A leetcode - 888糖果分配" />
-    <option name="LAST_COMMIT_MESSAGE" value="A leetcode - 888糖果分配" />
+    <MESSAGE value=":art: 修改包名" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: 修改包名" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1613185591317">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1614733797623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613185591317" />
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614733797623" />
     <state x="715" y="227" key="#xdebugger.evaluate" timestamp="1613186899116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="227" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1613186899116" />
-    <state x="544" y="116" key="CommitChangelistDialog2" timestamp="1614691320008">
+    <state x="544" y="116" key="CommitChangelistDialog2" timestamp="1614691348719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614691320008" />
+    <state x="544" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614691348719" />
     <state x="739" y="264" key="FileChooserDialogImpl" timestamp="1614669882580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614669882580" />
-    <state width="1877" height="128" key="GridCell.Tab.0.bottom" timestamp="1614690614237">
+    <state width="1877" height="141" key="GridCell.Tab.0.bottom" timestamp="1614742872543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="128" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614690614237" />
-    <state width="1877" height="128" key="GridCell.Tab.0.center" timestamp="1614690614236">
+    <state width="1877" height="141" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614742872543" />
+    <state width="1877" height="141" key="GridCell.Tab.0.center" timestamp="1614742872542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="128" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614690614236" />
-    <state width="1877" height="128" key="GridCell.Tab.0.left" timestamp="1614690614236">
+    <state width="1877" height="141" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614742872542" />
+    <state width="1877" height="141" key="GridCell.Tab.0.left" timestamp="1614742872542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="128" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614690614236" />
-    <state width="1877" height="128" key="GridCell.Tab.0.right" timestamp="1614690614236">
+    <state width="1877" height="141" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614742872542" />
+    <state width="1877" height="141" key="GridCell.Tab.0.right" timestamp="1614742872542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="128" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614690614236" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1613189129699">
+    <state width="1877" height="141" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614742872542" />
+    <state width="1877" height="265" key="GridCell.Tab.1.bottom" timestamp="1614742223688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613189129699" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1613189129699">
+    <state width="1877" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614742223688" />
+    <state width="1877" height="265" key="GridCell.Tab.1.center" timestamp="1614742223688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613189129699" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1613189129699">
+    <state width="1877" height="265" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614742223688" />
+    <state width="1877" height="265" key="GridCell.Tab.1.left" timestamp="1614742223688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613189129699" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1613189129699">
+    <state width="1877" height="265" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614742223688" />
+    <state width="1877" height="265" key="GridCell.Tab.1.right" timestamp="1614742223688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613189129699" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1613188978011">
+    <state width="1877" height="265" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614742223688" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614728620409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613188978011" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614728620409" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614685330472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

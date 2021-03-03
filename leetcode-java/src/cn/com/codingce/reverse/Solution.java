@@ -1,6 +1,8 @@
 package cn.com.codingce.reverse;
 
 /**
+ * 007 整数反转
+ * <p>
  * 给你一个 32 位的有符号整数 x ，返回 x 中每位上的数字反转后的结果。
  * <p>
  * 如果反转后整数超过 32 位的有符号整数的范围 [−231,  231 − 1] ，就返回 0。
@@ -11,10 +13,28 @@ package cn.com.codingce.reverse;
  */
 public class Solution {
     public static void main(String[] args) {
-
+        System.out.println(reverse1(-153429));
     }
 
-    public int reverse(int x) {
+    public static int reverse1(int x) {
+        int res = 0;
+        while (x != 0) {
+            // 每次取末尾数字
+            int tmp = x % 10;
+            if (res > Integer.MAX_VALUE / 10 || (res == Integer.MAX_VALUE / 10 && tmp > 7)) {
+                return 0;
+            }
+            if (res < Integer.MIN_VALUE / 10 || (res == Integer.MIN_VALUE / 10 && tmp < -8)) {
+                return 0;
+            }
+            res = res * 10 + tmp;
+            x /= 10;
+        }
+        return res;
+    }
+
+
+    public static int reverse2(int x) {
         int rev = 0;
         while (x != 0) {
             int pop = x % 10;
