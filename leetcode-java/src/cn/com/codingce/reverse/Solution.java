@@ -1,7 +1,7 @@
 package cn.com.codingce.reverse;
 
 /**
- * 007 整数反转
+ * 7. 整数反转
  * <p>
  * 给你一个 32 位的有符号整数 x ，返回 x 中每位上的数字反转后的结果。
  * <p>
@@ -13,7 +13,7 @@ package cn.com.codingce.reverse;
  */
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(reverse3(-153429));
+        System.out.println(reverse2(-1056389759));
     }
 
     public static int reverse1(int x) {
@@ -48,6 +48,7 @@ public class Solution {
         return rev;
     }
 
+    // 1056389759
     public static int reverse3(int x) {
         int sign = 1;
         if (x < 0) sign = -1;
