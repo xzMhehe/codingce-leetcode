@@ -11,7 +11,7 @@ package cn.com.codingce.ispalindrome;
  */
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(isPalindrome(1212121));
+        System.out.println(isPalindrome2(12121));
 
     }
 

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/ispalindrome/Solution.java" afterDir="false" />
+    <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment=":fire: 回文数">
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/tjise/Multi1030.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/tjise/NumThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/reverse/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/reverse/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/ispalindrome/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/ispalindrome/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +57,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
-    <configuration name="DiamondTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.tjise.DiamondTest" />
+  <component name="RunManager" selected="Application.NumThree">
+    <configuration name="Multi1030" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.tjise.Multi1030" />
       <module name="leetcode-java" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.tjise.NumberTwo" />
+    <configuration name="NumThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.tjise.NumThree" />
       <module name="leetcode-java" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumThree" />
+        <item itemvalue="Application.Multi1030" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TestReflection" />
-        <item itemvalue="Application.NumberTwo" />
-        <item itemvalue="Application.DiamondTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +159,13 @@
       <workItem from="1614684484302" duration="5354000" />
       <workItem from="1614727993775" duration="2268000" />
       <workItem from="1614730709716" duration="4617000" />
-      <workItem from="1614740932992" duration="6548000" />
+      <workItem from="1614740932992" duration="9045000" />
+      <workItem from="1614769479347" duration="37000" />
+      <workItem from="1614769711696" duration="2422000" />
+      <workItem from="1614772741039" duration="1244000" />
+      <workItem from="1614813279611" duration="6090000" />
+      <workItem from="1614842946465" duration="598000" />
+      <workItem from="1614864300533" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="F 修改java项目位置">
       <created>1610759775555</created>
@@ -209,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614751794662</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=":fire: 整数反转">
+      <created>1614754940560</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614754940560</updated>
+    </task>
+    <task id="LOCAL-00009" summary=":fire: 回文数">
+      <created>1614754955027</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614754955027</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +256,8 @@
     <MESSAGE value="A leetcode - 888糖果分配" />
     <MESSAGE value=":art: 修改包名" />
     <MESSAGE value=":fire: 整数反转" />
-    <option name="LAST_COMMIT_MESSAGE" value=":fire: 整数反转" />
+    <MESSAGE value=":fire: 回文数" />
+    <option name="LAST_COMMIT_MESSAGE" value=":fire: 回文数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1614733797623">
@@ -246,50 +268,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="227" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1613186899116" />
-    <state x="544" y="116" key="CommitChangelistDialog2" timestamp="1614751793349">
+    <state x="544" y="116" key="CommitChangelistDialog2" timestamp="1614816042074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614751793349" />
+    <state x="544" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614816042074" />
+    <state x="207" y="86" key="DiffContextDialog" timestamp="1614754949068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="207" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614754949068" />
     <state x="739" y="264" key="FileChooserDialogImpl" timestamp="1614669882580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614669882580" />
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1614754554777">
+    <state width="1877" height="59" key="GridCell.Tab.0.bottom" timestamp="1614818094495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614754554777" />
-    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1614754554777">
+    <state width="1877" height="59" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614818094495" />
+    <state width="1877" height="59" key="GridCell.Tab.0.center" timestamp="1614818094495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614754554777" />
-    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1614754554777">
+    <state width="1877" height="59" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614818094495" />
+    <state width="1877" height="59" key="GridCell.Tab.0.left" timestamp="1614818094495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614754554777" />
-    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1614754554777">
+    <state width="1877" height="59" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614818094495" />
+    <state width="1877" height="59" key="GridCell.Tab.0.right" timestamp="1614818094495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614754554777" />
-    <state width="1877" height="265" key="GridCell.Tab.1.bottom" timestamp="1614742223688">
+    <state width="1877" height="59" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614818094495" />
+    <state width="1877" height="439" key="GridCell.Tab.1.bottom" timestamp="1614817994064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614742223688" />
-    <state width="1877" height="265" key="GridCell.Tab.1.center" timestamp="1614742223688">
+    <state width="1877" height="439" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614817994064" />
+    <state width="1877" height="439" key="GridCell.Tab.1.center" timestamp="1614817994064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="265" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614742223688" />
-    <state width="1877" height="265" key="GridCell.Tab.1.left" timestamp="1614742223688">
+    <state width="1877" height="439" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614817994064" />
+    <state width="1877" height="439" key="GridCell.Tab.1.left" timestamp="1614817994064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="265" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614742223688" />
-    <state width="1877" height="265" key="GridCell.Tab.1.right" timestamp="1614742223688">
+    <state width="1877" height="439" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614817994064" />
+    <state width="1877" height="439" key="GridCell.Tab.1.right" timestamp="1614817994064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="265" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614742223688" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614751797383">
+    <state width="1877" height="439" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614817994064" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614754956344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614751797383" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614754956344" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614685330472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,5 +328,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="136" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610773755276" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/com/codingce/tjise/Multi1030.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
