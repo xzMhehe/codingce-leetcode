@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment=":fire: 回文数">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/romantoint/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/romantoint/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/romantoint/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +164,11 @@
       <workItem from="1614813279611" duration="6090000" />
       <workItem from="1614842946465" duration="598000" />
       <workItem from="1614864300533" duration="593000" />
-      <workItem from="1614898466625" duration="693000" />
+      <workItem from="1614898466625" duration="1298000" />
+      <workItem from="1614902688828" duration="262000" />
+      <workItem from="1614904928588" duration="48000" />
+      <workItem from="1614909309108" duration="91000" />
+      <workItem from="1614927127528" duration="1886000" />
     </task>
     <task id="LOCAL-00001" summary="F 修改java项目位置">
       <created>1610759775555</created>
@@ -230,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614754955027</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=":fire: 罗马数字转阿拉伯">
+      <created>1614900393337</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614900393337</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +267,8 @@
     <MESSAGE value=":art: 修改包名" />
     <MESSAGE value=":fire: 整数反转" />
     <MESSAGE value=":fire: 回文数" />
-    <option name="LAST_COMMIT_MESSAGE" value=":fire: 回文数" />
+    <MESSAGE value=":fire: 罗马数字转阿拉伯" />
+    <option name="LAST_COMMIT_MESSAGE" value=":fire: 罗马数字转阿拉伯" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1614733797623">
@@ -268,11 +279,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="227" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1613186899116" />
-    <state x="408" y="23" key="CommitChangelistDialog2" timestamp="1614865974202">
-      <screen x="0" y="23" width="1440" height="799" />
+    <state x="544" y="23" key="CommitChangelistDialog2" timestamp="1614900393107">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="544" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614816042074" />
     <state x="408" y="23" key="CommitChangelistDialog2/0.23.1440.799@0.23.1440.799" timestamp="1614865974202" />
+    <state x="544" y="23" key="CommitChangelistDialog2/0.23.1920.979@0.23.1920.979" timestamp="1614900393107" />
     <state x="207" y="86" key="DiffContextDialog" timestamp="1614754949068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -281,29 +293,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614669882580" />
-    <state width="1878" height="153" key="GridCell.Tab.0.bottom" timestamp="1614898748108">
-      <screen x="1440" y="23" width="1920" height="979" />
+    <state width="1878" height="333" key="GridCell.Tab.0.bottom" timestamp="1614928622584">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1877" height="59" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614818094495" />
     <state width="1398" height="117" key="GridCell.Tab.0.bottom/0.23.1440.799@0.23.1440.799" timestamp="1614865979715" />
+    <state width="1878" height="333" key="GridCell.Tab.0.bottom/0.23.1920.979@0.23.1920.979" timestamp="1614928622584" />
     <state width="1878" height="153" key="GridCell.Tab.0.bottom/1440.23.1920.979/0.23.1440.799@1440.23.1920.979" timestamp="1614898748108" />
-    <state width="1878" height="153" key="GridCell.Tab.0.center" timestamp="1614898748107">
-      <screen x="1440" y="23" width="1920" height="979" />
+    <state width="1878" height="333" key="GridCell.Tab.0.center" timestamp="1614928622583">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1877" height="59" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614818094495" />
     <state width="1398" height="117" key="GridCell.Tab.0.center/0.23.1440.799@0.23.1440.799" timestamp="1614865979714" />
+    <state width="1878" height="333" key="GridCell.Tab.0.center/0.23.1920.979@0.23.1920.979" timestamp="1614928622583" />
     <state width="1878" height="153" key="GridCell.Tab.0.center/1440.23.1920.979/0.23.1440.799@1440.23.1920.979" timestamp="1614898748107" />
-    <state width="1878" height="153" key="GridCell.Tab.0.left" timestamp="1614898748106">
-      <screen x="1440" y="23" width="1920" height="979" />
+    <state width="1878" height="333" key="GridCell.Tab.0.left" timestamp="1614928622583">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1877" height="59" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614818094495" />
     <state width="1398" height="117" key="GridCell.Tab.0.left/0.23.1440.799@0.23.1440.799" timestamp="1614865979714" />
+    <state width="1878" height="333" key="GridCell.Tab.0.left/0.23.1920.979@0.23.1920.979" timestamp="1614928622583" />
     <state width="1878" height="153" key="GridCell.Tab.0.left/1440.23.1920.979/0.23.1440.799@1440.23.1920.979" timestamp="1614898748106" />
-    <state width="1878" height="153" key="GridCell.Tab.0.right" timestamp="1614898748108">
-      <screen x="1440" y="23" width="1920" height="979" />
+    <state width="1878" height="333" key="GridCell.Tab.0.right" timestamp="1614928622584">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state width="1877" height="59" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614818094495" />
     <state width="1398" height="117" key="GridCell.Tab.0.right/0.23.1440.799@0.23.1440.799" timestamp="1614865979715" />
+    <state width="1878" height="333" key="GridCell.Tab.0.right/0.23.1920.979@0.23.1920.979" timestamp="1614928622584" />
     <state width="1878" height="153" key="GridCell.Tab.0.right/1440.23.1920.979/0.23.1440.799@1440.23.1920.979" timestamp="1614898748108" />
     <state width="1877" height="439" key="GridCell.Tab.1.bottom" timestamp="1614817994064">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -321,10 +337,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="439" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614817994064" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1614754956344">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="264" key="Vcs.Push.Dialog.v2" timestamp="1614900400499">
+      <screen x="0" y="23" width="1920" height="979" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614754956344" />
+    <state x="552" y="264" key="Vcs.Push.Dialog.v2/0.23.1920.979@0.23.1920.979" timestamp="1614900400499" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614685330472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
