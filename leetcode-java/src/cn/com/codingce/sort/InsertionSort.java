@@ -47,7 +47,7 @@ public class InsertionSort {
             j = i - 1;
             while (j >= 0 && nums[j] > num) {
                 nums[j + 1] = nums[j];
-                j--;
+                --j;
             }
             nums[j + 1] = num;
         }
