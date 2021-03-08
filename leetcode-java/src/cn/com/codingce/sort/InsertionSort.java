@@ -41,10 +41,26 @@ public class InsertionSort {
         }
     }
 
+    private static void insertionSort2(int[] nums) {
+        for (int i = 1, j, n = nums.length; i < n; ++i) {
+            int num = nums[i];
+            j = i - 1;
+            while (j >= 0 && nums[j] > num) {
+                nums[j + 1] = nums[j];
+                j--;
+            }
+            nums[j + 1] = num;
+        }
+
+    }
+
 
     public static void main(String[] args) {
         int[] nums = {1, 2, 5, 3, 9, 8};
+        int[] nums2 = {1, 2, 5, 3, 9, 8};
         insertionSort(nums);
         System.out.println(Arrays.toString(nums));
+        insertionSort2(nums2);
+        System.out.println(Arrays.toString(nums2));
     }
 }
