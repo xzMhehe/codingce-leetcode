@@ -2,6 +2,13 @@ package cn.com.codingce.lq.base;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * 十六进制转八进制
+ * 
+ * @author williamma
+ *
+ */
 public class HexadecimalToOctal {
     // 定义常量字符串
     static String[] bin = {"0000", "0001", "0010", "0011", "0100", "0101", "0110", "0111", "1000", "1001", "1010",

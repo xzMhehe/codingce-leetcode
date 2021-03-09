@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment=":fire: 插入排序">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/HexadecimalToOctal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/sort/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -177,7 +176,9 @@
       <workItem from="1615171646728" duration="10428000" />
       <workItem from="1615201356950" duration="1474000" />
       <workItem from="1615210091005" duration="13000" />
-      <workItem from="1615253484200" duration="263000" />
+      <workItem from="1615253484200" duration="1109000" />
+      <workItem from="1615256015526" duration="355000" />
+      <workItem from="1615264979795" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="F 修改java项目位置">
       <created>1610759775555</created>
@@ -312,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615202315385</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=":fire: 蓝桥杯十六进制转八进制">
+      <created>1615253801497</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615253801497</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +354,8 @@
     <MESSAGE value=":fire: 冒泡算法" />
     <MESSAGE value=":fire: 插入排序" />
     <MESSAGE value=":fire: 蓝桥杯基础练习, 数组排序" />
-    <option name="LAST_COMMIT_MESSAGE" value=":fire: 蓝桥杯基础练习, 数组排序" />
+    <MESSAGE value=":fire: 蓝桥杯十六进制转八进制" />
+    <option name="LAST_COMMIT_MESSAGE" value=":fire: 蓝桥杯十六进制转八进制" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1614733797623">
@@ -362,13 +371,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="227" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1613186899116" />
-    <state x="544" y="23" key="CommitChangelistDialog2" timestamp="1615202315075">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state x="544" y="23" key="CommitChangelistDialog2" timestamp="1615264998318">
+      <screen x="0" y="23" width="1920" height="970" />
     </state>
     <state x="544" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614816042074" />
     <state x="408" y="23" key="CommitChangelistDialog2/0.23.1440.799@0.23.1440.799" timestamp="1614865974202" />
     <state x="408" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1615174277101" />
     <state x="544" y="23" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1615188771950" />
+    <state x="544" y="23" key="CommitChangelistDialog2/0.23.1920.970@0.23.1920.970" timestamp="1615264998318" />
     <state x="544" y="23" key="CommitChangelistDialog2/0.23.1920.971@0.23.1920.971" timestamp="1615102653189" />
     <state x="544" y="23" key="CommitChangelistDialog2/0.23.1920.979@0.23.1920.979" timestamp="1615202315075" />
     <state x="207" y="86" key="DiffContextDialog" timestamp="1614754949068">
@@ -459,12 +469,13 @@
     <state width="1878" height="301" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1615192469477" />
     <state width="1878" height="272" key="GridCell.Tab.1.right/0.23.1920.971@0.23.1920.971" timestamp="1615104693675" />
     <state width="1878" height="135" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1615201227076" />
-    <state x="552" y="264" key="Vcs.Push.Dialog.v2" timestamp="1615202320224">
-      <screen x="0" y="23" width="1920" height="979" />
+    <state x="552" y="262" key="Vcs.Push.Dialog.v2" timestamp="1615253806234">
+      <screen x="0" y="23" width="1920" height="970" />
     </state>
     <state x="414" y="222" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1615175052124" />
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614754956344" />
     <state x="414" y="239" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1615174285127" />
+    <state x="552" y="262" key="Vcs.Push.Dialog.v2/0.23.1920.970@0.23.1920.970" timestamp="1615253806234" />
     <state x="552" y="262" key="Vcs.Push.Dialog.v2/0.23.1920.971@0.23.1920.971" timestamp="1615103551689" />
     <state x="552" y="264" key="Vcs.Push.Dialog.v2/0.23.1920.979@0.23.1920.979" timestamp="1615202320224" />
     <state x="485" y="166" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615192292431">
