@@ -438,8 +438,8 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="227" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1613186899116" />
-    <state x="408" y="23" width="928" height="790" key="CommitChangelistDialog2" timestamp="1615477876740">
-      <screen x="0" y="23" width="1440" height="790" />
+    <state x="1984" y="23" width="928" height="790" key="CommitChangelistDialog2" timestamp="1615519136683">
+      <screen x="1440" y="23" width="1920" height="970" />
     </state>
     <state x="544" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614816042074" />
     <state x="408" y="23" width="928" height="790" key="CommitChangelistDialog2/0.23.1440.790@0.23.1440.790" timestamp="1615477876740" />
@@ -449,12 +449,14 @@
     <state x="544" y="23" key="CommitChangelistDialog2/0.23.1920.970@0.23.1920.970" timestamp="1615281573144" />
     <state x="544" y="23" key="CommitChangelistDialog2/0.23.1920.971@0.23.1920.971" timestamp="1615102653189" />
     <state x="544" y="23" key="CommitChangelistDialog2/0.23.1920.979@0.23.1920.979" timestamp="1615202315075" />
-    <state x="155" y="88" key="DiffContextDialog" timestamp="1615477777459">
-      <screen x="0" y="23" width="1440" height="790" />
+    <state x="1984" y="23" key="CommitChangelistDialog2/1440.23.1920.970/0.23.1440.877@1440.23.1920.970" timestamp="1615519136683" />
+    <state x="1647" y="103" key="DiffContextDialog" timestamp="1615519120062">
+      <screen x="1440" y="23" width="1920" height="970" />
     </state>
     <state x="207" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614754949068" />
     <state x="155" y="88" key="DiffContextDialog/0.23.1440.790@0.23.1440.790" timestamp="1615477777459" />
     <state x="207" y="103" key="DiffContextDialog/0.23.1920.970@0.23.1920.970" timestamp="1615281567054" />
+    <state x="1647" y="103" key="DiffContextDialog/1440.23.1920.970/0.23.1440.877@1440.23.1920.970" timestamp="1615519120062" />
     <state x="739" y="264" key="FileChooserDialogImpl" timestamp="1614669882580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -543,7 +545,7 @@
     <state width="1878" height="301" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1615192469477" />
     <state width="1878" height="272" key="GridCell.Tab.1.right/0.23.1920.971@0.23.1920.971" timestamp="1615104693675" />
     <state width="1878" height="135" key="GridCell.Tab.1.right/0.23.1920.979@0.23.1920.979" timestamp="1615201227076" />
-    <state x="1992" y="262" key="Vcs.Push.Dialog.v2" timestamp="1615519103472">
+    <state x="1992" y="262" key="Vcs.Push.Dialog.v2" timestamp="1615519149948">
       <screen x="1440" y="23" width="1920" height="970" />
     </state>
     <state x="414" y="222" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1615175052124" />
@@ -553,7 +555,7 @@
     <state x="552" y="262" key="Vcs.Push.Dialog.v2/0.23.1920.970@0.23.1920.970" timestamp="1615281577516" />
     <state x="552" y="262" key="Vcs.Push.Dialog.v2/0.23.1920.971@0.23.1920.971" timestamp="1615103551689" />
     <state x="552" y="264" key="Vcs.Push.Dialog.v2/0.23.1920.979@0.23.1920.979" timestamp="1615202320224" />
-    <state x="1992" y="262" key="Vcs.Push.Dialog.v2/1440.23.1920.970/0.23.1440.877@1440.23.1920.970" timestamp="1615519103472" />
+    <state x="1992" y="262" key="Vcs.Push.Dialog.v2/1440.23.1920.970/0.23.1440.877@1440.23.1920.970" timestamp="1615519149948" />
     <state x="485" y="166" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615192292431">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
