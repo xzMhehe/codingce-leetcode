@@ -14,8 +14,9 @@ public class MaxMinSum {
 		}
 
 		Arrays.sort(array);
-		System.out.println(array[0]);
 		System.out.println(array[n - 1]);
+		System.out.println(array[0]);
+
 		int sum = 0;
 		for (int i : array) {
 			sum += i;
