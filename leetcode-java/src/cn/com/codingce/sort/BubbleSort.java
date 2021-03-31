@@ -1,4 +1,4 @@
-package cn.com.codingce.mysort;
+package cn.com.codingce.sort;
 
 import java.util.Arrays;
 
