@@ -12,9 +12,15 @@ import java.util.Arrays;
 public class SelectionSort {
 
     private static void selectionSort(int[] nums) {
-        for (int i = 0, n = nums.length; i < n - 1; ++i) {
-            int minIndex = i;
-
+        for (int i = 0; i < nums.length - 1; i++) {
+            int index = i;
+            for (int j = i + 1; j < nums.length; j++)//选择最小的
+                if (nums[j] < nums[index])
+                    index = j;
+            //交换
+            int temp = nums[index];
+            nums[index] = nums[i];
+            nums[i] = temp;
         }
     }
 
