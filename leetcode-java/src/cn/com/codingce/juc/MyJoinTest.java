@@ -13,6 +13,7 @@ public class MyJoinTest {
             @Override
             public void run() {
                 try {
+                    // 引用t1线程，等待t1线程执行完
                     t1.join();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
