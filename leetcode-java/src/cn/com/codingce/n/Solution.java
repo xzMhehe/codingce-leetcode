@@ -1,4 +1,4 @@
-package cn.com.codingce.ispalindrome;
+package cn.com.codingce.n;
 
 /**
  * 9. 回文数
