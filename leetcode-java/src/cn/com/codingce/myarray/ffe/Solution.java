@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ *
+ *
  * 给定一个范围在  1 ≤ a[i] ≤ n ( n = 数组大小 ) 的 整型数组，数组中的元素一些出现了两次，另一些只出现一次。
  * <p>
  * 找到所有在 [1, n] 范围之间没有出现在数组中的数字。
@@ -58,8 +60,6 @@ public class Solution {
         }
 
         List<Integer> res = new ArrayList<>();
-
-        System.out.println(Arrays.toString(nums));
 
         for (int i = 0; i < len; i++) {
             if (nums[i] != i + 1) {
