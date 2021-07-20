@@ -1,4 +1,4 @@
-package cn.com.codingce.lengthoflongestsubstring;
+package cn.com.codingce.myarray.lengthoflongestsubstring;
 
 import java.util.Arrays;
 import java.util.HashMap;

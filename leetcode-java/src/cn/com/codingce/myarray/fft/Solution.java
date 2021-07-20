@@ -1,56 +1,38 @@
 package cn.com.codingce.myarray.fft;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * 给定一个整数数组 a，其中1 ≤ a[i] ≤ n （n为数组长度）, 其中有些元素出现两次而其他元素出现一次。
+ * <p>
+ * 找到所有出现两次的元素。
+ * <p>
+ * 你可以不用到任何额外空间并在O(n)时间复杂度内解决这个问题吗？
+ *
+ * @author williamma
+ */
 public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        // 6     1 * 3（个数）
-        System.out.println(solution.minMoves(new int[]{1, 2, 3}));
-
-
+        System.out.println(solution.findDuplicates(new int[]{4, 3, 2, 7, 8, 2, 3, 1}));
     }
 
 
-    /**
-     * 数学方程
-     * <p>
-     * 给定一个长度为 n 的 非空 整数数组，每次操作将会使 n - 1 个元素增加 1。
-     * 找出让数组所有元素相等的最小操作次数。
-     * <p>
-     * int n = nums.length
-     * <p>
-     * m -> time
-     * <p>
-     * x 数组中的元素都是x
-     * <p>
-     * 那么就有等式
-     * n * x = sum + m(n - 1) 每次移动 n - 1 次  移动 m 次      sum为过去的和
-     * <p>
-     * "x = min + m"
-     * <p>
-     * n(min + m) = sum + m(n - 1) 等式成立
-     * <p>
-     * <p>
-     * 则
-     * n * min = sum - m
-     * <p>
-     * m = sum - n * min
-     *
-     * @param nums
-     * @return
-     */
-    public int minMoves(int[] nums) {
+    public List<Integer> findDuplicates(int[] nums) {
 
-        int n = nums.length;
-
-        int min = Integer.MAX_VALUE;
-        int sum = 0;
-
-        for (int num : nums) {
-            min = Math.min(min, num);
-            sum += num;
+        Map<Integer, Integer> map = new HashMap<>(nums.length);
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(nums[i])) {
+                list.add(nums[map.get(nums[i])]);
+                continue;
+            }
+            map.put(nums[i], i);
         }
-        return sum - n * min;
+        return list;
     }
-
 }

@@ -1,4 +1,4 @@
-package cn.com.codingce.foo;
+package cn.com.codingce.myarray.foo;
 
 /**
  * 给你一个非空数组，返回此数组中 第三大的数 。如果不存在，则返回数组中最大的数。

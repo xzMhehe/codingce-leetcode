@@ -1,4 +1,4 @@
-package cn.com.codingce.mythread;
+package cn.com.codingce.juc;
 
 public class FirstThreadTest extends Thread {
     int i = 0;

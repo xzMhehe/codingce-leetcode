@@ -1,4 +1,4 @@
-package cn.com.codingce.ste;
+package cn.com.codingce.myarray.ste;
 
 public class Solution {
 

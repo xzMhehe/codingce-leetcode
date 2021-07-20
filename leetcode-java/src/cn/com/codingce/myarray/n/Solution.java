@@ -1,4 +1,4 @@
-package cn.com.codingce.n;
+package cn.com.codingce.myarray.n;
 
 /**
  * 9. 回文数

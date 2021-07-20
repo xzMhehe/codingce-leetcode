@@ -1,4 +1,4 @@
-package cn.com.codingce.sns;
+package cn.com.codingce.myarray.sns;
 
 import java.util.ArrayList;
 import java.util.HashMap;

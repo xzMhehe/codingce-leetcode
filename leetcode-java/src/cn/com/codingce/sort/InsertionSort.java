@@ -54,13 +54,41 @@ public class InsertionSort {
 
     }
 
+    public static void insertSort(int[] nums) {
+        for (int i = 1; i < nums.length; i++) {
+            int temp = nums[i];
+            for (int j = i; j >= 0 ; j--) {
+                if (j > 0 && nums[j - 1] > temp) {
+                    nums[i] = nums[j - 1];
+                } else {
+                    nums[j] = temp;
+                    break;
+                }
+            }
+        }
+    }
+
+    public static void myInsert(int[] nums) {
+        for (int i = 1; i < nums.length; i++) {
+            int tmp = nums[i];
+            for (int j = i; j >= 0; j--) {
+                if (j > 0 && nums[j - 1] > tmp) {
+                    nums[i] = nums[j - 1];
+                } else {
+                    nums[j] = tmp;
+                    break;
+                }
+            }
+        }
+    }
+
 
     public static void main(String[] args) {
         int[] nums = {1, 2, 5, 3, 9, 8};
         int[] nums2 = {1, 2, 5, 3, 9, 8};
         insertionSort(nums);
         System.out.println(Arrays.toString(nums));
-        insertionSort2(nums2);
+        insertSort(nums2);
         System.out.println(Arrays.toString(nums2));
     }
 }

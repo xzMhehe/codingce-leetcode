@@ -1,4 +1,4 @@
-package cn.com.codingce.twonumber;
+package cn.com.codingce.myarray.twonumber;
 
 class ListNode {
 

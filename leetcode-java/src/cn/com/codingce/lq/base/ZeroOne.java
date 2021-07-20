@@ -8,7 +8,6 @@ public class ZeroOne {
 					for (int d = 0; d < 2; d++) {
 						for (int e = 0; e < 2; e++) {
 							System.out.println(a + "" + b + "" + c + "" + d + "" + e);
-							;
 						}
 					}
 				}

@@ -1,7 +1,12 @@
-package cn.com.codingce.myarray.nns;
+package cn.com.codingce.myarray.nss;
 
 import java.util.Arrays;
 
+/**
+ *
+ *
+ * @author williamma
+ */
 public class Solution {
     public static void main(String[] args) {
 

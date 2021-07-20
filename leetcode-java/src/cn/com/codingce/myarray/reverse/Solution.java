@@ -1,4 +1,4 @@
-package cn.com.codingce.reverse;
+package cn.com.codingce.myarray.reverse;
 
 /**
  * 7. 整数反转
