@@ -1,115 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment="A 19. 删除链表的倒数第 N 个结点">
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/图像渲染733/Solution.java" afterDir="false" />
+    <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/图/图像渲染733/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/dfs/BiTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/dfs/BiTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/dfs/MySolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/dfs/MySolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/dfs/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/dfs/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/game/one/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/游戏/one/Method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/game/one/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/游戏/one/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/game/one/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/游戏/one/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/game/one/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/游戏/one/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/game/two/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/游戏/two/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/ioandnio/MyNio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/ioandnio/MyNio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/BigPlate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/BigPlate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/FirstThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/FirstThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyCASDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyCASDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyConcurrentHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyConcurrentHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyJoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MySynchronizedCodeObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MySynchronizedCodeObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MySynchronizedCodeOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MySynchronizedCodeOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MySynchronizedCodeTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MySynchronizedCodeTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MySynchronizedFunOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MySynchronizedFunOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MySynchronizedFunTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MySynchronizedFunTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MySynchronizedStaticOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MySynchronizedStaticOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MySynchronizedStaticTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MySynchronizedStaticTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyThreadPoolExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/MyThreadStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/MyThreadStop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/OptimismTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/OptimismTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/SaleTicketDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/SaleTicketDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/SimpleSpinningLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/SimpleSpinningLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/juc/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/juc/TestOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/algorithm/SearchMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/algorithm/SearchMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/Bissextile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/Bissextile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/HexadecimalToOctal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/HexadecimalToOctal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/HexadecimalToTen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/HexadecimalToTen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/LetterPic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/LetterPic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/MaxMinSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/MaxMinSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/Palindromic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/Palindromic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/PalindromicNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/PalindromicNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/PascalNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/PascalNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/SearchNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/SearchNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/SequenceSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/SequenceSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/SequenceSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/SequenceSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/SpecialNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/SpecialNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/TentToHexadecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/TentToHexadecimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/Zero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/Zero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/base/ZeroOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/base/ZeroOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/realquestion/for6_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/realquestion/for6_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/test/Cuboid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/test/Cuboid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/test/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/test/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/test/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/test/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/test/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/test/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/test/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/lq/test/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/蓝桥/test/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mlist/ess/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/链表/ess/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/mlist/on/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/链表/on/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/momo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/momo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/faircandyswap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/faircandyswap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/ffe/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/ffe/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/ffs/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/反转字符串中的单词III557/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/fft/MySolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/最小操作次数使数组元素相等453/MySolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/fft/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/最小操作次数使数组元素相等453/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/fo/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/fo/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/foo/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/foo/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/lengthoflongestsubstring/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/无重复字符的最长子串03/LengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/n/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/回文数09/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/nss/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/nss/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/oen/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/旋转数组189/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/oss/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/两数之和II输入有序数组167/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/reverse/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/整数反转07/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/sns/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/sns/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/ssf/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/非递减数列665/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/ssz/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/ssz/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/ste/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/ste/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/tet/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/移动零283/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/tff/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/反转字符串344/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/tts/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/H指数274/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/twonumadd/TwoSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/twonumadd/TwoSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/twonumber/AddTwoNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/twonumber/AddTwoNumbersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/myarray/twonumber/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/twonumber/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/nn/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/笔试/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/permuteunique/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/全排列II47/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/reflection/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/反射/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/reflection/TestReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/反射/TestReflection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/romantoint/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/罗马数字转整数13/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/sff/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/数组/sff/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/排序/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/排序/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/排序/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/sort/Tong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/排序/Tong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/sort/Tong_1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/排序/Tong_1000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/tjise/DiamondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/DiamondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/tjise/LawTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/LawTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/tjise/Multi1030.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/Multi1030.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/tjise/MultiplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/MultiplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/tjise/NumThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/NumThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/tjise/NumberTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/NumberTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/com/codingce/tjise/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/com/codingce/天理/StringDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +89,20 @@
       <recent name="cn.com.codingce.ffe" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.MyQueue">
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.天理.MyQueue" />
+      <module name="leetcode-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.codingce.天理.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.com.codingce.天理.juc.MyReentrantLock" />
       <module name="leetcode-java" />
@@ -273,26 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.com.codingce.天理.StringDemo" />
-      <module name="leetcode-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.com.codingce.天理.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.MyReentrantLock" />
-        <item itemvalue="Application.StringDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -428,14 +323,7 @@
       <workItem from="1626394030884" duration="4755000" />
       <workItem from="1626524709519" duration="10775000" />
       <workItem from="1626684819551" duration="5653000" />
-      <workItem from="1626828493070" duration="522000" />
-    </task>
-    <task id="LOCAL-00032" summary=":fire: 字母图案">
-      <created>1615594218049</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1615594218049</updated>
+      <workItem from="1626828493070" duration="1371000" />
     </task>
     <task id="LOCAL-00033" summary=":fire: 01字符串">
       <created>1615594253921</created>
@@ -773,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626747089902</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="A 结构整理">
+      <created>1626829041650</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1626829041651</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,7 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":fire: 实例方法" />
     <MESSAGE value="A 静态方法" />
     <MESSAGE value=":fire:  牛客笔试第一题" />
     <MESSAGE value=":fire: 自旋锁" />
@@ -818,7 +712,8 @@
     <MESSAGE value="A 557. 反转字符串中的单词 III" />
     <MESSAGE value="A 包管理" />
     <MESSAGE value="A 19. 删除链表的倒数第 N 个结点" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 19. 删除链表的倒数第 N 个结点" />
+    <MESSAGE value="A 结构整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 结构整理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="117" key="#Inspections" timestamp="1618990370055">
@@ -838,7 +733,6 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="574" y="202" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1626147032015" />
-    <state x="574" y="199" key="#com.intellij.ide.util.MemberChooser/0.23.1440.785@0.23.1440.785" timestamp="1618119355831" />
     <state x="-1335" y="36" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1620434390948">
       <screen x="-1920" y="-141" width="1920" height="1080" />
     </state>
@@ -847,79 +741,74 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="463" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1626742018016" />
-    <state x="463" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.785@0.23.1440.785" timestamp="1618119789333" />
-    <state x="408" y="23" width="839" height="805" key="CommitChangelistDialog2" timestamp="1626747096129">
+    <state x="408" y="23" width="839" height="805" key="CommitChangelistDialog2" timestamp="1626829041176">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="23" key="CommitChangelistDialog2/-1016.98.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1624238678289" />
     <state x="-1376" y="-93" key="CommitChangelistDialog2/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1619767627780" />
     <state x="-1376" y="-141" key="CommitChangelistDialog2/-1920.-141.1920.1080/0.0.1440.900@-1920.-141.1920.1080" timestamp="1620435839584" />
-    <state x="408" y="23" width="839" height="877" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1626747096129" />
+    <state x="408" y="23" width="839" height="877" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1626829041176" />
     <state x="408" y="23" width="839" height="805" key="CommitChangelistDialog2/0.23.1440.805@0.23.1440.805" timestamp="1619944603007" />
     <state x="408" y="43" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1619927333278" />
-    <state x="0" y="0" width="1440" height="900" key="DiffContextDialog" timestamp="1626395669956">
-      <screen x="0" y="23" width="1440" height="795" />
+    <state x="0" y="0" width="1440" height="900" key="DiffContextDialog" timestamp="1626829082411">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="-1713" y="-118" width="1536" height="985" key="DiffContextDialog/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1619767624282" />
     <state x="0" y="0" width="1440" height="900" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1626395627759" />
     <state x="0" y="0" width="1440" height="900" key="DiffContextDialog/0.23.1440.795@0.23.1440.795" timestamp="1626395669956" />
-    <state x="155" y="58" width="1152" height="813" key="DiffContextDialog/0.23.1440.798@0.23.1440.798" timestamp="1619052966464" />
+    <state x="0" y="0" width="1440" height="900" key="DiffContextDialog/0.23.1440.798@0.23.1440.798" timestamp="1626829082411" />
     <state x="155" y="23" key="DiffContextDialog/0.23.1440.805@0.23.1440.805" timestamp="1619944595688" />
-    <state width="1398" height="235" key="GridCell.Tab.0.bottom" timestamp="1626785224834">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="514" key="GridCell.Tab.0.bottom" timestamp="1626830094073">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="284" key="GridCell.Tab.0.bottom/-1016.121.1016.723/0.23.1440.802@0.23.1440.802" timestamp="1624244566332" />
     <state width="1398" height="284" key="GridCell.Tab.0.bottom/-1016.98.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1624238564351" />
     <state width="1398" height="437" key="GridCell.Tab.0.bottom/-1920.-101.1920.1080/0.0.1440.900@-1920.-101.1920.1080" timestamp="1622680417411" />
     <state width="1878" height="187" key="GridCell.Tab.0.bottom/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1620953493331" />
     <state width="1878" height="152" key="GridCell.Tab.0.bottom/-1920.-141.1920.1080/0.0.1440.900@-1920.-141.1920.1080" timestamp="1620459018008" />
-    <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626745784672" />
-    <state width="1398" height="250" key="GridCell.Tab.0.bottom/0.23.1440.785@0.23.1440.785" timestamp="1618119986356" />
+    <state width="1398" height="514" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626830094073" />
     <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1626785224834" />
     <state width="1398" height="149" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1624186354362" />
     <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1619967771468" />
     <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1620918370962" />
     <state width="1075" height="381" key="GridCell.Tab.0.bottom/0.23.1920.985@0.23.1920.985" timestamp="1619592198062" />
-    <state width="1398" height="235" key="GridCell.Tab.0.center" timestamp="1626785224833">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="514" key="GridCell.Tab.0.center" timestamp="1626830094071">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="284" key="GridCell.Tab.0.center/-1016.121.1016.723/0.23.1440.802@0.23.1440.802" timestamp="1624244566331" />
     <state width="1398" height="284" key="GridCell.Tab.0.center/-1016.98.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1624238564350" />
     <state width="1398" height="437" key="GridCell.Tab.0.center/-1920.-101.1920.1080/0.0.1440.900@-1920.-101.1920.1080" timestamp="1622680417409" />
     <state width="1878" height="187" key="GridCell.Tab.0.center/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1620953493330" />
     <state width="1878" height="152" key="GridCell.Tab.0.center/-1920.-141.1920.1080/0.0.1440.900@-1920.-141.1920.1080" timestamp="1620459018007" />
-    <state width="1398" height="188" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1626745784670" />
-    <state width="1398" height="250" key="GridCell.Tab.0.center/0.23.1440.785@0.23.1440.785" timestamp="1618119986355" />
+    <state width="1398" height="514" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1626830094071" />
     <state width="1398" height="235" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1626785224833" />
     <state width="1398" height="149" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1624186354361" />
     <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1619967771468" />
     <state width="1398" height="279" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1620918370962" />
     <state width="1075" height="381" key="GridCell.Tab.0.center/0.23.1920.985@0.23.1920.985" timestamp="1619592198061" />
-    <state width="1398" height="235" key="GridCell.Tab.0.left" timestamp="1626785224832">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="514" key="GridCell.Tab.0.left" timestamp="1626830094070">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="284" key="GridCell.Tab.0.left/-1016.121.1016.723/0.23.1440.802@0.23.1440.802" timestamp="1624244566330" />
     <state width="1398" height="284" key="GridCell.Tab.0.left/-1016.98.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1624238564349" />
     <state width="1398" height="437" key="GridCell.Tab.0.left/-1920.-101.1920.1080/0.0.1440.900@-1920.-101.1920.1080" timestamp="1622680417408" />
     <state width="1878" height="187" key="GridCell.Tab.0.left/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1620953493327" />
     <state width="1878" height="152" key="GridCell.Tab.0.left/-1920.-141.1920.1080/0.0.1440.900@-1920.-141.1920.1080" timestamp="1620459018006" />
-    <state width="1398" height="188" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1626745784670" />
-    <state width="1398" height="250" key="GridCell.Tab.0.left/0.23.1440.785@0.23.1440.785" timestamp="1618119986355" />
+    <state width="1398" height="514" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1626830094070" />
     <state width="1398" height="235" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1626785224832" />
     <state width="1398" height="149" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1624186354361" />
     <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1619967771468" />
     <state width="1398" height="279" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1620918370961" />
     <state width="1075" height="381" key="GridCell.Tab.0.left/0.23.1920.985@0.23.1920.985" timestamp="1619592198061" />
-    <state width="1398" height="235" key="GridCell.Tab.0.right" timestamp="1626785224833">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state width="1398" height="514" key="GridCell.Tab.0.right" timestamp="1626830094072">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="284" key="GridCell.Tab.0.right/-1016.121.1016.723/0.23.1440.802@0.23.1440.802" timestamp="1624244566331" />
     <state width="1398" height="284" key="GridCell.Tab.0.right/-1016.98.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1624238564350" />
     <state width="1398" height="437" key="GridCell.Tab.0.right/-1920.-101.1920.1080/0.0.1440.900@-1920.-101.1920.1080" timestamp="1622680417410" />
     <state width="1878" height="187" key="GridCell.Tab.0.right/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1620953493330" />
     <state width="1878" height="152" key="GridCell.Tab.0.right/-1920.-141.1920.1080/0.0.1440.900@-1920.-141.1920.1080" timestamp="1620459018008" />
-    <state width="1398" height="188" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1626745784671" />
-    <state width="1398" height="250" key="GridCell.Tab.0.right/0.23.1440.785@0.23.1440.785" timestamp="1618119986356" />
+    <state width="1398" height="514" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1626830094072" />
     <state width="1398" height="235" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1626785224833" />
     <state width="1398" height="149" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1624186354362" />
     <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1619967771468" />
@@ -930,7 +819,6 @@
     </state>
     <state width="1878" height="211" key="GridCell.Tab.1.bottom/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1619768675170" />
     <state width="1398" height="235" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1626744700654" />
-    <state width="1398" height="290" key="GridCell.Tab.1.bottom/0.23.1440.785@0.23.1440.785" timestamp="1618119837699" />
     <state width="1398" height="235" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1626785224832" />
     <state width="1075" height="381" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1619609001202" />
     <state width="1075" height="381" key="GridCell.Tab.1.bottom/0.23.1920.985@0.23.1920.985" timestamp="1619592198063" />
@@ -939,7 +827,6 @@
     </state>
     <state width="1878" height="211" key="GridCell.Tab.1.center/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1619768675169" />
     <state width="1398" height="235" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1626744700653" />
-    <state width="1398" height="290" key="GridCell.Tab.1.center/0.23.1440.785@0.23.1440.785" timestamp="1618119837692" />
     <state width="1398" height="235" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1626785224831" />
     <state width="1075" height="381" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1619609001201" />
     <state width="1075" height="381" key="GridCell.Tab.1.center/0.23.1920.985@0.23.1920.985" timestamp="1619592198063" />
@@ -948,7 +835,6 @@
     </state>
     <state width="1878" height="211" key="GridCell.Tab.1.left/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1619768675169" />
     <state width="1398" height="235" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1626744700652" />
-    <state width="1398" height="290" key="GridCell.Tab.1.left/0.23.1440.785@0.23.1440.785" timestamp="1618119837691" />
     <state width="1398" height="235" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1626785224831" />
     <state width="1075" height="381" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1619609001201" />
     <state width="1075" height="381" key="GridCell.Tab.1.left/0.23.1920.985@0.23.1920.985" timestamp="1619592198062" />
@@ -957,7 +843,6 @@
     </state>
     <state width="1878" height="211" key="GridCell.Tab.1.right/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1619768675170" />
     <state width="1398" height="235" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1626744700653" />
-    <state width="1398" height="290" key="GridCell.Tab.1.right/0.23.1440.785@0.23.1440.785" timestamp="1618119837697" />
     <state width="1398" height="235" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1626785224832" />
     <state width="1075" height="381" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1619609001201" />
     <state width="1075" height="381" key="GridCell.Tab.1.right/0.23.1920.985@0.23.1920.985" timestamp="1619592198063" />
@@ -970,13 +855,13 @@
     </state>
     <state x="-1625" y="-96" key="SettingsEditor/-1920.-141.1920.1080/0.0.1440.900@-1920.-141.1920.1080" timestamp="1620434401569" />
     <state x="221" y="38" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1626564648994" />
-    <state x="414" y="222" key="Vcs.Push.Dialog.v2" timestamp="1626748722585">
+    <state x="414" y="222" key="Vcs.Push.Dialog.v2" timestamp="1626829054732">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="414" y="222" key="Vcs.Push.Dialog.v2/-1016.98.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1624239015756" />
     <state x="-1368" y="125" key="Vcs.Push.Dialog.v2/-1920.-118.1920.985/0.23.1440.877@-1920.-118.1920.985" timestamp="1619768131729" />
     <state x="-1368" y="126" key="Vcs.Push.Dialog.v2/-1920.-141.1920.1080/0.0.1440.900@-1920.-141.1920.1080" timestamp="1620436137231" />
-    <state x="414" y="222" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1626748722585" />
+    <state x="414" y="222" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1626829054732" />
     <state x="414" y="222" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1619944608844" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1618990956557">
       <screen x="0" y="23" width="1440" height="806" />
@@ -986,14 +871,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="566" y="378" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1619052956975" />
-    <state x="485" y="138" width="689" height="555" key="find.popup" timestamp="1618119715329">
-      <screen x="0" y="23" width="1440" height="785" />
-    </state>
-    <state x="485" y="138" width="689" height="555" key="find.popup/0.23.1440.785@0.23.1440.785" timestamp="1618119715329" />
-    <state x="384" y="250" key="git4idea.merge.GitPullDialog" timestamp="1626747103401">
+    <state x="384" y="250" key="git4idea.merge.GitPullDialog" timestamp="1626829047851">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="384" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1626747103401" />
+    <state x="384" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1626829047851" />
     <state x="477" y="323" key="git4idea.rebase.GitRebaseDialog" timestamp="1624929684048">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
