@@ -1,4 +1,4 @@
-package cn.com.codingce.数组.dfs;
+package cn.com.codingce.搜索.dfs;
 
 import java.util.Scanner;
 
