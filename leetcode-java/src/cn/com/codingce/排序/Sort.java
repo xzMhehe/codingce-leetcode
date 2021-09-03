@@ -166,27 +166,28 @@ public class Sort {
             return nums;
         }
         // p 就是基准数，这里 就是每个数组的第一个
-        p = nums[low];
-        i = low;
-        j = high;
+        p = nums[low]; // 2
+        i = low; // 0
+        j = high; // 9
         while (i < j) {
             // 右边发现小于p的值停止循环
-            while (nums[j] >= p && i < j) {
+            while (nums[j] >= p && i < j) { // 6 j = 5 i = 0
                 j--;
-            }
-            //这里一定是右边开始，上下这两个循环不能调换（下面有解析，可以先想想）
+            } //这里一定是右边开始，上下这两个循环不能调换（下面有解析，可以先想想）
+            // 2, 7, 4, 5, 10, 1, 9, 3, 8, 6
+
             //左边当发现大于p的值时停止循环
-            while (nums[i] <= p && i < j) {
+            while (nums[i] <= p && i < j) { // 10 j = 5 i = 1
                 i++;
             }
-            if (i < j) {
+            if (i < j) { // j = 5 i = 1
                 temp = nums[j];
                 nums[j] = nums[i];
                 nums[i] = temp;
-            }
+            } // 2, 1, 4, 5, 10, 7, 9, 3, 8, 6
         }
         // nums[i]一定是停小于p的，经过i、j交换后i处的值一定是小于p的(j先走)
-        nums[low] = nums[i];
+        nums[low] = nums[i]; // i = 4  nums[i] = 6   6, 7, 4, 5, 2, 1, 9, 3, 8, 10
         nums[i] = p;
         //对左边快排
         quickSort(nums, low, j - 1);
