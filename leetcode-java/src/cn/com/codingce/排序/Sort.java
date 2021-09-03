@@ -96,36 +96,19 @@ public class Sort {
         return nums;
     }
 
-    public int[] insertSort1(int[] nums) {
-        int len = nums.length;
-        for (int i = 1; i < len; i++) {
-            int temp = nums[i];
-            int j = i;
-            while (j > 0 && nums[j] < nums[j - 1]) {
-                nums[j] = nums[j - 1];
-                j--;
-            }
-            // 存在比其小的数，插入
-            if (j != i) {
-                nums[j] = temp;
-            }
-        }
-        return nums;
-    }
-
     /**
      * 希尔排序：希尔排序，也称 递减增量 排序算法，是插入排序的一种更高效的改进版本。但希尔排序是非稳定排序算法。
      *
      * @param nums
      * @return
      */
-    public int[] shellSort(int[] nums) {
-        int len = nums.length;
+    public int[] shellSort(int[] nums) { //1, 9, 2, 5, 8
+        int len = nums.length; // 5
         int temp;
-        for (int step = len / 2; step >= 1; step /= 2) {
-            for (int i = step; i < len; i++) {
+        for (int step = len / 2; step >= 1; step /= 2) { // step = 2
+            for (int i = step; i < len; i++) { // 2
                 temp = nums[i];
-                int j = i - step;
+                int j = i - step; // 0
                 while (j >= 0 && nums[j] > temp) {
                     nums[j + step] = nums[j];
                     j -= step;
