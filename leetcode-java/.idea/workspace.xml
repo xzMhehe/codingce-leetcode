@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment="A 怎么自定义一个类加载器">
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/.idea/leetcode-go.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/src/lesson01_hello_word/lession1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode-go/src/lesson01_hello_word/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/com/codingce/动态规划/最大子序和53/Solution.java" afterDir="false" />
+    <list default="true" id="50f289f6-d5f2-4660-ac3f-e99cd0dda9ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -335,14 +326,7 @@
       <workItem from="1630590720964" duration="217000" />
       <workItem from="1630593024250" duration="7576000" />
       <workItem from="1630716318344" duration="2490000" />
-      <workItem from="1630749427862" duration="122000" />
-    </task>
-    <task id="LOCAL-00049" summary=":fire: 游戏开发">
-      <created>1622727778474</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1622727778474</updated>
+      <workItem from="1630749427862" duration="195000" />
     </task>
     <task id="LOCAL-00050" summary=":fire: 实现多线程的方式">
       <created>1624194653040</created>
@@ -680,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630646457501</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="A 最大子序和">
+      <created>1630749611004</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1630749611005</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="A 无锁编程 CAS demo" />
     <MESSAGE value="A 陌陌面试" />
     <MESSAGE value="A 快排思想" />
     <MESSAGE value="A 344. 反转字符串" />
@@ -725,7 +715,8 @@
     <MESSAGE value="A 理解快排" />
     <MESSAGE value="A 希尔排序" />
     <MESSAGE value="A 怎么自定义一个类加载器" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 怎么自定义一个类加载器" />
+    <MESSAGE value="A 最大子序和" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 最大子序和" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="117" key="#Notifications" timestamp="1629341079774">
@@ -744,11 +735,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="463" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1626742018016" />
-    <state x="408" y="23" width="839" height="805" key="CommitChangelistDialog2" timestamp="1630646457344">
+    <state x="408" y="23" width="839" height="805" key="CommitChangelistDialog2" timestamp="1630749610829">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="23" key="CommitChangelistDialog2/-1016.98.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1624238678289" />
-    <state x="408" y="23" width="839" height="877" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1630646457344" />
+    <state x="408" y="23" width="839" height="877" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1630749610828" />
     <state x="408" y="44" key="CommitChangelistDialog2/0.23.1440.805@0.23.1440.805" timestamp="1630550902758" />
     <state x="0" y="0" width="1440" height="900" maximized="true" key="DiffContextDialog" timestamp="1630550933335">
       <screen x="0" y="23" width="1440" height="805" />
@@ -833,11 +824,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="38" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1630720294927" />
-    <state x="414" y="222" key="Vcs.Push.Dialog.v2" timestamp="1630646469947">
+    <state x="414" y="222" key="Vcs.Push.Dialog.v2" timestamp="1630749617951">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="414" y="222" key="Vcs.Push.Dialog.v2/-1016.98.1016.746/0.0.1440.900@0.0.1440.900" timestamp="1624239015756" />
-    <state x="414" y="222" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1630646469947" />
+    <state x="414" y="222" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1630749617951" />
     <state x="414" y="222" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1630550909146" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1629459784828">
       <screen x="0" y="23" width="1440" height="805" />
