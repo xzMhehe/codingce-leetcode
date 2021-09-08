@@ -18,6 +18,9 @@
 ### IDE
 我选择的是VS Code进行开发，当然还有JetBrains家的GoLand，且已经支持Apple Silicon M1了，不介意收费的可以选择GoLand。
 
+
+`go run one.go`
+
 ## Hello world
 第一次尝鲜
 ```go
