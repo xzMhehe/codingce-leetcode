@@ -1,25 +1,36 @@
-package unittest
+package handlers
 
 import (
+	"fmt"
 	"net/http"
+	"net/http/httptest"
 	"testing"
 )
 
-const checkMark = "\u2713" //对号（ √）
-const ballotX = "\u2717"   //叉号（× ）
+var feed = "hello gopher"
 
-//TestDownload 测试函数需要满足：
-//(1) 公开的函数，并且以 Test 单词开头。
-//(2) 函数入参是一个指向 testing.T 类型的指针，并且没有返回值。
-func TestDownload(t *testing.T) {
-	url := "https://raw.githubusercontent.com/Xuhy0826/Go-Go-Study/master/lesson29%EF%BC%9A%E6%B5%8B%E8%AF%95%E5%92%8C%E6%80%A7%E8%83%BD/resource/data/index.html"
-	statusCode := 200
+// 模拟一个Web Server
+func mockServer() *httptest.Server {
+	f := func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(200)
+		w.Header().Set("Content-Type", "text/plain")
+		fmt.Fprintln(w, feed)
+	}
+	return httptest.NewServer(http.HandlerFunc(f))
+}
+
+func TestDownload03(t *testing.T) {
+	statusCode := http.StatusOK
+
+	// 创建模拟的Web Server
+	server := mockServer()
+	defer server.Close()
 
 	t.Log("Given the need to test downloading content.")
 	{
-		t.Logf("\tWhen checking \"%s\" for status code \"%d\"", url, statusCode)
+		t.Logf("\tWhen checking \"%s\" for status code \"%d\"", server.URL, statusCode)
 		{
-			resp, err := http.Get(url)
+			resp, err := http.Get(server.URL)
 			if err != nil {
 				t.Fatal("\t\tShould be able to make the Get call.", ballotX, err)
 			}
