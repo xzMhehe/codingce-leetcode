@@ -10,13 +10,13 @@ type User struct {
 	Addr   string
 	C      chan string
 	Conn   net.Conn
-	server Server
+	server *Server
 }
 
 // 创建一个用户的API
 func NewUser(conn net.Conn, server *Server) *User {
 	userAddr := conn.RemoteAddr().String()
-	user := &User{Name: userAddr, Addr: userAddr, C: make(chan string), Conn: conn, Server: server}
+	user := &User{Name: userAddr, Addr: userAddr, C: make(chan string), Conn: conn, server: server}
 	fmt.Println(user)
 
 	// 启动监听当前user channel消息的groutine
