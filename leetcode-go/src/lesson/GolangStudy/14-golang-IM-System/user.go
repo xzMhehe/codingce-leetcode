@@ -9,14 +9,14 @@ type User struct {
 	Name   string
 	Addr   string
 	C      chan string
-	Conn   net.Conn
+	conn   net.Conn
 	server *Server
 }
 
 // 创建一个用户的API
 func NewUser(conn net.Conn, server *Server) *User {
 	userAddr := conn.RemoteAddr().String()
-	user := &User{Name: userAddr, Addr: userAddr, C: make(chan string), Conn: conn, server: server}
+	user := &User{Name: userAddr, Addr: userAddr, C: make(chan string), conn: conn, server: server}
 	fmt.Println(user)
 
 	// 启动监听当前user channel消息的groutine
@@ -29,7 +29,7 @@ func NewUser(conn net.Conn, server *Server) *User {
 func (this *User) ListenMessage() {
 	for {
 		msg := <-this.C
-		this.Conn.Write([]byte(msg + "\n"))
+		this.conn.Write([]byte(msg + "\n"))
 	}
 }
 
@@ -55,7 +55,23 @@ func (this *User) offline() {
 	this.server.BroadCast(this, "下线")
 }
 
+// 给当前User对应的客户端发送消息
+func (this *User) SendMsg(msg string) {
+	this.conn.Write([]byte(msg))
+}
+
 // 用户处理消息的请求
 func (this *User) DoMessage(msg string) {
-	this.server.BroadCast(this, msg)
+	if msg == "who" {
+		// 查询当前用户都有哪些
+		this.server.mapLock.Lock()
+		for _, user := range this.server.OnlineMap {
+			onlineMsg := "[" + user.Addr + "]" + user.Name + ": 在线..."
+			this.SendMsg(onlineMsg)
+		}
+		this.server.mapLock.Unlock()
+
+	} else {
+		this.server.BroadCast(this, msg)
+	}
 }
