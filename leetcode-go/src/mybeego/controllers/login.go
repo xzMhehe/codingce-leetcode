@@ -35,11 +35,16 @@ func (c *LoginController) Post() {
 		return
 	}
 
+	c.SetSession("user", user)
+
 	fmt.Println("完成")
 	result["code"] = 200
 	result["data"] = user
 
 	c.Data["json"] = result
+
+	user2 := c.GetSession("user")
+	fmt.Println("user2:", user2)
 
 	c.ServeJSON()
 }
