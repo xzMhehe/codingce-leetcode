@@ -51,8 +51,12 @@ func AllUsers() ([]*Users, error) {
 	return u, err
 }
 
-func FindRoleById() ([]*Users, error) {
-	var u []*Users
-	_, err := orm.NewOrm().QueryTable("users").RelatedSel().All(&u)
-	return u, err
+func FindRoleById(id int) *UserRole {
+	r := &UserRole{}
+	// 反向一对多
+	o := orm.NewOrm()
+	o.QueryTable("UserRole").Filter("id", id).RelatedSel().One(r)
+	o.LoadRelated(r, "Users")
+
+	return r
 }
