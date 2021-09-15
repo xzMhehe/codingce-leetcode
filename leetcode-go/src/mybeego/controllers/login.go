@@ -1,6 +1,8 @@
 package controllers
 
 import (
+	"fmt"
+
 	"github.com/astaxie/beego"
 )
 
@@ -14,7 +16,8 @@ func (c *LoginController) Get() {
 	c.TplName = "login.tpl"
 }
 func (c *LoginController) Post() {
-	c.Data["name"] = c.GetString("name")
+	c.Data["name"] = c.GetString("username")
 	c.Data["pass"] = c.GetString("pass")
-	c.TplName = "index.tpl"
+	fmt.Println("测试")
+	c.Ctx.WriteString("userLogin")
 }

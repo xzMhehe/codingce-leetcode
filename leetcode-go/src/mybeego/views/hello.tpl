@@ -2,7 +2,7 @@
 
 <html lang="zh">
 <head>
-  <title>codingce</title>
+  <title>codingce-hello</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/xzMhehe/StaticFile_CDN@main/blogImages/site-img/favicon.png" type="image/x-icon" />
 
