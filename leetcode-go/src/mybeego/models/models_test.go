@@ -23,3 +23,8 @@ func TestAllUser(t *testing.T) {
 	fmt.Println("err:", err)
 
 }
+
+func TestByRoleId(t *testing.T) {
+	role := FindRoleById(1)
+	fmt.Println("role:", role)
+}
