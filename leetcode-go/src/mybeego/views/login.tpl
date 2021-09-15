@@ -149,6 +149,10 @@
                 },
                 success: function(data) {
                     console.log("请求成功");
+                    console.log(data);
+                    if(data.code == 200) {
+                        location.href = "/";
+                    }
                 },
                 error: function(e) {
                     //请求超时回调
