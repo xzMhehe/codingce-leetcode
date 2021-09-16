@@ -3,7 +3,9 @@ package main
 import (
 	_ "mybeego/routers"
 
-	"github.com/astaxie/beego"
+	beego "github.com/astaxie/beego"
+
+	"github.com/astaxie/beego/context"
 )
 
 func main() {
@@ -11,4 +13,13 @@ func main() {
 	// beego.SetStaticPath("/down1", "download1")
 	// beego.SetStaticPath('/down2', "download2")
 	beego.Run(":8888") // 默认8080端口
+
+	beego.InsertFilter("/*", beego.BeforeRouter, LoginFiler)
+}
+
+var LoginFiler = func(ctx *context.Context) {
+	_, ok := ctx.Input.Session("uid").(int)
+	if !ok && ctx.Request.RequestURI != "/tologin" {
+		ctx.Redirect(302, "/tologin")
+	}
 }

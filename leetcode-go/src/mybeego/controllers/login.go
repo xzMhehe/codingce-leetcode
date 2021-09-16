@@ -36,6 +36,7 @@ func (c *LoginController) Post() {
 	}
 
 	c.SetSession("user", user)
+	c.SetSession("uid", user.Id)
 
 	fmt.Println("完成")
 	result["code"] = 200

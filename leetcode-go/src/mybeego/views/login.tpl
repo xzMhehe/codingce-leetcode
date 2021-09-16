@@ -152,6 +152,8 @@
                     console.log(data);
                     if(data.code == 200) {
                         location.href = "/";
+                    } else {
+                        console.log("账号或密码错误");
                     }
                 },
                 error: function(e) {
