@@ -1,23 +1,41 @@
 package main
 
-import (
-	"fmt"
-	"net/http"
-)
-
-func sayHello(w http.ResponseWriter, r *http.Request) {
-	_, _ = fmt.Fprintln(w, "Hello Golang")
-}
+import "github.com/gin-gonic/gin"
 
 func main() {
-	fmt.Println("后端码匠")
+	// 实例化一个gin
+	r := gin.Default()
+	r.GET("/ping", sayHello)
 
-	http.HandleFunc("/hello", sayHello)
+	r.GET("/book", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "GET",
+		})
+	})
 
-	err := http.ListenAndServe(":9090", nil)
-	if err != nil {
-		fmt.Println("http serve failed err: ", err)
-		return
-	}
+	r.POST("/book", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "POST",
+		})
+	})
 
+	r.PUT("/book", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "PUT",
+		})
+	})
+
+	r.DELETE("/book", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "DELETE",
+		})
+	})
+
+	r.Run(":8091") // 监听并在 0.0.0.0:8080 上启动服务
+}
+
+func sayHello(c *gin.Context) {
+	c.JSON(200, gin.H{
+		"message": "pong",
+	})
 }
