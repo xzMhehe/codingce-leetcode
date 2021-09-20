@@ -22,7 +22,14 @@ func rob(nums []int) int {
 		dp[i] = max(dp[i-2]+nums[i], dp[i-1])
 	}
 	return dp[n-1]
+}
 
+func rob3(nums []int) int {
+	first, second := nums[0], max(nums[0], nums[1])
+	for _, v := range nums[2:] {
+		first, second = second, max(first+v, second)
+	}
+	return second
 }
 
 func rob2(nums []int) int {
