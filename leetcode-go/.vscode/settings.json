@@ -1,8 +1,0 @@
-{
-    "editor.fontSize": 14,
-    "files.associations": {
-        "workbench.editor.closeEmptyGroups": "false",
-        "emmet.triggerExpansionOnTab": "true",
-        "files.associations": "{\"*.js\": \"html\",\"*.tpl\": \"html\"}"
-    }
-}
