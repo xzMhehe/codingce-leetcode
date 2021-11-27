@@ -14,9 +14,10 @@ func main() {
 
 */
 func insertSort(array []int) []int {
-	for i := range array {
+	// 1, 2, 5, 3, 9, 4, 10
+	for i, value := range array {
 		perIndex := i - 1
-		current := array[i]
+		current := value
 		for perIndex > 0 && array[perIndex] > current {
 			array[perIndex+1] = array[perIndex]
 			perIndex -= 1
