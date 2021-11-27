@@ -12,9 +12,11 @@ func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	for i := 0; i < len(nums); i++ {
 		another := target - nums[i]
+		//判断是否在 map 中
 		if _, ok := m[another]; ok {
 			return []int{m[another], i}
 		}
+		//不在就添加到 map
 		m[nums[i]] = i
 	}
 
