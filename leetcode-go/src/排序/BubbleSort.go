@@ -15,18 +15,15 @@ func main() {
 冒泡排序还有一种优化算法，就是立一个 flag，当在一趟序列遍历中元素没有发生交换，则证明该序列已经有序。
 但这种改进对于提升性能来说并没有什么太大作用。
 */
-func bubbleSort(array []int) []int {
-	length := len(array)
+func bubbleSort(arr []int) []int {
+	length := len(arr)
 	for i := 0; i < length; i++ {
-		for j := i; j < length-i-1; j++ {
-			if array[j+1] < array[j] {
-				temp := array[j+1]
-				array[j+1] = array[j]
-				array[j] = temp
+		//冒泡排序第1次遍历后会将最大值放到最右边，这个最大值也是全局最大值。
+		for j := 0; j < length-i-1; j++ {
+			if arr[j+1] < arr[j] {
+				arr[j], arr[j+1] = arr[j+1], arr[j]
 			}
 		}
 	}
-
-	return array
-
+	return arr
 }
