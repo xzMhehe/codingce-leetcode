@@ -1,16 +1,52 @@
 package main
 
+import (
+	"fmt"
+	"sort"
+)
+
 /**
-给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有和为 0 且不重复的三元组。
+15. 三数之和
+给你一个包含 n 个整数的数组nums，判断nums中是否存在三个元素 a，b，c,
+使得a + b + c = 0 ？请你找出所有和为 0 且不重复的三元组。
 
 注意：答案中不可以包含重复的三元组。
 
 链接：https://leetcode-cn.com/problems/3sum
 */
 func main() {
-
+	fmt.Printf("三数之和%+v\n", threeSum([]int{1, 2, 3, -1, -2, -5, 7}))
 }
 
 func threeSum(nums []int) [][]int {
-
+	// 利用排序避免重复答案
+	sort.Ints(nums)
+	result, start, end, index, addNum, length := make([][]int, 0), 0, 0, 0, 0, len(nums)
+	for index = 1; index < length-1; index++ {
+		start, end = 0, length-1
+		if index > 1 && nums[index] == nums[index-1] {
+			start = index - 1
+		}
+		for start < index && end > index {
+			if start > 0 && nums[start] == nums[start-1] {
+				start++
+				continue
+			}
+			if end < length-1 && nums[end] == nums[end+1] {
+				end--
+				continue
+			}
+			addNum = nums[start] + nums[end] + nums[index]
+			if addNum == 0 {
+				result = append(result, []int{nums[start], nums[index], nums[end]})
+				start++
+				end--
+			} else if addNum > 0 {
+				end--
+			} else {
+				start++
+			}
+		}
+	}
+	return result
 }
