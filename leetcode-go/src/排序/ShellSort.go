@@ -13,10 +13,11 @@ import "fmt"
 
 */
 func main() {
-	fmt.Println("希尔排序：", shellSort([]int{1, 2, 5, 3, 9, 4, 10}))
+	fmt.Println("希尔排序：", Shell2Sort([]int{1, 2, 5, 3, 9, 4, 10}))
 }
 
 func shellSort(array []int) []int {
+	//首先分组
 	length := len(array)
 	gap := 1
 	for gap < gap/3 {
@@ -36,4 +37,24 @@ func shellSort(array []int) []int {
 		gap = gap / 3
 	}
 	return array
+}
+
+func Shell2Sort(arr []int) []int {
+	// 进行分组
+	for gap := len(arr) / 2; gap > 0; gap = gap / 2 {
+		// 插入排序
+		// i 待排序的元素
+		for i := gap; i < len(arr); i++ {
+			// j 在比较过程中, 待排序元素的位置
+			for j := i; j >= gap; j = j - gap {
+				// 同组左边的元素 <= 待排序元素
+				if arr[j-gap] <= arr[j] {
+					break
+				}
+				// 交换
+				arr[j-gap], arr[j] = arr[j], arr[j-gap]
+			}
+		}
+	}
+	return arr
 }
