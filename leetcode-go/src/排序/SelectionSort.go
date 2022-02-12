@@ -14,6 +14,8 @@ func main() {
 func selectSort(array []int) []int {
 	length := len(array)
 	for i := 0; i < length; i++ {
+		// 1, 2, 5, 3, 9, 4, 10
+		// 0  1  2  3  4  5  6
 		min := i
 		for j := i + 1; j < length; j++ {
 			if array[min] > array[j] {
