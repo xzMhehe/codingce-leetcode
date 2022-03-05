@@ -1,4 +1,4 @@
-package cn.com.codingce.数组.数组中重复的数字03;
+package cn.com.codingce.排序.数组中重复的数字03;
 
 public class Solution {
     /**
