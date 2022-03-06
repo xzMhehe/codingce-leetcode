@@ -1,4 +1,4 @@
-package cn.com.codingce.搜索算法.二维数组中的查找;
+package cn.com.codingce.数组与矩阵.二维数组中的查找;
 
 /**
  * 4. 二维数组中的查找
