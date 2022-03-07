@@ -1,4 +1,4 @@
-package cn.com.codingce.随做;
+package cn.com.codingce.链表.删除排序链表中的重复元素;
 
 /**
  * 83. 删除排序链表中的重复元素
