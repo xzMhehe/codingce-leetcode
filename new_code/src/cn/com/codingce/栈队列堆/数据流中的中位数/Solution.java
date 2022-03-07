@@ -10,17 +10,23 @@ import java.util.PriorityQueue;
  * 如何得到一个数据流中的中位数？如果从数据流中读出奇数个数值，那么中位数就是所有数值排序之后位于中间的数值。
  * 如果从数据流中读出偶数个数值，那么中位数就是所有数值排序之后中间两个数的平均值。
  * 我们使用Insert()方法读取数据流，使用GetMedian()方法获取当前读取数据的中位数。
+ *
+ * Stack.peek()
+ * peek()函数返回栈顶的元素，但不弹出该栈顶元素。
+ * Stack.pop()
+ * pop()函数返回栈顶的元素，并且将该栈顶元素出栈。
  */
 public class Solution {
     public static void main(String[] args) {
 
     }
 
-    //大顶堆，存储左半边元素 */
+    // 大顶堆，存储左半边元素
     private PriorityQueue<Integer> left = new PriorityQueue<>((o1, o2) -> o2 - o1);
-    //小顶堆，存储右半边元素，并且右半边元素都大于左半边
+    // 小顶堆，存储右半边元素
+    // 并且右半边元素都大于左半边
     private PriorityQueue<Integer> right = new PriorityQueue<>();
-    //当前数据流读入的元素个数 */
+    // 当前数据流读入的元素个数
     private int N = 0;
 
     public void Insert(Integer val) {
