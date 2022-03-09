@@ -1,10 +1,11 @@
 package cn.com.codingce.链表.从尾到头打印链表;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(new Solution().printListFromTailToHead2(
+        System.out.println(new Solution().printListFromTailToHead3(
                 new ListNode(1, new ListNode(2, new ListNode(3, null)))));
     }
 
@@ -31,6 +32,20 @@ public class Solution {
         while (ret != null) {
             list.add(ret.val);
             ret = ret.next;
+        }
+        return list;
+    }
+
+    public ArrayList<Integer> printListFromTailToHead3(ListNode listNode) {
+        Stack<Integer> stack = new Stack<>();
+        while (listNode != null) {
+            stack.add(listNode.val);
+            listNode = listNode.next;
+        }
+
+        ArrayList<Integer> list = new ArrayList<>();
+        while (!stack.empty()) {
+            list.add(stack.pop());
         }
         return list;
     }
