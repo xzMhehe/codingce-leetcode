@@ -19,7 +19,12 @@ public class Solution {
         if (pHead == null) {
             return null;
         }
+        ListNode low = null;
+        ListNode fast = null;
+        while (pHead != null) {
+            pHead = pHead.next;
+        }
 
-
+        return fast;
     }
 }
