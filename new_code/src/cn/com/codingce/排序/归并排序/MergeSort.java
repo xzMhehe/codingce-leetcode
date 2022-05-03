@@ -17,9 +17,7 @@ public class MergeSort {
 
     }
 
-    public int[] sort(int[] sourceArray) {
-        // 对 arr 进行拷贝，不改变参数内容
-        int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
+    public int[] sort(int[] arr) {
 
         if (arr.length < 2) {
             return arr;
