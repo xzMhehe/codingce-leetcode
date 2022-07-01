@@ -30,9 +30,9 @@ public class SmoothWeightedRobinTest {
     public static void main(String[] args) {
         List<ServerConfig> list = new ArrayList<>();
 
-        list.add(new ServerConfig("A", 5, 5));
-        list.add(new ServerConfig("B", 1, 1));
-        list.add(new ServerConfig("C", 1, 1));
+        list.add(new ServerConfig("192.168.1.1", 5, 5));
+        list.add(new ServerConfig("192.168.1.2", 1, 1));
+        list.add(new ServerConfig("192.168.1.3", 1, 1));
         // 初始每个实例的当前有效权重为配置权重（初始化权重），并求得配置权重和weightSum；
         //int weightSum = list.stream().map(ServerConfig::getWeight).reduce((x, y) -> x += y).get();
         SmoothWeightedRobinTest test = new SmoothWeightedRobinTest(list);
