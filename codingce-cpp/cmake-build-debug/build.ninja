@@ -139,6 +139,39 @@ build Singleton.exe: CXX_EXECUTABLE_LINKER__Singleton_Debug CMakeFiles/Singleton
   TARGET_IMPLIB = libSingleton.dll.a
   TARGET_PDB = Singleton.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target NumWays
+
+
+#############################################
+# Order-only phony target for NumWays
+
+build cmake_object_order_depends_target_NumWays: phony || CMakeFiles/NumWays.dir
+
+build CMakeFiles/NumWays.dir/动态规划/NumWays.cpp.obj: CXX_COMPILER__NumWays_Debug D$:/mxz-code/gitee/codingce-leetcode/codingce-cpp/动态规划/NumWays.cpp || cmake_object_order_depends_target_NumWays
+  DEP_FILE = CMakeFiles\NumWays.dir\动态规划\NumWays.cpp.obj.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles\NumWays.dir
+  OBJECT_FILE_DIR = CMakeFiles\NumWays.dir\动态规划
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NumWays
+
+
+#############################################
+# Link the executable NumWays.exe
+
+build NumWays.exe: CXX_EXECUTABLE_LINKER__NumWays_Debug CMakeFiles/NumWays.dir/动态规划/NumWays.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NumWays.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NumWays.exe
+  TARGET_IMPLIB = libNumWays.dll.a
+  TARGET_PDB = NumWays.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,6 +200,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build ArrayFEF: phony ArrayFEF.exe
 
+build NumWays: phony NumWays.exe
+
 build Singleton: phony Singleton.exe
 
 build codingce_cpp: phony codingce_cpp.exe
@@ -179,7 +214,7 @@ build codingce_cpp: phony codingce_cpp.exe
 #############################################
 # Folder: D:/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug
 
-build all: phony codingce_cpp.exe ArrayFEF.exe Singleton.exe
+build all: phony codingce_cpp.exe ArrayFEF.exe Singleton.exe NumWays.exe
 
 # =============================================================================
 # Built-in targets

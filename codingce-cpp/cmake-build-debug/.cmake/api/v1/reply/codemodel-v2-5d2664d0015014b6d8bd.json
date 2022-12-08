@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -45,6 +47,13 @@
 					"id" : "ArrayFEF::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ArrayFEF-Debug-4680dd15e3afba9a8556.json",
 					"name" : "ArrayFEF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumWays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumWays-Debug-22a80057f4d9a27c026d.json",
+					"name" : "NumWays",
 					"projectIndex" : 0
 				},
 				{
