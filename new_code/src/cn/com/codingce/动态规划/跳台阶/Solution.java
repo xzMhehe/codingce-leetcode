@@ -21,4 +21,10 @@ public class Solution {
         }
         return result;
     }
+
+    public int numWays(int n) {
+        
+
+        return 0;
+    }
 }
