@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="codingce_cpp" targetName="ArrayFEF" />
+      <config projectName="codingce_cpp" targetName="codingce_cpp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codingce-cpp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c15f48f5d4ae20f6d7e5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-92a2d4b218eabd1ffa8b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3d2095915914f5b63db4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-08T00-20-18-0496.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ArrayFEF-Debug-4680dd15e3afba9a8556.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-codingce_cpp-Debug-b140580c8547eef10e44.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-916185743c72ff0cca7d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codingce_cpp.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/codingce_cpp.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组/485.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/Singleton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/.cmake/api/v1/reply/cache-v2-aa3bd6de537fc8fe1af8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-06778f182c16fa7ccf79.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-61e56aafbc4dba9f9ad0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-04T15-32-09-0849.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/.cmake/api/v1/reply/target-ArrayFEF-Debug-8a46a8e3d6a7f0a59b66.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/.cmake/api/v1/reply/target-Singleton-Debug-78e9fa89c28474525722.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/.cmake/api/v1/reply/target-leetcode_c-Debug-25ee8e204b3960fe5345.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-801692d215752bf11421.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/ArrayFEF.dir/array/485.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/ArrayFEF.dir/array/ArrayFEF.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/ArrayFEF.dir/数组/485.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/ArrayFEF.dir/设计模式/Singleton.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/leetcode_c.dir/array/485.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/leetcode_c.dir/array/ArrayFEF.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/leetcode_c.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/leetcode_c.dir/数组/485.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode-c/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/codingce/modules_test/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode-go/src/lesson/codingce/modules_test/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/lesson09_一等函数 /lesson09.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/lesson09_一等函数 /note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/lesson18_指针(1) /lesson18.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/lesson18_指针(1) /note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/lesson23_并发状态 /lesson23.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/lesson23_并发状态 /note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/lesson23_并发状态 /syncmap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/lesson29_测试和性能/resource /data/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/lesson29_测试和性能/unittest/unittest01_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode-go/src/lesson/lesson30_数据库基本操作 /note.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="1.3" />
+  </component>
+  <component name="ProjectId" id="2IbmgDB70kbFSUXQjPIGMLRNN8P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/mxz-code/gitee/codingce-leetcode/codingce-cpp&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mxz-code\gitee\codingce-leetcode\codingce-cpp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.Singleton">
+    <configuration name="ArrayFEF" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="ArrayFEF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="ArrayFEF">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="Singleton" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="Singleton">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="codingce_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="codingce_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="codingce_cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ArrayFEF" />
+      <item itemvalue="CMake Application.codingce_cpp" />
+      <item itemvalue="CMake Application.Singleton" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="" />
+      <created>1670458765919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670458765919</updated>
+      <workItem from="1670458767683" duration="64000" />
+      <workItem from="1670458844099" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,5 +1,0 @@
-/Users/mxz/mxz-code/gitee/codingce-leetcode/leetcode-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/mxz/mxz-code/gitee/codingce-leetcode/leetcode-c/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mxz/mxz-code/gitee/codingce-leetcode/leetcode-c/cmake-build-debug/CMakeFiles/Singleton.dir
-/Users/mxz/mxz-code/gitee/codingce-leetcode/leetcode-c/cmake-build-debug/CMakeFiles/ArrayFEF.dir
-/Users/mxz/mxz-code/gitee/codingce-leetcode/leetcode-c/cmake-build-debug/CMakeFiles/leetcode_c.dir

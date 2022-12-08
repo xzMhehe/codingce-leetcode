@@ -1,0 +1,7 @@
+# ninja log v5
+0	331	6921619908802398	CMakeFiles/codingce_cpp.dir/main.cpp.obj	18b809ef85c8912
+506	738	6921620573259721	ArrayFEF.exe	63fe1c562853ef83
+343	548	6921619910889831	codingce_cpp.exe	989c5aea73948f15
+1	505	6921620571003918	CMakeFiles/ArrayFEF.dir/数组/485.cpp.obj	99f37af57a86b2b3
+1	340	6921621201992503	CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.obj	8e6840d74cdf126
+340	1148	6921621204768783	Singleton.exe	348ebea5fc3ff64e
