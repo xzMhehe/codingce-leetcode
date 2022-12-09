@@ -50,8 +50,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ThirdMax.dir/DependInfo.cmake"
   "CMakeFiles/NumWays.dir/DependInfo.cmake"
+  "CMakeFiles/ThirdMax.dir/DependInfo.cmake"
+  "CMakeFiles/MaximumProduct.dir/DependInfo.cmake"
   "CMakeFiles/Singleton.dir/DependInfo.cmake"
   "CMakeFiles/ArrayFEF.dir/DependInfo.cmake"
   "CMakeFiles/codingce_cpp.dir/DependInfo.cmake"

@@ -72,8 +72,9 @@ CMAKE_BINARY_DIR = /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-bui
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ThirdMax.dir/all
 all: CMakeFiles/NumWays.dir/all
+all: CMakeFiles/ThirdMax.dir/all
+all: CMakeFiles/MaximumProduct.dir/all
 all: CMakeFiles/Singleton.dir/all
 all: CMakeFiles/ArrayFEF.dir/all
 all: CMakeFiles/codingce_cpp.dir/all
@@ -86,40 +87,14 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ThirdMax.dir/clean
 clean: CMakeFiles/NumWays.dir/clean
+clean: CMakeFiles/ThirdMax.dir/clean
+clean: CMakeFiles/MaximumProduct.dir/clean
 clean: CMakeFiles/Singleton.dir/clean
 clean: CMakeFiles/ArrayFEF.dir/clean
 clean: CMakeFiles/codingce_cpp.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ThirdMax.dir
-
-# All Build rule for target.
-CMakeFiles/ThirdMax.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdMax.dir/build.make CMakeFiles/ThirdMax.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdMax.dir/build.make CMakeFiles/ThirdMax.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target ThirdMax"
-.PHONY : CMakeFiles/ThirdMax.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ThirdMax.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ThirdMax.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ThirdMax.dir/rule
-
-# Convenience name for target.
-ThirdMax: CMakeFiles/ThirdMax.dir/rule
-
-.PHONY : ThirdMax
-
-# clean rule for target.
-CMakeFiles/ThirdMax.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdMax.dir/build.make CMakeFiles/ThirdMax.dir/clean
-.PHONY : CMakeFiles/ThirdMax.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/NumWays.dir
@@ -128,7 +103,7 @@ CMakeFiles/ThirdMax.dir/clean:
 CMakeFiles/NumWays.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NumWays.dir/build.make CMakeFiles/NumWays.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NumWays.dir/build.make CMakeFiles/NumWays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target NumWays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target NumWays"
 .PHONY : CMakeFiles/NumWays.dir/all
 
 # Build rule for subdir invocation for target.
@@ -149,13 +124,67 @@ CMakeFiles/NumWays.dir/clean:
 .PHONY : CMakeFiles/NumWays.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ThirdMax.dir
+
+# All Build rule for target.
+CMakeFiles/ThirdMax.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdMax.dir/build.make CMakeFiles/ThirdMax.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdMax.dir/build.make CMakeFiles/ThirdMax.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target ThirdMax"
+.PHONY : CMakeFiles/ThirdMax.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ThirdMax.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ThirdMax.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ThirdMax.dir/rule
+
+# Convenience name for target.
+ThirdMax: CMakeFiles/ThirdMax.dir/rule
+
+.PHONY : ThirdMax
+
+# clean rule for target.
+CMakeFiles/ThirdMax.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThirdMax.dir/build.make CMakeFiles/ThirdMax.dir/clean
+.PHONY : CMakeFiles/ThirdMax.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/MaximumProduct.dir
+
+# All Build rule for target.
+CMakeFiles/MaximumProduct.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximumProduct.dir/build.make CMakeFiles/MaximumProduct.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximumProduct.dir/build.make CMakeFiles/MaximumProduct.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target MaximumProduct"
+.PHONY : CMakeFiles/MaximumProduct.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/MaximumProduct.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MaximumProduct.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/MaximumProduct.dir/rule
+
+# Convenience name for target.
+MaximumProduct: CMakeFiles/MaximumProduct.dir/rule
+
+.PHONY : MaximumProduct
+
+# clean rule for target.
+CMakeFiles/MaximumProduct.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximumProduct.dir/build.make CMakeFiles/MaximumProduct.dir/clean
+.PHONY : CMakeFiles/MaximumProduct.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Singleton.dir
 
 # All Build rule for target.
 CMakeFiles/Singleton.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target Singleton"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Singleton"
 .PHONY : CMakeFiles/Singleton.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,12 +211,12 @@ CMakeFiles/Singleton.dir/clean:
 CMakeFiles/ArrayFEF.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArrayFEF.dir/build.make CMakeFiles/ArrayFEF.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArrayFEF.dir/build.make CMakeFiles/ArrayFEF.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target ArrayFEF"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ArrayFEF"
 .PHONY : CMakeFiles/ArrayFEF.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ArrayFEF.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ArrayFEF.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ArrayFEF.dir/rule
@@ -209,7 +238,7 @@ CMakeFiles/ArrayFEF.dir/clean:
 CMakeFiles/codingce_cpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/codingce_cpp.dir/build.make CMakeFiles/codingce_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/codingce_cpp.dir/build.make CMakeFiles/codingce_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target codingce_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target codingce_cpp"
 .PHONY : CMakeFiles/codingce_cpp.dir/all
 
 # Build rule for subdir invocation for target.

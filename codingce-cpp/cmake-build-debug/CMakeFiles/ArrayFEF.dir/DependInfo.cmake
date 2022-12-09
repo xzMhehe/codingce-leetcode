@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/数组/485.cpp" "/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/ArrayFEF.dir/数组/485.cpp.o"
-  "/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/数组/test.cpp" "/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/ArrayFEF.dir/数组/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

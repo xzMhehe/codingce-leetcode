@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-bui
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named NumWays
+
+# Build rule for target.
+NumWays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NumWays
+.PHONY : NumWays
+
+# fast build rule for target.
+NumWays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NumWays.dir/build.make CMakeFiles/NumWays.dir/build
+.PHONY : NumWays/fast
+
+#=============================================================================
 # Target rules for targets named ThirdMax
 
 # Build rule for target.
@@ -143,17 +156,17 @@ ThirdMax/fast:
 .PHONY : ThirdMax/fast
 
 #=============================================================================
-# Target rules for targets named NumWays
+# Target rules for targets named MaximumProduct
 
 # Build rule for target.
-NumWays: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NumWays
-.PHONY : NumWays
+MaximumProduct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MaximumProduct
+.PHONY : MaximumProduct
 
 # fast build rule for target.
-NumWays/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NumWays.dir/build.make CMakeFiles/NumWays.dir/build
-.PHONY : NumWays/fast
+MaximumProduct/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximumProduct.dir/build.make CMakeFiles/MaximumProduct.dir/build
+.PHONY : MaximumProduct/fast
 
 #=============================================================================
 # Target rules for targets named Singleton
@@ -302,32 +315,32 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArrayFEF.dir/build.make CMakeFiles/ArrayFEF.dir/数组/485.cpp.s
 .PHONY : 数组/485.cpp.s
 
-数组/test.o: 数组/test.cpp.o
+数组/MaximumProduct.o: 数组/MaximumProduct.cpp.o
 
-.PHONY : 数组/test.o
+.PHONY : 数组/MaximumProduct.o
 
 # target to build an object file
-数组/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArrayFEF.dir/build.make CMakeFiles/ArrayFEF.dir/数组/test.cpp.o
-.PHONY : 数组/test.cpp.o
+数组/MaximumProduct.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximumProduct.dir/build.make CMakeFiles/MaximumProduct.dir/数组/MaximumProduct.cpp.o
+.PHONY : 数组/MaximumProduct.cpp.o
 
-数组/test.i: 数组/test.cpp.i
+数组/MaximumProduct.i: 数组/MaximumProduct.cpp.i
 
-.PHONY : 数组/test.i
+.PHONY : 数组/MaximumProduct.i
 
 # target to preprocess a source file
-数组/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArrayFEF.dir/build.make CMakeFiles/ArrayFEF.dir/数组/test.cpp.i
-.PHONY : 数组/test.cpp.i
+数组/MaximumProduct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximumProduct.dir/build.make CMakeFiles/MaximumProduct.dir/数组/MaximumProduct.cpp.i
+.PHONY : 数组/MaximumProduct.cpp.i
 
-数组/test.s: 数组/test.cpp.s
+数组/MaximumProduct.s: 数组/MaximumProduct.cpp.s
 
-.PHONY : 数组/test.s
+.PHONY : 数组/MaximumProduct.s
 
 # target to generate assembly for a file
-数组/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArrayFEF.dir/build.make CMakeFiles/ArrayFEF.dir/数组/test.cpp.s
-.PHONY : 数组/test.cpp.s
+数组/MaximumProduct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximumProduct.dir/build.make CMakeFiles/MaximumProduct.dir/数组/MaximumProduct.cpp.s
+.PHONY : 数组/MaximumProduct.cpp.s
 
 设计模式/Singleton.o: 设计模式/Singleton.cpp.o
 
@@ -365,6 +378,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ArrayFEF"
+	@echo "... MaximumProduct"
 	@echo "... NumWays"
 	@echo "... Singleton"
 	@echo "... ThirdMax"
@@ -381,9 +395,9 @@ help:
 	@echo "... 数组/485.o"
 	@echo "... 数组/485.i"
 	@echo "... 数组/485.s"
-	@echo "... 数组/test.o"
-	@echo "... 数组/test.i"
-	@echo "... 数组/test.s"
+	@echo "... 数组/MaximumProduct.o"
+	@echo "... 数组/MaximumProduct.i"
+	@echo "... 数组/MaximumProduct.s"
 	@echo "... 设计模式/Singleton.o"
 	@echo "... 设计模式/Singleton.i"
 	@echo "... 设计模式/Singleton.s"

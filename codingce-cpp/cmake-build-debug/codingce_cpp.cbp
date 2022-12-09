@@ -17,21 +17,51 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NumWays">
+				<Option output="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/NumWays" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumWays"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NumWays/fast">
+				<Option output="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/NumWays" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumWays/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -77,28 +107,18 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="NumWays">
-				<Option output="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/NumWays" prefix_auto="0" extension_auto="0"/>
+			<Target title="rebuild_cache">
 				<Option working_dir="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumWays"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="NumWays/fast">
-				<Option output="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/NumWays" prefix_auto="0" extension_auto="0"/>
+			<Target title="MaximumProduct">
+				<Option output="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/MaximumProduct" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -111,7 +131,27 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumWays/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 MaximumProduct"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MaximumProduct/fast">
+				<Option output="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/MaximumProduct" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 MaximumProduct/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -250,8 +290,8 @@
 		<Unit filename="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/数组/485.cpp">
 			<Option target="ArrayFEF"/>
 		</Unit>
-		<Unit filename="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/数组/test.cpp">
-			<Option target="ArrayFEF"/>
+		<Unit filename="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/数组/MaximumProduct.cpp">
+			<Option target="MaximumProduct"/>
 		</Unit>
 		<Unit filename="/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/设计模式/Singleton.cpp">
 			<Option target="Singleton"/>
