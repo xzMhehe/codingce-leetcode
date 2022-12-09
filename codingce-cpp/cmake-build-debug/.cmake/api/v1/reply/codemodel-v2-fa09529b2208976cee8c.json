@@ -1,0 +1,95 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "codingce_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ArrayFEF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArrayFEF-Debug-d9713185913f8edcf629.json",
+					"name" : "ArrayFEF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumWays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumWays-Debug-fe2f1bb8f3c098cb1eb1.json",
+					"name" : "NumWays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Singleton::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Singleton-Debug-7d3bee80d58ba5fc9fd8.json",
+					"name" : "Singleton",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ThirdMax::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ThirdMax-Debug-11e4d0d4612942bab952.json",
+					"name" : "ThirdMax",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "codingce_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-codingce_cpp-Debug-b1007a055eacacc1111d.json",
+					"name" : "codingce_cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug",
+		"source" : "/Users/inke/mxz-code/codingce-leetcode/codingce-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

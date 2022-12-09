@@ -1,6 +1,7 @@
-/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/NumWays.dir
-/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/Singleton.dir
-/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/ArrayFEF.dir
-/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/codingce_cpp.dir
+/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/ThirdMax.dir
+/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/NumWays.dir
+/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/Singleton.dir
+/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/ArrayFEF.dir
+/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/codingce_cpp.dir

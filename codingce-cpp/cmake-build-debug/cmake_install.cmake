@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp
+# Install script for directory: /Users/inke/mxz-code/codingce-leetcode/codingce-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/inke/mxz-code/codingce-leetcode/codingce-cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
