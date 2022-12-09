@@ -75,8 +75,18 @@ PING 主要的作用就是测试在两台主机之间能否建立连接，如果
 
 ## 熟悉RTMP/HLS/RTP等流媒体网络协议
 
+### RTMP
+RTMP(Real Time Messaging Protocol)实时消息传送协议是Adobe公司为Flash播放器和服务器之间音频、视频和数据传输开发的开放协议。RTMP工作在TCP之上，默认使用端口1935。
 
+工作原理：RTMP 的 message 会切分为 n 个 chunk，再通过TCP协议传输。
 
+为什么 rtmp 基于 tcp 协议，tcp 协议已经有化整为零的方式， rtmp 还需要将 message 划分更小的单元 chunk 呢？
+
+分析原因：
+
+1. tcp 协议划分一个个 tcp 报文，是为了在网络传输层上保障数据连续性，丢包重发等特性。
+
+2. rtmp 划分 chunk 消息块，是为了在网络应用层上实现低延迟的特性，防止大的数据块(如视频数据)阻塞小的数据块(如音频数据或控制信息)。
 
 
 
