@@ -17,11 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="A 青蛙跳台阶">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-    </list>
+    <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="A 面经" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +107,7 @@
       <workItem from="1670504355601" duration="5790000" />
       <workItem from="1670544235194" duration="619000" />
       <workItem from="1670730104738" duration="644000" />
-      <workItem from="1670927399828" duration="614000" />
+      <workItem from="1670927399828" duration="944000" />
     </task>
     <task id="LOCAL-00001" summary="F win">
       <created>1670458959878</created>
@@ -134,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670461757453</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="A 面经">
+      <created>1670929171210</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670929171210</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +158,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="F win" />
     <MESSAGE value="A 青蛙跳台阶" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 青蛙跳台阶" />
+    <MESSAGE value="A 面经" />
+    <option name="LAST_COMMIT_MESSAGE" value="A 面经" />
   </component>
 </project>

@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "codingce_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ArrayFEF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArrayFEF-Debug-4680dd15e3afba9a8556.json",
+					"name" : "ArrayFEF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaximumProduct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaximumProduct-Debug-3b9265a1ec4717512e65.json",
+					"name" : "MaximumProduct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumWays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumWays-Debug-4dc6cc2f0036976d2a35.json",
+					"name" : "NumWays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Singleton::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Singleton-Debug-70bfb74df334113be443.json",
+					"name" : "Singleton",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ThirdMax::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ThirdMax-Debug-41eedc390db32f3bdd6b.json",
+					"name" : "ThirdMax",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "codingce_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-codingce_cpp-Debug-b140580c8547eef10e44.json",
+					"name" : "codingce_cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug",
+		"source" : "D:/mxz-code/gitee/codingce-leetcode/codingce-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
