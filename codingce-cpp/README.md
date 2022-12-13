@@ -82,7 +82,10 @@ PING 主要的作用就是测试在两台主机之间能否建立连接，如果
 
 ## 熟悉音视频编码技术（AVC、HEVC、AAC等）、MediaCodec、VideoToolbox等技术
 
+### AVC
+AVC （高级视频编码Advanced Video Coding）
 
+AVC是高级视频编码的简称（Advanced Video Coding），视频编解码技术有两套标准，H.261、国际电联（ITU-T）的标准H.263、H.263+等；还有ISO 的MPEG标准MPEG-1、MPEG-2、MPEG-4等等。
 
 
 
