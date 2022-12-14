@@ -9,6 +9,8 @@
       <config projectName="codingce_cpp" targetName="NumWays" />
       <config projectName="codingce_cpp" targetName="codingce_cpp" />
       <config projectName="codingce_cpp" targetName="Singleton" />
+      <config projectName="codingce_cpp" targetName="MaximumProduct" />
+      <config projectName="codingce_cpp" targetName="ThirdMax" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -17,7 +19,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="A 面经" />
+    <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +70,17 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.NumWays">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayFEF" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="ArrayFEF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="ArrayFEF">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumProduct" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="MaximumProduct" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="MaximumProduct">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,6 +95,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThirdMax" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="ThirdMax" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="ThirdMax">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="codingce_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="codingce_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="codingce_cpp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -89,8 +108,10 @@
     <list>
       <item itemvalue="CMake Application.ArrayFEF" />
       <item itemvalue="CMake Application.codingce_cpp" />
+      <item itemvalue="CMake Application.MaximumProduct" />
       <item itemvalue="CMake Application.NumWays" />
       <item itemvalue="CMake Application.Singleton" />
+      <item itemvalue="CMake Application.ThirdMax" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -107,7 +128,7 @@
       <workItem from="1670504355601" duration="5790000" />
       <workItem from="1670544235194" duration="619000" />
       <workItem from="1670730104738" duration="644000" />
-      <workItem from="1670927399828" duration="944000" />
+      <workItem from="1670927399828" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="F win">
       <created>1670458959878</created>
@@ -137,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670929171210</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="F">
+      <created>1670929389228</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670929389228</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +187,7 @@
     <MESSAGE value="F win" />
     <MESSAGE value="A 青蛙跳台阶" />
     <MESSAGE value="A 面经" />
-    <option name="LAST_COMMIT_MESSAGE" value="A 面经" />
+    <MESSAGE value="F" />
+    <option name="LAST_COMMIT_MESSAGE" value="F" />
   </component>
 </project>
