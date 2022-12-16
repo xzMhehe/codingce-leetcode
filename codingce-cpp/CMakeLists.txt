@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(codingce_cpp main.cpp)
 add_executable(ArrayFEF 数组/485.cpp)
+add_executable(FindErrorNums 数组/645.cpp)
 add_executable(MaximumProduct 数组/MaximumProduct.cpp)
 add_executable(ThirdMax 数组/414.cpp)
 add_executable(Singleton 设计模式/Singleton.cpp)
