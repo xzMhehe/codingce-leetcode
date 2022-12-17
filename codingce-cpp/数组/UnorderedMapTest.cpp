@@ -28,6 +28,6 @@ int main() {
         cout << endl << i << iterator->first << "," << iterator->second << endl;
         ++i;
     }
-    //system("pause");
+
     return 0;
 }

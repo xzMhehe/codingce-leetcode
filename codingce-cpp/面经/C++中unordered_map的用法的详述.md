@@ -31,3 +31,66 @@ unordered_map 容器，直译过来就是"无序 map 容器"的意思。所谓�
 
 **适用**：对于查找问题，**unordered_map** 会更加高效一些，因此遇到查找问题，常会考虑一下用**unordered_map**。
 
+## C++ unordered_map容器的成员方法
+
+- begin()：返回指向容器中第一个键值对的正向迭代器。auto it=mymap.begin()
+
+- end()：返回指向容器中最后一个键值对之后位置的正向迭代器。	
+- cbegin()：和 begin() 功能相同，只不过在其基础上增加了 const 属性，即该方法返回的迭代器不能用于修改容器内存储的键值对。
+- cend()：和 end() 功能相同，只不过在其基础上，增加了 const 属性，即该方法返回的迭代器不能用于修改容器内存储的键值对。
+- empty() ：若容器为空，则返回 true；否则 false。
+- size()：返回当前容器中存有键值对的个数。
+- max_size()：返回容器所能容纳键值对的最大个数，不同的操作系统，其返回值亦不相同。
+- operator[key]：该模板类中重载了 [] 运算符，其功能是可以向访问数组中元素那样，只要给定某个键值对的键 key，就可以获取该键对应的值。注意，如果当前容器中没有以 key 为键的键值对，则其会使用该键向当前容器中插入一个新键值对。
+- at(key)：返回容器中存储的键 key 对应的值，如果 key 不存在，则会抛出 out_of_range 异常。
+- find(key)：查找以 key 为键的键值对，如果找到，则返回一个指向该键值对的正向迭代器；反之，则返回一个指向容器中最后一个键值对之后位置的迭代器（如 end() 方法返回的迭代器）。
+- count(key)：在容器中查找以 key 键的键值对的个数。
+- equal_range(key)：返回一个 pair 对象，其包含 2 个迭代器，用于表明当前容器中键为 key 的键值对所在的范围。
+- emplace()：向容器中添加新键值对，效率比 insert() 方法高。
+- emplace_hint()：向容器中添加新键值对，效率比 insert() 方法高。
+- insert()：向容器中添加新键值对。
+- erase()：删除指定键值对。
+- clear()：清空容器，即删除容器中存储的所有键值对。
+- swap()：交换 2 个 unordered_map 容器存储的键值对，前提是必须保证这 2 个容器的类型完全相等。
+- reserve()：将存储桶的数量（也就是 bucket_count() 方法的返回值）设置为至少容纳count个元（不超过最大负载因子）所需的数量，并重新整理容器。
+
+
+
+## Example
+
+```cpp
+//
+// Created by mxz on 2022/12/16.
+//
+#include<iostream>
+#include<unordered_map>
+#include<map>
+
+using namespace std;
+
+int main() {
+    // 注意：c++11才开始支持括号初始化
+    unordered_map<int, string> myMap = {{5, "后端码匠"},
+                                        {6, "欢迎关注"}};  // 使用{}赋值
+    myMap[2] = "code";  // 使用[ ] 进行当个插入，若已存在键值2，则赋值修改，若无则插之。
+    myMap.insert(pair<int, string>(3, "代码"));  // 使用insert和pair插入。
+
+    // 遍历输出+迭代器的使用。
+    auto iter = myMap.begin();  // auto自动识别为迭代器类型unordered_map<int, string>::iterator
+    while (iter != myMap.end()) {
+        cout << iter->first << "," << iter->second << endl;
+        ++iter;
+    }
+
+    // 查找元素并输出 + 迭代器的使用
+    auto iterator = myMap.find(2);  // find()返回一个指向2的迭代器。
+    int i = 0;
+    if (iterator != myMap.end()) {
+        cout << endl << i << iterator->first << "," << iterator->second << endl;
+        ++i;
+    }
+
+    return 0;
+}
+```
+
