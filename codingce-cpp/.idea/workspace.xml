@@ -10,6 +10,7 @@
       <config projectName="codingce_cpp" targetName="codingce_cpp" />
       <config projectName="codingce_cpp" targetName="FindErrorNums" />
       <config projectName="codingce_cpp" targetName="UnorderedMapTest" />
+      <config projectName="codingce_cpp" targetName="QuickSort" />
       <config projectName="codingce_cpp" targetName="Singleton" />
       <config projectName="codingce_cpp" targetName="MaximumProduct" />
       <config projectName="codingce_cpp" targetName="ThirdMax" />
@@ -22,9 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F 面经">
+      <change afterPath="$PROJECT_DIR$/排序/QuickSort.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数组/UnorderedMapTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/数组/UnorderedMapTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/面经/C++中unordered_map的用法的详述.md" beforeDir="false" afterPath="$PROJECT_DIR$/面经/C++中unordered_map的用法的详述.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面经/面试一.md" beforeDir="false" afterPath="$PROJECT_DIR$/面经/面试一.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +82,7 @@
       <recent name="D:\mxz-code\gitee\codingce-leetcode\codingce-cpp\image" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.UnorderedMapTest">
+  <component name="RunManager" selected="CMake Application.QuickSort">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -95,6 +104,11 @@
       </method>
     </configuration>
     <configuration name="NumWays" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="NumWays" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="NumWays">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="QuickSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="QuickSort">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -125,6 +139,7 @@
       <item itemvalue="CMake Application.FindErrorNums" />
       <item itemvalue="CMake Application.MaximumProduct" />
       <item itemvalue="CMake Application.NumWays" />
+      <item itemvalue="CMake Application.QuickSort" />
       <item itemvalue="CMake Application.Singleton" />
       <item itemvalue="CMake Application.ThirdMax" />
       <item itemvalue="CMake Application.UnorderedMapTest" />
@@ -142,7 +157,7 @@
       <workItem from="1670458844099" duration="1395000" />
       <workItem from="1670504309370" duration="24000" />
       <workItem from="1670504355601" duration="5790000" />
-      <workItem from="1670545483468" duration="12828000" />
+      <workItem from="1670545483468" duration="14447000" />
     </task>
     <task id="LOCAL-00001" summary="F win">
       <created>1670458959878</created>
@@ -193,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671266770630</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="F 面经">
+      <created>1671268263093</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671268263093</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

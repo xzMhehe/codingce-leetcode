@@ -219,6 +219,37 @@ build MaximumProduct: CXX_EXECUTABLE_LINKER__MaximumProduct_Debug CMakeFiles/Max
   TARGET_PDB = MaximumProduct.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target QuickSort
+
+
+#############################################
+# Order-only phony target for QuickSort
+
+build cmake_object_order_depends_target_QuickSort: phony || CMakeFiles/QuickSort.dir
+
+build CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o: CXX_COMPILER__QuickSort_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/排序/QuickSort.cpp || cmake_object_order_depends_target_QuickSort
+  DEP_FILE = CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/QuickSort.dir
+  OBJECT_FILE_DIR = CMakeFiles/QuickSort.dir/排序
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target QuickSort
+
+
+#############################################
+# Link the executable QuickSort
+
+build QuickSort: CXX_EXECUTABLE_LINKER__QuickSort_Debug CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/QuickSort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = QuickSort
+  TARGET_PDB = QuickSort.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target codingce_cpp
 
 
@@ -322,7 +353,7 @@ build ArrayFEF: CXX_EXECUTABLE_LINKER__ArrayFEF_Debug CMakeFiles/ArrayFEF.dir/�
 #############################################
 # Folder: /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug
 
-build all: phony NumWays Singleton ThirdMax FindErrorNums MaximumProduct codingce_cpp UnorderedMapTest ArrayFEF
+build all: phony NumWays Singleton ThirdMax FindErrorNums MaximumProduct QuickSort codingce_cpp UnorderedMapTest ArrayFEF
 
 # =============================================================================
 # Built-in targets
