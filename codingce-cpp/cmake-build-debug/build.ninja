@@ -40,17 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
 # =============================================================================
 # Object build statements for EXECUTABLE target NumWays
 
@@ -175,18 +164,6 @@ build FindErrorNums: CXX_EXECUTABLE_LINKER__FindErrorNums_Debug CMakeFiles/FindE
   TARGET_FILE = FindErrorNums
   TARGET_PDB = FindErrorNums.dbg
 
-
-#############################################
-# Utility command for rebuild_cache
-
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp -B/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
-
 # =============================================================================
 # Object build statements for EXECUTABLE target MaximumProduct
 
@@ -248,6 +225,49 @@ build QuickSort: CXX_EXECUTABLE_LINKER__QuickSort_Debug CMakeFiles/QuickSort.dir
   PRE_LINK = :
   TARGET_FILE = QuickSort
   TARGET_PDB = QuickSort.dbg
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp -B/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ArrayFEF
+
+
+#############################################
+# Order-only phony target for ArrayFEF
+
+build cmake_object_order_depends_target_ArrayFEF: phony || CMakeFiles/ArrayFEF.dir
+
+build CMakeFiles/ArrayFEF.dir/数组/485.cpp.o: CXX_COMPILER__ArrayFEF_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/485.cpp || cmake_object_order_depends_target_ArrayFEF
+  DEP_FILE = CMakeFiles/ArrayFEF.dir/数组/485.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/ArrayFEF.dir
+  OBJECT_FILE_DIR = CMakeFiles/ArrayFEF.dir/数组
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArrayFEF
+
+
+#############################################
+# Link the executable ArrayFEF
+
+build ArrayFEF: CXX_EXECUTABLE_LINKER__ArrayFEF_Debug CMakeFiles/ArrayFEF.dir/数组/485.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/ArrayFEF.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ArrayFEF
+  TARGET_PDB = ArrayFEF.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target codingce_cpp
@@ -311,36 +331,47 @@ build UnorderedMapTest: CXX_EXECUTABLE_LINKER__UnorderedMapTest_Debug CMakeFiles
   TARGET_FILE = UnorderedMapTest
   TARGET_PDB = UnorderedMapTest.dbg
 
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
 # =============================================================================
-# Object build statements for EXECUTABLE target ArrayFEF
+# Object build statements for EXECUTABLE target generate
 
 
 #############################################
-# Order-only phony target for ArrayFEF
+# Order-only phony target for generate
 
-build cmake_object_order_depends_target_ArrayFEF: phony || CMakeFiles/ArrayFEF.dir
+build cmake_object_order_depends_target_generate: phony || CMakeFiles/generate.dir
 
-build CMakeFiles/ArrayFEF.dir/数组/485.cpp.o: CXX_COMPILER__ArrayFEF_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/485.cpp || cmake_object_order_depends_target_ArrayFEF
-  DEP_FILE = CMakeFiles/ArrayFEF.dir/数组/485.cpp.o.d
+build CMakeFiles/generate.dir/数组/118.cpp.o: CXX_COMPILER__generate_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/118.cpp || cmake_object_order_depends_target_generate
+  DEP_FILE = CMakeFiles/generate.dir/数组/118.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
-  OBJECT_DIR = CMakeFiles/ArrayFEF.dir
-  OBJECT_FILE_DIR = CMakeFiles/ArrayFEF.dir/数组
+  OBJECT_DIR = CMakeFiles/generate.dir
+  OBJECT_FILE_DIR = CMakeFiles/generate.dir/数组
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ArrayFEF
+# Link build statements for EXECUTABLE target generate
 
 
 #############################################
-# Link the executable ArrayFEF
+# Link the executable generate
 
-build ArrayFEF: CXX_EXECUTABLE_LINKER__ArrayFEF_Debug CMakeFiles/ArrayFEF.dir/数组/485.cpp.o
+build generate: CXX_EXECUTABLE_LINKER__generate_Debug CMakeFiles/generate.dir/数组/118.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
-  OBJECT_DIR = CMakeFiles/ArrayFEF.dir
+  OBJECT_DIR = CMakeFiles/generate.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ArrayFEF
-  TARGET_PDB = ArrayFEF.dbg
+  TARGET_FILE = generate
+  TARGET_PDB = generate.dbg
 
 # =============================================================================
 # Target aliases.
@@ -353,7 +384,7 @@ build ArrayFEF: CXX_EXECUTABLE_LINKER__ArrayFEF_Debug CMakeFiles/ArrayFEF.dir/�
 #############################################
 # Folder: /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug
 
-build all: phony NumWays Singleton ThirdMax FindErrorNums MaximumProduct QuickSort codingce_cpp UnorderedMapTest ArrayFEF
+build all: phony NumWays Singleton ThirdMax FindErrorNums MaximumProduct QuickSort ArrayFEF codingce_cpp UnorderedMapTest generate
 
 # =============================================================================
 # Built-in targets
