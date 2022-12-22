@@ -6,16 +6,17 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="codingce_cpp" targetName="ArrayFEF" />
-      <config projectName="codingce_cpp" targetName="NumWays" />
       <config projectName="codingce_cpp" targetName="codingce_cpp" />
       <config projectName="codingce_cpp" targetName="FindErrorNums" />
       <config projectName="codingce_cpp" targetName="UnorderedMapTest" />
-      <config projectName="codingce_cpp" targetName="QuickSort" />
-      <config projectName="codingce_cpp" targetName="addStrings" />
-      <config projectName="codingce_cpp" targetName="generate" />
       <config projectName="codingce_cpp" targetName="Singleton" />
       <config projectName="codingce_cpp" targetName="MaximumProduct" />
       <config projectName="codingce_cpp" targetName="ThirdMax" />
+      <config projectName="codingce_cpp" targetName="NumWays" />
+      <config projectName="codingce_cpp" targetName="QuickSort" />
+      <config projectName="codingce_cpp" targetName="addStrings" />
+      <config projectName="codingce_cpp" targetName="generate" />
+      <config projectName="codingce_cpp" targetName="DomTree" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -24,10 +25,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F 面经">
-      <change afterPath="$PROJECT_DIR$/数组/415.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../new_code/src/cn/com/NumSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../new_code/src/cn/com/codingce/数组与矩阵/字符串相加/Solution.java" afterDir="false" />
+    <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F 面试">
+      <change afterPath="$PROJECT_DIR$/dom/DomTree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
@@ -36,7 +35,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面经/面试记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/面经/面试记录.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +83,13 @@
       <recent name="D:\mxz-code\gitee\codingce-leetcode\codingce-cpp\image" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.addStrings">
+  <component name="RunManager" selected="CMake Application.DomTree">
     <configuration name="ArrayFEF" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="ArrayFEF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="ArrayFEF">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DomTree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="DomTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="DomTree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -150,6 +153,7 @@
       <item itemvalue="CMake Application.addStrings" />
       <item itemvalue="CMake Application.ArrayFEF" />
       <item itemvalue="CMake Application.codingce_cpp" />
+      <item itemvalue="CMake Application.DomTree" />
       <item itemvalue="CMake Application.FindErrorNums" />
       <item itemvalue="CMake Application.generate" />
       <item itemvalue="CMake Application.MaximumProduct" />
@@ -173,7 +177,7 @@
       <workItem from="1670504309370" duration="24000" />
       <workItem from="1670504355601" duration="5790000" />
       <workItem from="1670545483468" duration="14983000" />
-      <workItem from="1671608761562" duration="2531000" />
+      <workItem from="1671608761562" duration="8936000" />
     </task>
     <task id="LOCAL-00001" summary="F win">
       <created>1670458959878</created>
@@ -238,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671415975115</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="F 面试">
+      <created>1671698416604</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671698416604</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +273,7 @@
     <MESSAGE value="A 面经" />
     <MESSAGE value="F 645" />
     <MESSAGE value="F 面经" />
-    <option name="LAST_COMMIT_MESSAGE" value="F 面经" />
+    <MESSAGE value="F 面试" />
+    <option name="LAST_COMMIT_MESSAGE" value="F 面试" />
   </component>
 </project>

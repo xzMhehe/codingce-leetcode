@@ -1,4 +1,4 @@
-package cn.com;
+package cn.com.codingce.数组与矩阵;
 
 /**
  * ### 数组组成数字的最小值
