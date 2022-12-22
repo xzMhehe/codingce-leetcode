@@ -20,7 +20,7 @@ public:
 
     ~NodeCollect();
 
-    int getLength();
+    int getLength() const;
 
     Node *item(int i);
 
@@ -47,9 +47,9 @@ public:
 
     NodeCollect *getChild(Dom &d) const;
 
-    Node *getNext(Dom &d);
+    Node *getNext(Dom &d) const;
 
-    Node *getPrevious(Dom &d);
+    Node *getPrevious(Dom &d) const;
 
     Node *next;
 
@@ -463,17 +463,23 @@ char *Node::innerHtml(Dom &d) const {
         }
         out++;
     }
-    int innerlen = l - (strlen(tagName(d)) + 3) - (out - base + 1);
-    if (innerlen == 0) {
+    int innerLen = l - (strlen(tagName(d)) + 3) - (out - base + 1);
+    if (innerLen == 0) {
         return inner;
     } else {
-        for (int i = 0; i < innerlen; i++) {
+        for (int i = 0; i < innerLen; i++) {
             inner[i] = *(out + i + 1);
         }
         return inner;
     }
 }
 
+/**
+ * 获取标签内容
+ *
+ * @param d
+ * @return
+ */
 char *Node::innerText(Dom &d) const {
     char *h = innerHtml(d);
     char *inner;
@@ -534,8 +540,8 @@ char *Node::innerText(Dom &d) const {
     return inner;
 }
 
-Node *Node::getPrevious(Dom &d) {
-    Node *nn = 0;
+Node *Node::getPrevious(Dom &d) const {
+    Node *nn = nullptr;
     for (int i = 0; i < d.getCount(); i++) {
         if (d.getItem(i)->getStart() == start && d.getItem(i)->getLen() == len) {
             break;
@@ -548,8 +554,8 @@ Node *Node::getPrevious(Dom &d) {
     return nn;
 }
 
-Node *Node::getNext(Dom &d) {
-    Node *nn = 0;
+Node *Node::getNext(Dom &d) const {
+    Node *nn = nullptr;
     for (int i = 0; i < d.getCount(); i++) {
         if (start + len <= d.getItem(i)->getStart()) {
             nn = d.getItem(i);
@@ -564,7 +570,7 @@ NodeCollect::NodeCollect() {
     length = 0;
 }
 
-int NodeCollect::getLength() {
+int NodeCollect::getLength() const {
     return length;
 }
 
@@ -574,7 +580,7 @@ Node *NodeCollect::item(int i) {
         if (n1) {
             n1 = n1->next;
         } else {
-            return 0;
+            return nullptr;
         }
     }
     return n1;
