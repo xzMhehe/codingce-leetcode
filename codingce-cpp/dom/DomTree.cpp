@@ -620,7 +620,6 @@ int main() {
     a.load("<body><a href=\"https://www.163.com/#f=topnav\" class=\"ntes-nav-select-title ntes-nav-entry-bgblack JS_NTES_LOG_FE\">应用<em class=\"ntes-nav-select-arr\"></em></a></body>");
     cout << "标签内容: " << a.getByTagName("a")->item(0)->innerText(a) << endl;
     cout << "标签个数: " << a.getCount() << endl;
-    cout << "END" << endl;
     cout << "=========== END ===========" << endl;
     return 0;
 }
