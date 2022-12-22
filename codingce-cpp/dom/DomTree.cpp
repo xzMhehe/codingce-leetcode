@@ -7,51 +7,51 @@
 
 using namespace std;
 
-class node;
+class Node;
 
-class dom;
+class Dom;
 
-class nodecollect {
+class NodeCollect {
 private:
-    node *n;
+    Node *n;
     int length;
 public:
-    nodecollect();
+    NodeCollect();
 
-    ~nodecollect();
+    ~NodeCollect();
 
     int getLength();
 
-    node *item(int i);
+    Node *item(int i);
 
-    void add(node *nn);
+    void add(Node *nn);
 
 };
 
-class node {
+class Node {
 private:
     int start;
     int len;
 public:
-    char *innerHtml(dom &d) const;
+    char *innerHtml(Dom &d) const;
 
-    char *outerHtml(dom &d) const;
+    char *outerHtml(Dom &d) const;
 
-    char *innerText(dom &d) const;
+    char *innerText(Dom &d) const;
 
-    char *getattr(dom &d, char *str);
+    char *getAttr(Dom &d, char *str);
 
-    char *tagName(dom &d) const;
+    char *tagName(Dom &d) const;
 
-    node *getParent(dom &d) const;
+    Node *getParent(Dom &d) const;
 
-    nodecollect *getChild(dom &d) const;
+    NodeCollect *getChild(Dom &d) const;
 
-    node *getNext(dom &d);
+    Node *getNext(Dom &d);
 
-    node *getPrevious(dom &d);
+    Node *getPrevious(Dom &d);
 
-    node *next;
+    Node *next;
 
     void setStart(int i);
 
@@ -59,53 +59,60 @@ public:
 
     int getStart();
 
-    int getLen();
+    int getLen() const;
 };
 
-class dom {
+/**
+ * 整个文件
+ */
+class Dom {
 private:
     char *text;
-    node *n;
+    Node *n;
     int count;
 
     int parse(char *s);
 
 public:
-    ~dom();
+    ~Dom();
 
     char *getText();
 
     void load(char *str);
 
-    node *getItem(int i);
+    Node *getItem(int i);
 
     int getCount();
 
-    node *getById(char *id);
+    Node *getById(char *id);
 
-    nodecollect *getByTagName(char *tagName);
+    NodeCollect *getByTagName(char *tagName);
 };
 
-void dom::load(char *str) {
+/**
+ * 初始化
+ *
+ * @param str
+ */
+void Dom::load(char *str) {
     n = nullptr;
     count = 0;
-    int l = strlen(str);
-    text = new char[l + 1];
+    text = new char[strlen(str) + 1];
     strcpy(text, str);
     char *t = text;
     parse(t);
 }
 
-int dom::getCount() {
+int Dom::getCount() {
     return count;
 }
 
-char *dom::getText() {
+char *Dom::getText() {
     return text;
 }
 
-node *dom::getItem(int i) {
-    node *n1 = n;
+Node *Dom::getItem(int i) {
+    Node *n1 = n;
     while (i--) {
         if (n1) {
             n1 = n1->next;
@@ -116,28 +123,28 @@ node *dom::getItem(int i) {
     return n1;
 }
 
-node *dom::getById(char *id) {
+Node *Dom::getById(char *id) {
     for (int i = 0; i < this->getCount(); i++) {
-        if (strcmp(this->getItem(i)->getattr(*this, "id"), id) == 0) {
+        if (strcmp(this->getItem(i)->getAttr(*this, "id"), id) == 0) {
             return this->getItem(i);
         }
     }
     return nullptr;
 }
 
-nodecollect *dom::getByTagName(char *tagName) {
-    auto *nnode = new nodecollect;
+NodeCollect *Dom::getByTagName(char *tagName) {
+    auto *nNode = new NodeCollect;
     for (int i = 0; i < this->getCount(); i++) {
         if (strcmp(this->getItem(i)->tagName(*this), tagName) == 0) {
-            nnode->add(this->getItem(i));
+            nNode->add(this->getItem(i));
         }
     }
-    return nnode;
+    return nNode;
 }
 
-dom::~dom() {
+Dom::~Dom() {
     delete[] text;
-    node *n1 = n, *n2;
+    Node *n1 = n, *n2;
     if (n1) {
         while (n1->next != nullptr) {
             n2 = n1;
@@ -147,7 +154,13 @@ dom::~dom() {
     }
 }
 
-int dom::parse(char *s) {
+/**
+ * 解析
+ *
+ * @param s
+ * @return
+ */
+int Dom::parse(char *s) {
     int i1 = 0, i2 = 0, i3 = 0, i4 = 0;
     while (*s != 0) {
         if (*s == 0) {
@@ -172,13 +185,13 @@ int dom::parse(char *s) {
         if (*s == '<' && *(s + 1) == '!') {
             if (i1 == 0 && i2 == 0) {
                 i3 = 1;
-                node *nn = new node;
+                Node *nn = new Node;
                 nn->setStart(s - text);
                 nn->setLen(0);
                 nn->next = nullptr;
 
                 if (n) {
-                    node *n1 = n;
+                    Node *n1 = n;
                     while (n1->next != 0) {
                         n1 = n1->next;
                     }
@@ -204,7 +217,6 @@ int dom::parse(char *s) {
                     }
                     if (*s == '>') {
                         if (i1 == 0 && i2 == 0) {
-                            // cout<<(long)s+1-s1<<endl;
                             nn->setLen((long) s + 1 - s1);
                             s++;
                             break;
@@ -220,14 +232,13 @@ int dom::parse(char *s) {
 
             if (i1 == 0 && i2 == 0 && i4 == 0) {
                 i3 = 1;
-                node *nn = new node;
-                //cout<<s-text<<endl;
+                Node *nn = new Node;
                 nn->setStart(s - text);
                 nn->setLen(0);
                 nn->next = nullptr;
 
                 if (n) {
-                    node *n1 = n;
+                    Node *n1 = n;
                     while (n1->next != 0) {
                         n1 = n1->next;
                     }
@@ -251,11 +262,10 @@ int dom::parse(char *s) {
         if (*s == '/' && *(s + 1) == '>') {
             if (i1 == 0 && i2 == 0) {
                 i3 = 0;
-                node *n1 = n;
+                Node *n1 = n;
                 while (n1->next != 0) {
                     n1 = n1->next;
                 }
-                // cout<<(long)s+2-(n1->getStart())-(long)text<<endl;
                 n1->setLen((long) s + 2 - (n1->getStart()) - (long) text);
                 if (i4 == 1) {
                     i4 = 0;
@@ -269,8 +279,8 @@ int dom::parse(char *s) {
                 if (i4 = 1) {
                     i4 = 0;
                 }
-                node *n1 = n;
-                node *min;
+                Node *n1 = n;
+                Node *min;
                 int i = 0;
                 while (n1 != 0) {
                     if (n1->getLen() == 0) {
@@ -291,27 +301,27 @@ int dom::parse(char *s) {
     return 0;
 }
 
-void node::setStart(int i) {
+void Node::setStart(int i) {
     start = i;
 }
 
-void node::setLen(int i) {
+void Node::setLen(int i) {
     len = i;
 }
 
-int node::getStart() {
+int Node::getStart() {
     return start;
 }
 
-int node::getLen() {
+int Node::getLen() const {
     return len;
 }
 
-char *node::getattr(dom &d, char *str) {
+char *Node::getAttr(Dom &d, char *str) {
     char *out = outerHtml(d);
     int i1 = 0, i2 = 0;
     char *v = new char[strlen(out) + 1];
-    ::memset(v, 0, strlen(out) + 1);
+    memset(v, 0, strlen(out) + 1);
     while (*out != 0) {
 
         if (*out == 0) {
@@ -359,7 +369,7 @@ char *node::getattr(dom &d, char *str) {
     return nullptr;
 }
 
-node *node::getParent(dom &d) const {
+Node *Node::getParent(Dom &d) const {
     int p = -1;
     for (int i = 0; i < d.getCount(); i++) {
         if (d.getItem(i)->getStart() < start) {
@@ -377,9 +387,9 @@ node *node::getParent(dom &d) const {
     }
 }
 
-nodecollect *node::getChild(dom &d) const {
+NodeCollect *Node::getChild(Dom &d) const {
     int p = -1;
-    auto *nn = new nodecollect;
+    auto *nn = new NodeCollect;
     for (int i = 0; i < d.getCount(); i++) {
         if (d.getItem(i)->getStart() > start) {
             p = i;
@@ -399,7 +409,7 @@ nodecollect *node::getChild(dom &d) const {
     return nn;
 }
 
-char *node::outerHtml(dom &d) const {
+char *Node::outerHtml(Dom &d) const {
     char *out = new char[len + 1];
     char *c = d.getText() + start;
     for (int i = 0; i < len; i++) {
@@ -409,7 +419,7 @@ char *node::outerHtml(dom &d) const {
     return out;
 }
 
-char *node::tagName(dom &d) const {
+char *Node::tagName(Dom &d) const {
     char *out = this->outerHtml(d);
     char *tag = new char[strlen(out) + 1];
     int i = 1;
@@ -420,13 +430,13 @@ char *node::tagName(dom &d) const {
     return tag;
 }
 
-char *node::innerHtml(dom &d) const {
+char *Node::innerHtml(Dom &d) const {
     char *out = outerHtml(d);
     char *base = out;
     int l = strlen(out);
     int i1 = 0, i2 = 0;
     char *inner = new char[strlen(out) + 1];
-    ::memset(inner, 0, strlen(out) + 1);
+    memset(inner, 0, strlen(out) + 1);
     while (*out != 0) {
 
         if (*out == 0) {
@@ -464,7 +474,7 @@ char *node::innerHtml(dom &d) const {
     }
 }
 
-char *node::innerText(dom &d) const {
+char *Node::innerText(Dom &d) const {
     char *h = innerHtml(d);
     char *inner;
     if (h[0] == 0) {
@@ -477,7 +487,7 @@ char *node::innerText(dom &d) const {
         return inner;
     } else {
         inner = new char[strlen(h) + 1];
-        ::memset(inner, 0, strlen(h) + 1);
+        memset(inner, 0, strlen(h) + 1);
     }
     int i = 0, i1 = 0, i2 = 0, i3 = 0;
     for (; *h != 0; h++) {
@@ -515,7 +525,6 @@ char *node::innerText(dom &d) const {
                 }
             }
         } else {
-            //cout<<*h;
             *(inner + i) = *h;
             i++;
         }
@@ -525,8 +534,8 @@ char *node::innerText(dom &d) const {
     return inner;
 }
 
-node *node::getPrevious(dom &d) {
-    node *nn = 0;
+Node *Node::getPrevious(Dom &d) {
+    Node *nn = 0;
     for (int i = 0; i < d.getCount(); i++) {
         if (d.getItem(i)->getStart() == start && d.getItem(i)->getLen() == len) {
             break;
@@ -539,8 +548,8 @@ node *node::getPrevious(dom &d) {
     return nn;
 }
 
-node *node::getNext(dom &d) {
-    node *nn = 0;
+Node *Node::getNext(Dom &d) {
+    Node *nn = 0;
     for (int i = 0; i < d.getCount(); i++) {
         if (start + len <= d.getItem(i)->getStart()) {
             nn = d.getItem(i);
@@ -550,17 +559,17 @@ node *node::getNext(dom &d) {
     return nn;
 }
 
-nodecollect::nodecollect() {
+NodeCollect::NodeCollect() {
     n = nullptr;
     length = 0;
 }
 
-int nodecollect::getLength() {
+int NodeCollect::getLength() {
     return length;
 }
 
-node *nodecollect::item(int i) {
-    node *n1 = n;
+Node *NodeCollect::item(int i) {
+    Node *n1 = n;
     while (i--) {
         if (n1) {
             n1 = n1->next;
@@ -571,13 +580,13 @@ node *nodecollect::item(int i) {
     return n1;
 }
 
-void nodecollect::add(node *nn) {
-    node *n1 = new node;
+void NodeCollect::add(Node *nn) {
+    Node *n1 = new Node;
     n1->setStart(nn->getStart());
     n1->setLen(nn->getLen());
     n1->next = 0;
     if (n) {
-        node *n2 = n;
+        Node *n2 = n;
         while (n2->next) {
             n2 = n2->next;
         }
@@ -590,8 +599,8 @@ void nodecollect::add(node *nn) {
     length++;
 }
 
-nodecollect::~nodecollect() {
-    node *n1 = n, *n2;
+NodeCollect::~NodeCollect() {
+    Node *n1 = n, *n2;
     if (n1) {
         while (n1->next != 0) {
             n2 = n1;
@@ -602,12 +611,12 @@ nodecollect::~nodecollect() {
 }
 
 int main() {
-    dom a{};
-    cout << "START" << endl;
-    a.load("<body><script>document.write('</a>sada</a>')</script></body>");
-    cout << a.getByTagName("script")->item(0)->innerText(a) << endl;
-    cout << a.getCount() << endl;
-    cout << a.getText() << endl;
+    Dom a{};
+    cout << "=========== START ===========" << endl;
+    a.load("<body><a href=\"https://www.163.com/#f=topnav\" class=\"ntes-nav-select-title ntes-nav-entry-bgblack JS_NTES_LOG_FE\">应用<em class=\"ntes-nav-select-arr\"></em></a></body>");
+    cout << "标签内容: " << a.getByTagName("a")->item(0)->innerText(a) << endl;
+    cout << "标签个数: " << a.getCount() << endl;
     cout << "END" << endl;
+    cout << "=========== END ===========" << endl;
     return 0;
 }
