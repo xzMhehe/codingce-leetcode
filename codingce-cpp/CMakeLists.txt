@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(codingce_cpp main.cpp)
 add_executable(ArrayFEF 数组/485.cpp)
+add_executable(addStrings 数组/415.cpp)
 add_executable(generate 数组/118.cpp)
 add_executable(UnorderedMapTest 数组/UnorderedMapTest.cpp)
 add_executable(QuickSort 排序/QuickSort.cpp)

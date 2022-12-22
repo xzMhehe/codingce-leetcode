@@ -11,6 +11,7 @@
       <config projectName="codingce_cpp" targetName="FindErrorNums" />
       <config projectName="codingce_cpp" targetName="UnorderedMapTest" />
       <config projectName="codingce_cpp" targetName="QuickSort" />
+      <config projectName="codingce_cpp" targetName="addStrings" />
       <config projectName="codingce_cpp" targetName="generate" />
       <config projectName="codingce_cpp" targetName="Singleton" />
       <config projectName="codingce_cpp" targetName="MaximumProduct" />
@@ -24,8 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F 面经">
-      <change afterPath="$PROJECT_DIR$/数组/118.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../new_code/src/cn/com/codingce/数组与矩阵/杨辉三角/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组/415.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_code/src/cn/com/NumSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_code/src/cn/com/codingce/数组与矩阵/字符串相加/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
@@ -34,6 +36,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面经/面试记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/面经/面试记录.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <recent name="D:\mxz-code\gitee\codingce-leetcode\codingce-cpp\image" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.generate">
+  <component name="RunManager" selected="CMake Application.addStrings">
     <configuration name="ArrayFEF" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="ArrayFEF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="ArrayFEF">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -128,6 +131,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="addStrings" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="addStrings" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="addStrings">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="codingce_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="codingce_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="codingce_cpp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -139,6 +147,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.addStrings" />
       <item itemvalue="CMake Application.ArrayFEF" />
       <item itemvalue="CMake Application.codingce_cpp" />
       <item itemvalue="CMake Application.FindErrorNums" />
@@ -164,7 +173,7 @@
       <workItem from="1670504309370" duration="24000" />
       <workItem from="1670504355601" duration="5790000" />
       <workItem from="1670545483468" duration="14983000" />
-      <workItem from="1671608761562" duration="647000" />
+      <workItem from="1671608761562" duration="2531000" />
     </task>
     <task id="LOCAL-00001" summary="F win">
       <created>1670458959878</created>

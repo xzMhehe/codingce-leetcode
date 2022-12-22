@@ -40,6 +40,17 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
 # =============================================================================
 # Object build statements for EXECUTABLE target NumWays
 
@@ -331,17 +342,6 @@ build UnorderedMapTest: CXX_EXECUTABLE_LINKER__UnorderedMapTest_Debug CMakeFiles
   TARGET_FILE = UnorderedMapTest
   TARGET_PDB = UnorderedMapTest.dbg
 
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
 # =============================================================================
 # Object build statements for EXECUTABLE target generate
 
@@ -374,6 +374,37 @@ build generate: CXX_EXECUTABLE_LINKER__generate_Debug CMakeFiles/generate.dir/�
   TARGET_PDB = generate.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target addStrings
+
+
+#############################################
+# Order-only phony target for addStrings
+
+build cmake_object_order_depends_target_addStrings: phony || CMakeFiles/addStrings.dir
+
+build CMakeFiles/addStrings.dir/数组/415.cpp.o: CXX_COMPILER__addStrings_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/415.cpp || cmake_object_order_depends_target_addStrings
+  DEP_FILE = CMakeFiles/addStrings.dir/数组/415.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/addStrings.dir
+  OBJECT_FILE_DIR = CMakeFiles/addStrings.dir/数组
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target addStrings
+
+
+#############################################
+# Link the executable addStrings
+
+build addStrings: CXX_EXECUTABLE_LINKER__addStrings_Debug CMakeFiles/addStrings.dir/数组/415.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/addStrings.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = addStrings
+  TARGET_PDB = addStrings.dbg
+
+# =============================================================================
 # Target aliases.
 
 # =============================================================================
@@ -384,7 +415,7 @@ build generate: CXX_EXECUTABLE_LINKER__generate_Debug CMakeFiles/generate.dir/�
 #############################################
 # Folder: /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug
 
-build all: phony NumWays Singleton ThirdMax FindErrorNums MaximumProduct QuickSort ArrayFEF codingce_cpp UnorderedMapTest generate
+build all: phony NumWays Singleton ThirdMax FindErrorNums MaximumProduct QuickSort ArrayFEF codingce_cpp UnorderedMapTest generate addStrings
 
 # =============================================================================
 # Built-in targets
