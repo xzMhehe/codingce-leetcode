@@ -27,6 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F 笔试解析dom">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dom/DomTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dom/DomTree.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +173,7 @@
       <workItem from="1670504309370" duration="24000" />
       <workItem from="1670504355601" duration="5790000" />
       <workItem from="1670545483468" duration="14983000" />
-      <workItem from="1671608761562" duration="11297000" />
+      <workItem from="1671608761562" duration="11635000" />
     </task>
     <task id="LOCAL-00001" summary="F win">
       <created>1670458959878</created>
@@ -249,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671721245322</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="F 笔试解析dom">
+      <created>1671721359704</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671721359704</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -39,7 +39,7 @@ public:
 
     char *innerText(Dom &d) const;
 
-    char *getAttr(Dom &d, char *str);
+    char *getAttr(Dom &d, char *str) const;
 
     char *tagName(Dom &d) const;
 
@@ -57,7 +57,7 @@ public:
 
     void setLen(int i);
 
-    int getStart();
+    int getStart() const;
 
     int getLen() const;
 };
@@ -276,13 +276,11 @@ int Dom::parse(char *s) {
         if (*s == '<' && *(s + 1) == '/') {
             if (i1 == 0 && i2 == 0) {
                 i3 = 0;
-                if (i4 = 1) {
-                    i4 = 0;
-                }
+                i4 = 0;
                 Node *n1 = n;
                 Node *min;
                 int i = 0;
-                while (n1 != 0) {
+                while (n1 != nullptr) {
                     if (n1->getLen() == 0) {
                         min = n1;
                     }
@@ -309,7 +307,7 @@ void Node::setLen(int i) {
     len = i;
 }
 
-int Node::getStart() {
+int Node::getStart() const {
     return start;
 }
 
@@ -317,7 +315,7 @@ int Node::getLen() const {
     return len;
 }
 
-char *Node::getAttr(Dom &d, char *str) {
+char *Node::getAttr(Dom &d, char *str) const {
     char *out = outerHtml(d);
     int i1 = 0, i2 = 0;
     char *v = new char[strlen(out) + 1];
