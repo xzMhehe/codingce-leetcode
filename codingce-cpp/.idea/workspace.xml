@@ -10,6 +10,7 @@
       <config projectName="codingce_cpp" targetName="FindErrorNums" />
       <config projectName="codingce_cpp" targetName="UnorderedMapTest" />
       <config projectName="codingce_cpp" targetName="Singleton" />
+      <config projectName="codingce_cpp" targetName="maxSubsequence" />
       <config projectName="codingce_cpp" targetName="MaximumProduct" />
       <config projectName="codingce_cpp" targetName="ThirdMax" />
       <config projectName="codingce_cpp" targetName="NumWays" />
@@ -26,10 +27,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F 笔试解析dom">
+      <change afterPath="$PROJECT_DIR$/数组/2099.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面经/面试20221223.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_code/src/cn/com/codingce/数组与矩阵/找到和最大的长度为K的子序列/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a6df14802a78b25afa31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-22T13-29-07-0807.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-DomTree-Debug-c37b298aa0c98d2eef78.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-FindErrorNums-Debug-e7b05df77e64bcb945e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-MaximumProduct-Debug-145af1d73fcc5f328b0e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NumWays-Debug-239e2ac1cb2863953e6c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-QuickSort-Debug-ead0086e996c81eeff9e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Singleton-Debug-9670157b12d303b60f34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ThirdMax-Debug-6eab7b86cdfd50a69280.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-UnorderedMapTest-Debug-bbfee7650b6ef0c2c23a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-generate-Debug-70d75508e9356db80881.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面经/面试记录.md" beforeDir="false" afterPath="$PROJECT_DIR$/面经/面试记录.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +98,12 @@
       <recent name="D:\mxz-code\gitee\codingce-leetcode\codingce-cpp\image" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.DomTree">
+  <component name="RunManager" selected="CMake Application.maxSubsequence">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayFEF" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="ArrayFEF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="ArrayFEF">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -124,11 +149,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="addStrings" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="addStrings" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="addStrings">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -144,6 +164,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="maxSubsequence" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="maxSubsequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="maxSubsequence">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.addStrings" />
       <item itemvalue="CMake Application.ArrayFEF" />
@@ -152,6 +177,7 @@
       <item itemvalue="CMake Application.FindErrorNums" />
       <item itemvalue="CMake Application.generate" />
       <item itemvalue="CMake Application.MaximumProduct" />
+      <item itemvalue="CMake Application.maxSubsequence" />
       <item itemvalue="CMake Application.NumWays" />
       <item itemvalue="CMake Application.QuickSort" />
       <item itemvalue="CMake Application.Singleton" />
@@ -173,6 +199,7 @@
       <workItem from="1670504355601" duration="5790000" />
       <workItem from="1670545483468" duration="14983000" />
       <workItem from="1671608761562" duration="12543000" />
+      <workItem from="1671891684431" duration="739000" />
     </task>
     <task id="LOCAL-00001" summary="F win">
       <created>1670458959878</created>

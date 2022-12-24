@@ -176,35 +176,66 @@ build FindErrorNums: CXX_EXECUTABLE_LINKER__FindErrorNums_Debug CMakeFiles/FindE
   TARGET_PDB = FindErrorNums.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DomTree
+# Object build statements for EXECUTABLE target generate
 
 
 #############################################
-# Order-only phony target for DomTree
+# Order-only phony target for generate
 
-build cmake_object_order_depends_target_DomTree: phony || CMakeFiles/DomTree.dir
+build cmake_object_order_depends_target_generate: phony || CMakeFiles/generate.dir
 
-build CMakeFiles/DomTree.dir/dom/DomTree.cpp.o: CXX_COMPILER__DomTree_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/dom/DomTree.cpp || cmake_object_order_depends_target_DomTree
-  DEP_FILE = CMakeFiles/DomTree.dir/dom/DomTree.cpp.o.d
+build CMakeFiles/generate.dir/数组/118.cpp.o: CXX_COMPILER__generate_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/118.cpp || cmake_object_order_depends_target_generate
+  DEP_FILE = CMakeFiles/generate.dir/数组/118.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
-  OBJECT_DIR = CMakeFiles/DomTree.dir
-  OBJECT_FILE_DIR = CMakeFiles/DomTree.dir/dom
+  OBJECT_DIR = CMakeFiles/generate.dir
+  OBJECT_FILE_DIR = CMakeFiles/generate.dir/数组
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DomTree
+# Link build statements for EXECUTABLE target generate
 
 
 #############################################
-# Link the executable DomTree
+# Link the executable generate
 
-build DomTree: CXX_EXECUTABLE_LINKER__DomTree_Debug CMakeFiles/DomTree.dir/dom/DomTree.cpp.o
+build generate: CXX_EXECUTABLE_LINKER__generate_Debug CMakeFiles/generate.dir/数组/118.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
-  OBJECT_DIR = CMakeFiles/DomTree.dir
+  OBJECT_DIR = CMakeFiles/generate.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = DomTree
-  TARGET_PDB = DomTree.dbg
+  TARGET_FILE = generate
+  TARGET_PDB = generate.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target maxSubsequence
+
+
+#############################################
+# Order-only phony target for maxSubsequence
+
+build cmake_object_order_depends_target_maxSubsequence: phony || CMakeFiles/maxSubsequence.dir
+
+build CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o: CXX_COMPILER__maxSubsequence_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/2099.cpp || cmake_object_order_depends_target_maxSubsequence
+  DEP_FILE = CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/maxSubsequence.dir
+  OBJECT_FILE_DIR = CMakeFiles/maxSubsequence.dir/数组
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maxSubsequence
+
+
+#############################################
+# Link the executable maxSubsequence
+
+build maxSubsequence: CXX_EXECUTABLE_LINKER__maxSubsequence_Debug CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/maxSubsequence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = maxSubsequence
+  TARGET_PDB = maxSubsequence.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MaximumProduct
@@ -238,66 +269,35 @@ build MaximumProduct: CXX_EXECUTABLE_LINKER__MaximumProduct_Debug CMakeFiles/Max
   TARGET_PDB = MaximumProduct.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target QuickSort
+# Object build statements for EXECUTABLE target DomTree
 
 
 #############################################
-# Order-only phony target for QuickSort
+# Order-only phony target for DomTree
 
-build cmake_object_order_depends_target_QuickSort: phony || CMakeFiles/QuickSort.dir
+build cmake_object_order_depends_target_DomTree: phony || CMakeFiles/DomTree.dir
 
-build CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o: CXX_COMPILER__QuickSort_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/排序/QuickSort.cpp || cmake_object_order_depends_target_QuickSort
-  DEP_FILE = CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o.d
+build CMakeFiles/DomTree.dir/dom/DomTree.cpp.o: CXX_COMPILER__DomTree_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/dom/DomTree.cpp || cmake_object_order_depends_target_DomTree
+  DEP_FILE = CMakeFiles/DomTree.dir/dom/DomTree.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
-  OBJECT_DIR = CMakeFiles/QuickSort.dir
-  OBJECT_FILE_DIR = CMakeFiles/QuickSort.dir/排序
+  OBJECT_DIR = CMakeFiles/DomTree.dir
+  OBJECT_FILE_DIR = CMakeFiles/DomTree.dir/dom
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target QuickSort
+# Link build statements for EXECUTABLE target DomTree
 
 
 #############################################
-# Link the executable QuickSort
+# Link the executable DomTree
 
-build QuickSort: CXX_EXECUTABLE_LINKER__QuickSort_Debug CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o
+build DomTree: CXX_EXECUTABLE_LINKER__DomTree_Debug CMakeFiles/DomTree.dir/dom/DomTree.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
-  OBJECT_DIR = CMakeFiles/QuickSort.dir
+  OBJECT_DIR = CMakeFiles/DomTree.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = QuickSort
-  TARGET_PDB = QuickSort.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target generate
-
-
-#############################################
-# Order-only phony target for generate
-
-build cmake_object_order_depends_target_generate: phony || CMakeFiles/generate.dir
-
-build CMakeFiles/generate.dir/数组/118.cpp.o: CXX_COMPILER__generate_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/118.cpp || cmake_object_order_depends_target_generate
-  DEP_FILE = CMakeFiles/generate.dir/数组/118.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
-  OBJECT_DIR = CMakeFiles/generate.dir
-  OBJECT_FILE_DIR = CMakeFiles/generate.dir/数组
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target generate
-
-
-#############################################
-# Link the executable generate
-
-build generate: CXX_EXECUTABLE_LINKER__generate_Debug CMakeFiles/generate.dir/数组/118.cpp.o
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
-  OBJECT_DIR = CMakeFiles/generate.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = generate
-  TARGET_PDB = generate.dbg
+  TARGET_FILE = DomTree
+  TARGET_PDB = DomTree.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target addStrings
@@ -405,6 +405,37 @@ build ArrayFEF: CXX_EXECUTABLE_LINKER__ArrayFEF_Debug CMakeFiles/ArrayFEF.dir/�
   TARGET_PDB = ArrayFEF.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target QuickSort
+
+
+#############################################
+# Order-only phony target for QuickSort
+
+build cmake_object_order_depends_target_QuickSort: phony || CMakeFiles/QuickSort.dir
+
+build CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o: CXX_COMPILER__QuickSort_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/排序/QuickSort.cpp || cmake_object_order_depends_target_QuickSort
+  DEP_FILE = CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/QuickSort.dir
+  OBJECT_FILE_DIR = CMakeFiles/QuickSort.dir/排序
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target QuickSort
+
+
+#############################################
+# Link the executable QuickSort
+
+build QuickSort: CXX_EXECUTABLE_LINKER__QuickSort_Debug CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/QuickSort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = QuickSort
+  TARGET_PDB = QuickSort.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target UnorderedMapTest
 
 
@@ -446,7 +477,7 @@ build UnorderedMapTest: CXX_EXECUTABLE_LINKER__UnorderedMapTest_Debug CMakeFiles
 #############################################
 # Folder: /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug
 
-build all: phony NumWays Singleton ThirdMax FindErrorNums DomTree MaximumProduct QuickSort generate addStrings codingce_cpp ArrayFEF UnorderedMapTest
+build all: phony NumWays Singleton ThirdMax FindErrorNums generate maxSubsequence MaximumProduct DomTree addStrings codingce_cpp ArrayFEF QuickSort UnorderedMapTest
 
 # =============================================================================
 # Built-in targets
