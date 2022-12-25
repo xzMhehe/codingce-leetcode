@@ -7,6 +7,7 @@
 /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/maxSubsequence.dir
 /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/MaximumProduct.dir
 /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/DomTree.dir
+/Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/replaceSpace.dir
 /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/addStrings.dir
 /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug/CMakeFiles/codingce_cpp.dir

@@ -2,12 +2,12 @@ package cn.com.codingce.数组与矩阵.替换空格;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(new Solution().replaceSpace("1 2 3 3"));
+        System.out.println(new Solution().replaceSpace2("1 2 3 3"));
     }
 
     /**
      * 替换空格
-     *
+     * <p>
      * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
      *
      * @param s string字符串
@@ -34,5 +34,14 @@ public class Solution {
             }
         }
         return result.toString();
+    }
+
+    public String replaceSpace2(String s) {
+        StringBuilder res = new StringBuilder();
+        for (Character c : s.toCharArray()) {
+            if (c == ' ') res.append("%20");
+            else res.append(c);
+        }
+        return res.toString();
     }
 }

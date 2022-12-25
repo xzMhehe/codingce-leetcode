@@ -300,6 +300,37 @@ build DomTree: CXX_EXECUTABLE_LINKER__DomTree_Debug CMakeFiles/DomTree.dir/dom/D
   TARGET_PDB = DomTree.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target replaceSpace
+
+
+#############################################
+# Order-only phony target for replaceSpace
+
+build cmake_object_order_depends_target_replaceSpace: phony || CMakeFiles/replaceSpace.dir
+
+build CMakeFiles/replaceSpace.dir/数组/05.cpp.o: CXX_COMPILER__replaceSpace_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/05.cpp || cmake_object_order_depends_target_replaceSpace
+  DEP_FILE = CMakeFiles/replaceSpace.dir/数组/05.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/replaceSpace.dir
+  OBJECT_FILE_DIR = CMakeFiles/replaceSpace.dir/数组
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target replaceSpace
+
+
+#############################################
+# Link the executable replaceSpace
+
+build replaceSpace: CXX_EXECUTABLE_LINKER__replaceSpace_Debug CMakeFiles/replaceSpace.dir/数组/05.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/replaceSpace.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = replaceSpace
+  TARGET_PDB = replaceSpace.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target addStrings
 
 
@@ -477,7 +508,7 @@ build UnorderedMapTest: CXX_EXECUTABLE_LINKER__UnorderedMapTest_Debug CMakeFiles
 #############################################
 # Folder: /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug
 
-build all: phony NumWays Singleton ThirdMax FindErrorNums generate maxSubsequence MaximumProduct DomTree addStrings codingce_cpp ArrayFEF QuickSort UnorderedMapTest
+build all: phony NumWays Singleton ThirdMax FindErrorNums generate maxSubsequence MaximumProduct DomTree replaceSpace addStrings codingce_cpp ArrayFEF QuickSort UnorderedMapTest
 
 # =============================================================================
 # Built-in targets
