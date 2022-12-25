@@ -27,37 +27,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F 笔试解析dom">
-      <change afterPath="$PROJECT_DIR$/数组/05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面经/模拟面试C++.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面经/面试模拟简历面试.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面经/音视频面试整理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5145438ac62853a3ecbb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-24T14-28-17-0649.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-DomTree-Debug-dcab2a8d6efbf80739b3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-FindErrorNums-Debug-9c3e9956039412865eca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-MaximumProduct-Debug-cff485f15b1475b76ebc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NumWays-Debug-71eb2eb2a00ec0bd4ce8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-QuickSort-Debug-8eadef537e444546bb32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Singleton-Debug-f2af719fed8d6123091d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ThirdMax-Debug-eba63337f8399a375158.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-UnorderedMapTest-Debug-c731a33f5495edd1765d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-generate-Debug-c1e82c877c76079b1ac6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-maxSubsequence-Debug-4e0ce462e708ad0dd83c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/maxSubsequence" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/maxSubsequence" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面经/面试20221223简历面试.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/面经/面试一.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../new_code/src/cn/com/codingce/数组与矩阵/替换空格/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../new_code/src/cn/com/codingce/数组与矩阵/替换空格/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F 替换空格" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -212,7 +182,7 @@
       <workItem from="1670504355601" duration="5790000" />
       <workItem from="1670545483468" duration="14983000" />
       <workItem from="1671608761562" duration="12543000" />
-      <workItem from="1671891684431" duration="2319000" />
+      <workItem from="1671891684431" duration="2742000" />
     </task>
     <task id="LOCAL-00001" summary="F win">
       <created>1670458959878</created>
@@ -312,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671722116248</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="F 替换空格">
+      <created>1671980064569</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671980064569</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +315,8 @@
     <MESSAGE value="F 面经" />
     <MESSAGE value="F 面试" />
     <MESSAGE value="F 笔试解析dom" />
-    <option name="LAST_COMMIT_MESSAGE" value="F 笔试解析dom" />
+    <MESSAGE value="F 替换空格" />
+    <option name="LAST_COMMIT_MESSAGE" value="F 替换空格" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

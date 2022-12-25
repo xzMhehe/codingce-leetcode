@@ -2,7 +2,7 @@ package cn.com.codingce.数组与矩阵.替换空格;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(new Solution().replaceSpace2("1 2 3 3"));
+        System.out.println(new Solution().replaceSpace3("1 2 3 3"));
     }
 
     /**
@@ -43,5 +43,9 @@ public class Solution {
             else res.append(c);
         }
         return res.toString();
+    }
+
+    public String replaceSpace3(String s) {
+        return s.replaceAll("\\s", "%20");
     }
 }
