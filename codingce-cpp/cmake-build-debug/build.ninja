@@ -207,35 +207,35 @@ build generate: CXX_EXECUTABLE_LINKER__generate_Debug CMakeFiles/generate.dir/�
   TARGET_PDB = generate.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target maxSubsequence
+# Object build statements for EXECUTABLE target QuickSort
 
 
 #############################################
-# Order-only phony target for maxSubsequence
+# Order-only phony target for QuickSort
 
-build cmake_object_order_depends_target_maxSubsequence: phony || CMakeFiles/maxSubsequence.dir
+build cmake_object_order_depends_target_QuickSort: phony || CMakeFiles/QuickSort.dir
 
-build CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o: CXX_COMPILER__maxSubsequence_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/2099.cpp || cmake_object_order_depends_target_maxSubsequence
-  DEP_FILE = CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o.d
+build CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o: CXX_COMPILER__QuickSort_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/排序/QuickSort.cpp || cmake_object_order_depends_target_QuickSort
+  DEP_FILE = CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
-  OBJECT_DIR = CMakeFiles/maxSubsequence.dir
-  OBJECT_FILE_DIR = CMakeFiles/maxSubsequence.dir/数组
+  OBJECT_DIR = CMakeFiles/QuickSort.dir
+  OBJECT_FILE_DIR = CMakeFiles/QuickSort.dir/排序
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target maxSubsequence
+# Link build statements for EXECUTABLE target QuickSort
 
 
 #############################################
-# Link the executable maxSubsequence
+# Link the executable QuickSort
 
-build maxSubsequence: CXX_EXECUTABLE_LINKER__maxSubsequence_Debug CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o
+build QuickSort: CXX_EXECUTABLE_LINKER__QuickSort_Debug CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
-  OBJECT_DIR = CMakeFiles/maxSubsequence.dir
+  OBJECT_DIR = CMakeFiles/QuickSort.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = maxSubsequence
-  TARGET_PDB = maxSubsequence.dbg
+  TARGET_FILE = QuickSort
+  TARGET_PDB = QuickSort.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MaximumProduct
@@ -267,6 +267,37 @@ build MaximumProduct: CXX_EXECUTABLE_LINKER__MaximumProduct_Debug CMakeFiles/Max
   PRE_LINK = :
   TARGET_FILE = MaximumProduct
   TARGET_PDB = MaximumProduct.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target maxSubsequence
+
+
+#############################################
+# Order-only phony target for maxSubsequence
+
+build cmake_object_order_depends_target_maxSubsequence: phony || CMakeFiles/maxSubsequence.dir
+
+build CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o: CXX_COMPILER__maxSubsequence_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/2099.cpp || cmake_object_order_depends_target_maxSubsequence
+  DEP_FILE = CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/maxSubsequence.dir
+  OBJECT_FILE_DIR = CMakeFiles/maxSubsequence.dir/数组
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target maxSubsequence
+
+
+#############################################
+# Link the executable maxSubsequence
+
+build maxSubsequence: CXX_EXECUTABLE_LINKER__maxSubsequence_Debug CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/maxSubsequence.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = maxSubsequence
+  TARGET_PDB = maxSubsequence.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target DomTree
@@ -329,6 +360,37 @@ build replaceSpace: CXX_EXECUTABLE_LINKER__replaceSpace_Debug CMakeFiles/replace
   PRE_LINK = :
   TARGET_FILE = replaceSpace
   TARGET_PDB = replaceSpace.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target longestCommonPrefix
+
+
+#############################################
+# Order-only phony target for longestCommonPrefix
+
+build cmake_object_order_depends_target_longestCommonPrefix: phony || CMakeFiles/longestCommonPrefix.dir
+
+build CMakeFiles/longestCommonPrefix.dir/数组/14.cpp.o: CXX_COMPILER__longestCommonPrefix_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/数组/14.cpp || cmake_object_order_depends_target_longestCommonPrefix
+  DEP_FILE = CMakeFiles/longestCommonPrefix.dir/数组/14.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/longestCommonPrefix.dir
+  OBJECT_FILE_DIR = CMakeFiles/longestCommonPrefix.dir/数组
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target longestCommonPrefix
+
+
+#############################################
+# Link the executable longestCommonPrefix
+
+build longestCommonPrefix: CXX_EXECUTABLE_LINKER__longestCommonPrefix_Debug CMakeFiles/longestCommonPrefix.dir/数组/14.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/longestCommonPrefix.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = longestCommonPrefix
+  TARGET_PDB = longestCommonPrefix.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target addStrings
@@ -436,37 +498,6 @@ build ArrayFEF: CXX_EXECUTABLE_LINKER__ArrayFEF_Debug CMakeFiles/ArrayFEF.dir/�
   TARGET_PDB = ArrayFEF.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target QuickSort
-
-
-#############################################
-# Order-only phony target for QuickSort
-
-build cmake_object_order_depends_target_QuickSort: phony || CMakeFiles/QuickSort.dir
-
-build CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o: CXX_COMPILER__QuickSort_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/排序/QuickSort.cpp || cmake_object_order_depends_target_QuickSort
-  DEP_FILE = CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
-  OBJECT_DIR = CMakeFiles/QuickSort.dir
-  OBJECT_FILE_DIR = CMakeFiles/QuickSort.dir/排序
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target QuickSort
-
-
-#############################################
-# Link the executable QuickSort
-
-build QuickSort: CXX_EXECUTABLE_LINKER__QuickSort_Debug CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
-  OBJECT_DIR = CMakeFiles/QuickSort.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = QuickSort
-  TARGET_PDB = QuickSort.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target UnorderedMapTest
 
 
@@ -508,7 +539,7 @@ build UnorderedMapTest: CXX_EXECUTABLE_LINKER__UnorderedMapTest_Debug CMakeFiles
 #############################################
 # Folder: /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug
 
-build all: phony NumWays Singleton ThirdMax FindErrorNums generate maxSubsequence MaximumProduct DomTree replaceSpace addStrings codingce_cpp ArrayFEF QuickSort UnorderedMapTest
+build all: phony NumWays Singleton ThirdMax FindErrorNums generate QuickSort MaximumProduct maxSubsequence DomTree replaceSpace longestCommonPrefix addStrings codingce_cpp ArrayFEF UnorderedMapTest
 
 # =============================================================================
 # Built-in targets
