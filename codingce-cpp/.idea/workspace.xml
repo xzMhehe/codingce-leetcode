@@ -17,6 +17,7 @@
       <config projectName="codingce_cpp" targetName="NumWays" />
       <config projectName="codingce_cpp" targetName="QuickSort" />
       <config projectName="codingce_cpp" targetName="addStrings" />
+      <config projectName="codingce_cpp" targetName="longestCommonPrefix" />
       <config projectName="codingce_cpp" targetName="generate" />
       <config projectName="codingce_cpp" targetName="DomTree" />
     </generated>
@@ -28,15 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F 替换空格">
-      <change afterPath="$PROJECT_DIR$/数组/14.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../new_code/src/cn/com/codingce/数组与矩阵/最长公共前缀/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-addStrings-Debug-d66c4c9b8ede79417d73.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_code/src/cn/com/codingce/数组与矩阵/和为K的子数组/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +191,7 @@
       <workItem from="1670504355601" duration="5790000" />
       <workItem from="1670545483468" duration="14983000" />
       <workItem from="1671608761562" duration="12543000" />
-      <workItem from="1671891684431" duration="3519000" />
+      <workItem from="1671891684431" duration="3717000" />
     </task>
     <task id="LOCAL-00001" summary="F win">
       <created>1670458959878</created>
