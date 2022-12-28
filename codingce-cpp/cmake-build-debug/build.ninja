@@ -83,37 +83,6 @@ build NumWays: CXX_EXECUTABLE_LINKER__NumWays_Debug CMakeFiles/NumWays.dir/动�
   TARGET_PDB = NumWays.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Singleton
-
-
-#############################################
-# Order-only phony target for Singleton
-
-build cmake_object_order_depends_target_Singleton: phony || CMakeFiles/Singleton.dir
-
-build CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.o: CXX_COMPILER__Singleton_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/设计模式/Singleton.cpp || cmake_object_order_depends_target_Singleton
-  DEP_FILE = CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
-  OBJECT_DIR = CMakeFiles/Singleton.dir
-  OBJECT_FILE_DIR = CMakeFiles/Singleton.dir/设计模式
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Singleton
-
-
-#############################################
-# Link the executable Singleton
-
-build Singleton: CXX_EXECUTABLE_LINKER__Singleton_Debug CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.o
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
-  OBJECT_DIR = CMakeFiles/Singleton.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Singleton
-  TARGET_PDB = Singleton.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target ThirdMax
 
 
@@ -393,6 +362,68 @@ build longestCommonPrefix: CXX_EXECUTABLE_LINKER__longestCommonPrefix_Debug CMak
   TARGET_PDB = longestCommonPrefix.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Singleton
+
+
+#############################################
+# Order-only phony target for Singleton
+
+build cmake_object_order_depends_target_Singleton: phony || CMakeFiles/Singleton.dir
+
+build CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.o: CXX_COMPILER__Singleton_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/设计模式/Singleton.cpp || cmake_object_order_depends_target_Singleton
+  DEP_FILE = CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/Singleton.dir
+  OBJECT_FILE_DIR = CMakeFiles/Singleton.dir/设计模式
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Singleton
+
+
+#############################################
+# Link the executable Singleton
+
+build Singleton: CXX_EXECUTABLE_LINKER__Singleton_Debug CMakeFiles/Singleton.dir/设计模式/Singleton.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/Singleton.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Singleton
+  TARGET_PDB = Singleton.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test
+
+
+#############################################
+# Order-only phony target for test
+
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+
+build CMakeFiles/test.dir/test/Test.cpp.o: CXX_COMPILER__test_Debug /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/test/Test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles/test.dir/test/Test.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test
+
+
+#############################################
+# Link the executable test
+
+build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test/Test.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test
+  TARGET_PDB = test.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target addStrings
 
 
@@ -539,7 +570,7 @@ build UnorderedMapTest: CXX_EXECUTABLE_LINKER__UnorderedMapTest_Debug CMakeFiles
 #############################################
 # Folder: /Users/mxz/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug
 
-build all: phony NumWays Singleton ThirdMax FindErrorNums generate QuickSort MaximumProduct maxSubsequence DomTree replaceSpace longestCommonPrefix addStrings codingce_cpp ArrayFEF UnorderedMapTest
+build all: phony NumWays ThirdMax FindErrorNums generate QuickSort MaximumProduct maxSubsequence DomTree replaceSpace longestCommonPrefix Singleton test addStrings codingce_cpp ArrayFEF UnorderedMapTest
 
 # =============================================================================
 # Built-in targets

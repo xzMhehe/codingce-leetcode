@@ -5,4 +5,9 @@ public class iOSFactory implements SystemFactory {
     public OperationController createOperationController() {
         return new iOSOperationController();
     }
+
+    @Override
+    public UIController createUIController() {
+        return new iOSUIController();
+    }
 }

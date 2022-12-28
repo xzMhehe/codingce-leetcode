@@ -5,4 +5,10 @@ public class WpFactory implements SystemFactory {
     public OperationController createOperationController() {
         return new WpOperationController();
     }
+
+    @Override
+    public UIController createUIController() {
+        return new WpUIController();
+    }
+
 }

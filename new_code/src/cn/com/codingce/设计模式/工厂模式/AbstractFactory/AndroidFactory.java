@@ -5,4 +5,9 @@ public class AndroidFactory implements SystemFactory {
     public OperationController createOperationController() {
         return new AndroidOperationController();
     }
+
+    @Override
+    public UIController createUIController() {
+        return new AndroidUIController();
+    }
 }
