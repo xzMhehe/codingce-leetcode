@@ -3,6 +3,10 @@ package cn.com.codingce.设计模式.工厂模式.SimpleFactory;
 /**
  * 简单工厂
  *
+ * 1、具体工厂
+ * 2、抽象产品
+ * 3、具体产品
+ *
  * @author mxz
  */
 public class ShapeFactory {
