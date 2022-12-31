@@ -3,17 +3,17 @@ package cn.com.codingce.设计模式.组合模式;
 public class CompositePatternDemo {
 
     public static void main(String[] args) {
-        Employee CEO = new Employee("后端码匠", "CEO", 30000);
+        Employee CEO = new Employee("刘备", "CEO", 30000);
 
-        Employee headSales = new Employee("前端码匠", "Head Sales", 20000);
+        Employee headSales = new Employee("诸葛亮", "销售主管", 20000);
 
-        Employee headMarketing = new Employee("测试", "Head Marketing", 20000);
+        Employee headMarketing = new Employee("张飞", "市场营销主管", 20000);
 
-        Employee clerk1 = new Employee("音视频", "Marketing", 10000);
-        Employee clerk2 = new Employee("客户端", "Marketing", 10000);
+        Employee clerk1 = new Employee("法正", "营销员", 10000);
+        Employee clerk2 = new Employee("李严", "营销员", 10000);
 
-        Employee salesExecutive1 = new Employee("C++", "Sales", 10000);
-        Employee salesExecutive2 = new Employee("C", "Sales", 10000);
+        Employee salesExecutive1 = new Employee("魏延", "销售员", 10000);
+        Employee salesExecutive2 = new Employee("蒋琬", "销售员", 10000);
 
         CEO.add(headSales);
         CEO.add(headMarketing);
