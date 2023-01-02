@@ -1,4 +1,4 @@
-package cn.com.codingce.juc;
+package cn.com.codingce.juc.thread;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

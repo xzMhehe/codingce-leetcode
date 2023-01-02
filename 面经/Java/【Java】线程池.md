@@ -132,7 +132,7 @@ private static void createFixedThreadPool() {
             System.out.println(new Date() + " " + Thread.currentThread().getName() + " " + index);
             // 等待2秒
             try {
-                sleep(2000);
+                sleep(2000L);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -172,7 +172,7 @@ private static void createCachedThreadPool() {
             System.out.println(new Date() + " " + Thread.currentThread().getName() + " " + index);
             // 等待2秒
             try {
-                sleep(2000);
+                sleep(2000L);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -213,7 +213,7 @@ private static void createScheduledThreadPool() {
             System.out.println(new Date() + " " + Thread.currentThread().getName() + " " + index);
             // 等待2秒
             try {
-                sleep(2000);
+                sleep(2000L);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -327,7 +327,7 @@ private static void createThreadPool() {
             System.out.println(new Date() + " " + Thread.currentThread().getName() + " " + index);
             // 等待2秒
             try {
-                sleep(2000);
+                sleep(2000L);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
