@@ -52,7 +52,7 @@ public class SynchronizedExample {
     }
 
     /**
-     * 同步一个静态方法
+     * 同步一个静态方法，作用于整个类
      */
     public synchronized static void func4() {
         for (int i = 0; i < 10; i++) {
