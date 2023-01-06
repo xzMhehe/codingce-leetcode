@@ -2,6 +2,7 @@ package cn.com.codingce.juc.lock;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class SynchronizedExample {
 
@@ -65,7 +66,22 @@ public class SynchronizedExample {
         }
     }
 
-    public static void main(String[] args) {
+    private final Object o = new Object();
+
+    public void func5() {
+        for (int i = 0; i < 10; i++) {
+            synchronized (o) {
+                System.out.print(i + " ");
+                try {
+                    Thread.sleep(2000L);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) throws InterruptedException {
 //        SynchronizedExample example1 = new SynchronizedExample();
 //        ExecutorService executorService = Executors.newCachedThreadPool();
 //        executorService.execute(example1::func3);
@@ -78,8 +94,16 @@ public class SynchronizedExample {
 //        executorService.execute(() -> example1.func3());
 //        executorService.shutdown();
 
+//        ExecutorService executorService = Executors.newCachedThreadPool();
+//        executorService.execute(SynchronizedExample::func4);
+//        executorService.execute(SynchronizedExample::func4);
+
+        SynchronizedExample example1 = new SynchronizedExample();
+        SynchronizedExample example2 = new SynchronizedExample();
         ExecutorService executorService = Executors.newCachedThreadPool();
-        executorService.execute(SynchronizedExample::func4);
-        executorService.execute(SynchronizedExample::func4);
+        executorService.execute(() -> example1.func5());
+        executorService.execute(() -> example1.func5());
+        executorService.shutdown();
+        executorService.awaitTermination(2, TimeUnit.SECONDS);
     }
 }
