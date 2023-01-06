@@ -2,23 +2,19 @@
 
 ## Kafka介绍
 
-Kafka 是由 `Linkedin` 公司开发的，它是一个分布式的，支持多分区、多副本，基于 Zookeeper 的分布式消息流平台，它同时也是一款开源的**基于发布订阅模式的消息引擎系统**。
-Kafka 有如下特性：
-
-- 以时间复杂度为O(1)的方式提供消息持久化能力，即使对TB级以上数据也能保证常数时间复杂度的访问性能；
-- 高吞吐率。即使在非常廉价的商用机器上也能做到单机支持每秒100K条以上消息的传输；
-- 支持Kafka Server间的消息分区，及分布式消费，同时保证每个Partition内的消息顺序传输；
-- 同时支持离线数据处理和实时数据处理；
-- Scale out：支持在线水平扩展。
+Kafka 是由 `LinkedIn` 公司开发的，它是一个分布式的，支持多分区、多副本，基于 Zookeeper 的分布式消息流平台，它同时也是一款开源的**基于发布订阅模式的消息引擎系统**。
 
 ## Kafka术语
 
-- Broker：Kafka集群包含一个或多个服务器，这种服务器被称为broker；
+- Broker：消息中间件处理节点，一个Kafka节点就是一个Broker，一个或者多个Broker可以组成一个Kafka集群；
 - Topic：每条发布到Kafka集群的消息都有一个类别，这个类别被称为Topic。（物理上不同Topic的消息分开存储，逻辑上一个Topic的消息虽然保存于一个或多个broker上但用户只需指定消息的Topic即可生产或消费数据而不必关心数据存于何处）；
 - Partition：Partition是物理上的概念，每个Topic包含一个或多个Partition；
-- Producer：负责发布消息到Kafka broker；
-- Consumer：消息消费者，向Kafka broker读取消息的客户端；
-- Consumer Group：每个Consumer属于一个特定的Consumer Group（可为每个Consumer指定group name，若不指定group name则属于默认的group）。
+- Producer：负责发布消息到Kafka Broker；
+- Consumer：消息消费者，向Kafka Broker读取消息的客户端；
+- Consumer Group：每个Consumer属于一个特定的Consumer Group（可为每个Consumer指定Groupname，若不指定Groupname则属于默认的Group）；
+- Consumer Offset：消费者在消费消息的过程中，记录消费者在分区中消费进度的字段，就是消息位移，它是一个偏移量，随着消费者不断消费分区中的消息而递增；
+- Replica：Kafka 中消息的备份又叫做 `副本`（Replica），副本的数量是可以配置的，Kafka 定义了两类副本，领导者副本（Leader Replica） 和 追随者副本（Follower Replica），前者对外提供服务，后者只是被动跟随；
+- Rebalance：当 Kafka 的某个主题的消费者组中，有一个消费者不可用后，其他消费者会自动重新分配订阅的主题分区，这个过程叫做 Rebalance，是 Kafka 实现消费者端高可用的重要手段。
 
 ## Kafka特性
 
@@ -30,23 +26,23 @@ Kafka 有如下特性：
 
 ## Kafka应用场景
 
-- 活动跟踪：Kafka 可以用来`跟踪用户行为`，比如你经常回去App购物，你打开App的那一刻，你的登陆信息，登陆次数都会作为消息传输到 Kafka ，当你浏览购物的时候，你的浏览信息，你的搜索指数，你的购物爱好都会作为一个个消息传递给 Kafka ，这样就可以生成报告，可以做`智能推荐`，`购买喜好`等；
-- 传递消息：Kafka 另外一个基本用途是`传递消息`，应用程序向用户发送通知就是通过传递消息来实现的，这些应用组件可以生成消息，而不需要关心消息的格式，也不需要关心消息是如何发送的；
-- 度量指标：Kafka也经常`用来记录运营监控数据`。包括收集各种分布式应用的数据，生产各种操作的集中反馈，比如报警和报告；
-- 日志记录：Kafka 的基本概念来源于提交日志，比如可以把数据库的更新发送到 Kafka 上，用来记录数据库的更新时间，通过Kafka以统一接口服务的方式开放给各种consumer，例如hadoop、Hbase、Solr等；
-- 流式处理：流式处理是有一个能够提供多种应用程序的领域；
-- 限流削峰：Kafka 多用于互联网领域某一时刻请求特别多的情况下，可以把请求写入Kafka 中，避免直接请求后端程序导致服务崩溃。
+- **活动跟踪**：Kafka 可以用来`跟踪用户行为`，比如你经常回去App购物，你打开App的那一刻，你的登陆信息，登陆次数都会作为消息传输到 Kafka ，当你浏览购物的时候，你的浏览信息，你的搜索指数，你的购物爱好都会作为一个个消息传递给 Kafka ，这样就可以生成报告，可以做`智能推荐`，`购买喜好`等；
+- **传递消息**：Kafka 另外一个基本用途是`传递消息`，应用程序向用户发送通知就是通过传递消息来实现的，这些应用组件可以生成消息，而不需要关心消息的格式，也不需要关心消息是如何发送的；
+- **度量指标**：Kafka也经常`用来记录运营监控数据`。包括收集各种分布式应用的数据，生产各种操作的集中反馈，比如报警和报告；
+- **日志记录**：Kafka 的基本概念来源于提交日志，比如可以把数据库的更新发送到 Kafka 上，用来记录数据库的更新时间，通过Kafka以统一接口服务的方式开放给各种consumer，例如hadoop、Hbase、Solr等；
+- **流式处理**：流式处理是有一个能够提供多种应用程序的领域；
+- **限流削峰**：Kafka 多用于互联网领域某一时刻请求特别多的情况下，可以把请求写入Kafka 中，避免直接请求后端程序导致服务崩溃。
 
 以上介绍参考Kafka官方文档。
 
-## Kafka核心Api
+## Kafka核心API
 
 Kafka有`4`个核心API
 
-- 应用程序使用producer API发布消息到`1`个或`多`个topic中；
-- 应用程序使用consumer API来订阅`1`个或`多`个topic，并处理产生的消息；
-- 应用程序使用streams API充当一个流处理器,从1个或多个topic消费输入流，并产生一个输出流到1个或多个topic,有效地将输入流转换到输出流；
-- connector API允许构建或运行可重复使用的生产者或消费者，将topic链接到现有的应用程序或数据系统。
+- 应用程序使用Producer API发布消息到`1`个或`多`个Topics中；
+- 应用程序使用ConsumerAPI来订阅`1`个或`多`个Topics，并处理产生的消息；
+- 应用程序使用Streams API充当一个流处理器，从1个或多个Topics消费输入流，并产生一个输出流到1个或多个Topics，有效地将输入流转换到输出流；
+- Connector API允许构建或运行可重复使用的生产者或消费者，将Topic链接到现有的应用程序或数据系统。
 
 <img src="https://raw.githubusercontent.com/xzMhehe/StaticFile_CDN/main/static/img20230105195908.png" style="zoom: 50%;" />
 
@@ -56,10 +52,10 @@ Kafka 实现了`零拷贝`原理来快速移动数据，避免了内核之间的
 
 总结一下其实就是四个要点：
 
-- 顺序读写
-- 零拷贝
-- 消息压缩
-- 分批发送
+- 顺序读写；
+- 零拷贝；
+- 消息压缩；
+- 分批发送。
 
 ## 案例
 
@@ -144,7 +140,41 @@ public class Producer {
 }
 ```
 
+output
 
+```bash
+======消息发送成功: 后端码匠, 97 ======
+======消息发送成功: 后端码匠, 35 ======
+======消息发送成功: 后端码匠, 81 ======
+======消息发送成功: 后端码匠, 46 ======
+======消息发送成功: 后端码匠, 62 ======
+======消息发送成功: 后端码匠, 53 ======
+======消息发送成功: 后端码匠, 42 ======
+======消息发送成功: 后端码匠, 56 ======
+======消息发送成功: 后端码匠, 99 ======
+======消息发送成功: 后端码匠, 46 ======
+======消息发送成功: 后端码匠, 49 ======
+======消息发送成功: 后端码匠, 35 ======
+======消息发送成功: 后端码匠, 17 ======
+======消息发送成功: 后端码匠, 78 ======
+======消息发送成功: 后端码匠, 66 ======
+======消息发送成功: 后端码匠, 4 ======
+======消息发送成功: 后端码匠, 9 ======
+======消息发送成功: 后端码匠, 69 ======
+======消息发送成功: 后端码匠, 52 ======
+======消息发送成功: 后端码匠, 2 ======
+======消息发送成功: 后端码匠, 8 ======
+======消息发送成功: 后端码匠, 86 ======
+======消息发送成功: 后端码匠, 12 ======
+======消息发送成功: 后端码匠, 67 ======
+======消息发送成功: 后端码匠, 91 ======
+======消息发送成功: 后端码匠, 8 ======
+======消息发送成功: 后端码匠, 56 ======
+======消息发送成功: 后端码匠, 89 ======
+======消息发送成功: 后端码匠, 37 ======
+======消息发送成功: 后端码匠, 39 ======
+======消息发送成功: 后端码匠, 71 ======
+```
 
 ### Kafka Consumer
 
@@ -200,9 +230,47 @@ public class Consumer {
 }
 ```
 
+output
+
+```bash
+-----topic:codingce_test, offset:289, 消息:后端码匠, 97-----
+-----topic:codingce_test, offset:290, 消息:后端码匠, 35-----
+-----topic:codingce_test, offset:291, 消息:后端码匠, 81-----
+-----topic:codingce_test, offset:292, 消息:后端码匠, 46-----
+-----topic:codingce_test, offset:293, 消息:后端码匠, 62-----
+-----topic:codingce_test, offset:294, 消息:后端码匠, 53-----
+-----topic:codingce_test, offset:295, 消息:后端码匠, 42-----
+-----topic:codingce_test, offset:296, 消息:后端码匠, 56-----
+-----topic:codingce_test, offset:297, 消息:后端码匠, 99-----
+-----topic:codingce_test, offset:298, 消息:后端码匠, 46-----
+-----topic:codingce_test, offset:299, 消息:后端码匠, 49-----
+-----topic:codingce_test, offset:300, 消息:后端码匠, 35-----
+-----topic:codingce_test, offset:301, 消息:后端码匠, 17-----
+-----topic:codingce_test, offset:302, 消息:后端码匠, 78-----
+-----topic:codingce_test, offset:303, 消息:后端码匠, 66-----
+-----topic:codingce_test, offset:304, 消息:后端码匠, 4-----
+-----topic:codingce_test, offset:305, 消息:后端码匠, 9-----
+-----topic:codingce_test, offset:306, 消息:后端码匠, 69-----
+-----topic:codingce_test, offset:307, 消息:后端码匠, 52-----
+-----topic:codingce_test, offset:308, 消息:后端码匠, 2-----
+-----topic:codingce_test, offset:309, 消息:后端码匠, 8-----
+-----topic:codingce_test, offset:310, 消息:后端码匠, 86-----
+-----topic:codingce_test, offset:311, 消息:后端码匠, 12-----
+-----topic:codingce_test, offset:312, 消息:后端码匠, 67-----
+-----topic:codingce_test, offset:313, 消息:后端码匠, 91-----
+-----topic:codingce_test, offset:314, 消息:后端码匠, 8-----
+-----topic:codingce_test, offset:315, 消息:后端码匠, 56-----
+-----topic:codingce_test, offset:316, 消息:后端码匠, 89-----
+-----topic:codingce_test, offset:317, 消息:后端码匠, 37-----
+-----topic:codingce_test, offset:318, 消息:后端码匠, 39-----
+-----topic:codingce_test, offset:319, 消息:后端码匠, 71-----
+```
+
+
+
 本次采用Docker 搭建的单机 Kafka、Zookeeper，Kafka介绍参考官方文档：http://kafka.apache.org/intro
 
-
+项目地址：https://gitee.com/codingce/codingce-leetcode
 
 
 
