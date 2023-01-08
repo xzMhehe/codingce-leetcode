@@ -9,7 +9,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 生产者和消费者, ReentrantLock方式实现
+ * 生产者和消费者, {@link ReentrantLock} 方式实现
+ * <p>
+ * 后端码匠
+ *
  * @author mxz
  */
 public class ReentrantLockExample {

@@ -7,6 +7,8 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 生产者和消费者, wait()和notify()方式实现
+ * <p>
+ * 后端码匠
  *
  * @author mxz
  */
@@ -14,26 +16,24 @@ public class WaitNotifyExample {
 
     private static Integer count = 0;
     private static final Integer maxCount = 10;
-    private static final Object LOCK = new Object();
+    private final Object LOCK = new Object();
 
     public static void main(String[] args) throws InterruptedException {
         ExecutorService service = Executors.newCachedThreadPool();
-        service.execute(new Producer());
-        service.execute(new Producer());
-        service.execute(new Producer());
-        service.execute(new Consumer());
+        WaitNotifyExample example = new WaitNotifyExample();
+        service.execute(example.new Producer());
+        service.execute(example.new Producer());
+        service.execute(example.new Consumer());
         service.shutdown();
         System.out.println(service.awaitTermination(10L, TimeUnit.SECONDS));
     }
 
-    static class Producer implements Runnable {
+    class Producer implements Runnable {
         @Override
         public void run() {
             for (int i = 0; i < 10; i++) {
                 try {
-                    //System.out.println("=============== " + Thread.currentThread().getName() + " i: " + i + " ===============");
-                    //System.out.println();
-                    Thread.sleep(2000);
+                    Thread.sleep(2000L);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -54,12 +54,12 @@ public class WaitNotifyExample {
         }
     }
 
-    static class Consumer implements Runnable {
+    class Consumer implements Runnable {
         @Override
         public void run() {
             for (int i = 0; i < 10; i++) {
                 try {
-                    Thread.sleep(2000);
+                    Thread.sleep(2000L);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -79,4 +79,5 @@ public class WaitNotifyExample {
             }
         }
     }
+
 }
