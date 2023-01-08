@@ -20,7 +20,7 @@ Redis 3.0中已有淘汰机制：
 | volatile-lru     | 易失key的LRU           | 仅以设置过期时间key范围内的LRU(如均为设置过期时间，则不会淘汰) |
 | allkeys-random   | 所有key随机淘汰        | 一视同仁，随机                                               |
 | volatile-random  | 易失Key的随机          | 仅设置过期时间key范围内的随机                                |
-| volatile-ttl     | 易失key的TTL淘汰       | 按最小TTL的key优先淘汰                                       |
+| volatile-ttl     | 易失key的TTL淘汰       | 按最小TTL的key优先淘汰（从已设置过期时间的数据集中挑选将要过期的数据淘汰） |
 
 其中LRU(less recently used)经典淘汰算法在Redis实现中有一定优化设计，来保证内存占用与实际效果的平衡，这也体现了工程应用是空间与时间的平衡性。
 

@@ -191,7 +191,7 @@ typedef struct list {
 
 ### 2.3 dict
 
-dict是Redis底层数据结构中实现最为复杂的一个数据结构, 其功能类似于C++标准库中的std::unordered_map, 其实现位于 src/dict.h 与 src/dict.c中, 其关键定义如下:
+dict是Redis底层数据结构中实现最为复杂的一个数据结构，其功能类似于C++标准库中的std::unordered_map, 其实现位于 src/dict.h 与 src/dict.c中, 其关键定义如下：
 
 ```cgo
 typedef struct dictEntry {
@@ -949,11 +949,11 @@ quicklist有自己的优点, 也有缺点, 对于使用者来说, 其使用体�
 
 ### 2.8 zipmap
 
-dict作为字典结构, 优点很多, 扩展性强悍, 支持平滑扩容等等, 但对于字典中的键值均为二进制数据, 且长度都很小时, dict的中的一坨指针会浪费不少内存, 因此Redis又实现了一个轻量级的字典, 即为zipmap.
+dict作为字典结构, 优点很多, 扩展性强悍, 支持平滑扩容等等, 但对于字典中的键值均为二进制数据, 且长度都很小时, dict的中的一坨指针会浪费不少内存, 因此Redis又实现了一个轻量级的字典, 即为zipmap。
 
 zipmap适合使用的场合是:
 
-- 键值对量不大, 单个键, 单个值长度小
+- 键值对量不大，单个键,，单个值长度小；
 - 键值均是二进制数据, 而不是复合结构或复杂结构. dict支持各种嵌套, 字典本身并不持有数据, 而仅持有数据的指针. 但zipmap是直接持有数据的.
 
 zipmap的定义与实现在src/zipmap.h与src/zipmap.c两个文件中, 其定义与实现均未定义任何struct结构体, 因为zipmap的内存布局就是一块连续的内存空间. 其内存布局如下所示:
