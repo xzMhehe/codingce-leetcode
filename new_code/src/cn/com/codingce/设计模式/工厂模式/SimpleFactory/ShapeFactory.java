@@ -27,9 +27,4 @@ public class ShapeFactory {
 
         return shape;
     }
-
-    public static void main(String[] args) {
-        Shape shape = ShapeFactory.getShap("circle");
-        shape.draw();
-    }
 }
