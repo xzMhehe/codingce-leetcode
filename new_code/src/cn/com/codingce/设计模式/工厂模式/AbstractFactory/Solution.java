@@ -6,14 +6,13 @@ package cn.com.codingce.设计模式.工厂模式.AbstractFactory;
  * AbstractProduct（抽象产品）：它为每种对象声明接口，在其中声明了对象所具有的业务方法。
  * ConcreteProduct（具体产品）：它定义具体工厂生产的具体对象。
  *
- *
- *
  * @author mxz
  */
 public class Solution {
     public static void main(String[] args) {
         // 抽象工厂
         SystemFactory mFactory;
+
         // Android 具体工厂
         mFactory = new AndroidFactory();
 
