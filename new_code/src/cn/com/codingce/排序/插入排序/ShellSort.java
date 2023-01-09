@@ -1,4 +1,4 @@
-package cn.com.codingce.排序.选择排序;
+package cn.com.codingce.排序.插入排序;
 
 import java.util.Arrays;
 
