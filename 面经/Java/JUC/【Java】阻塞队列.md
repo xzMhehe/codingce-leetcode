@@ -27,6 +27,8 @@
 
 ## JDK提供的阻塞队列
 
+![](https://raw.githubusercontent.com/xzMhehe/StaticFile_CDN/main/static/img20230109104841.png)
+
 **ArrayBlockingQueue** **数组结构**组成的有界阻塞队列（需要指定队列的大小）：此队列按照先进先出（FIFO）的原则对元素进行排序，但是默认情况下不保证线程公平的访问队列，即如果队列满了，那么被阻塞在外面的线程对队列访问的顺序是不能保证线程公平（即先阻塞，先插入）的；
 
 **LinkedBlockingQueue**一个由链表结构组成的有界阻塞队列：此队列的默认和最大长度为`Integer.MAX_VALUE`。此队列按照先进先出的原则对元素进行排序；
