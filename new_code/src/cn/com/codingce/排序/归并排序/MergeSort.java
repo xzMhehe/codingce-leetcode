@@ -12,18 +12,14 @@ import java.util.Arrays;
  */
 public class MergeSort {
     public static void main(String[] args) {
-
         System.out.println(Arrays.toString(new MergeSort().sort(new int[]{0, 2, 1, 4, 3, 9})));
-
     }
 
     public int[] sort(int[] arr) {
-
         if (arr.length < 2) {
             return arr;
         }
         int middle = arr.length >> 1;
-
         // 左闭右开
         int[] left = Arrays.copyOfRange(arr, 0, middle);
         int[] right = Arrays.copyOfRange(arr, middle, arr.length);
@@ -56,6 +52,5 @@ public class MergeSort {
 
         return result;
     }
-
 
 }
