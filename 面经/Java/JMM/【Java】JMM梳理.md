@@ -34,7 +34,7 @@
 
 线程间通信必须要经过主内存，线程A把本地内存A中更新过的共享变量刷新到主内存中去，线程B到主内存中去读取线程A之前已更新过的共享变量。
 
-<img src="https://raw.githubusercontent.com/xzMhehe/StaticFile_CDN/main/static/img20230108221116.png" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/xzMhehe/StaticFile_CDN/main/static/img20230109080512.png" style="zoom:67%;" />
 
 关于主内存与工作内存之间的具体交互协议，即一个变量如何从主内存拷贝到工作内存、如何从工作内存同步到主内存之间的实现细节，Java内存模型定义了以下`8`种操作来完成：
 
