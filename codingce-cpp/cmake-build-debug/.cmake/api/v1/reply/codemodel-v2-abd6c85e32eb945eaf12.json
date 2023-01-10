@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "codingce_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ArrayFEF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArrayFEF-Debug-4680dd15e3afba9a8556.json",
+					"name" : "ArrayFEF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DomTree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DomTree-Debug-db3b1d3a9cda9ea4e55f.json",
+					"name" : "DomTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FindErrorNums::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FindErrorNums-Debug-ea6902ae329599b10228.json",
+					"name" : "FindErrorNums",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaximumProduct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaximumProduct-Debug-abf3001924d7b82c8c26.json",
+					"name" : "MaximumProduct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumWays::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumWays-Debug-234bf26641da6bca34d4.json",
+					"name" : "NumWays",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QuickSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QuickSort-Debug-b92237f82748a712a59d.json",
+					"name" : "QuickSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Singleton::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Singleton-Debug-dfd6041c2979d71cb4ff.json",
+					"name" : "Singleton",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ThirdMax::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ThirdMax-Debug-8fa5800c509012f8d927.json",
+					"name" : "ThirdMax",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UnorderedMapTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UnorderedMapTest-Debug-134fe1ec4724dee1d3b3.json",
+					"name" : "UnorderedMapTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "addStrings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-addStrings-Debug-ea3df96c13f2463bb61d.json",
+					"name" : "addStrings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "codingce_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-codingce_cpp-Debug-b140580c8547eef10e44.json",
+					"name" : "codingce_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate-Debug-5e029260860b074ee398.json",
+					"name" : "generate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "longestCommonPrefix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-longestCommonPrefix-Debug-297a16e81f54fd86199e.json",
+					"name" : "longestCommonPrefix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "maxSubsequence::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-maxSubsequence-Debug-d2d28ed23813dee1cb75.json",
+					"name" : "maxSubsequence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "replaceSpace::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-replaceSpace-Debug-4d4bdb5323d9d1255d7f.json",
+					"name" : "replaceSpace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-3294b7201175c207b437.json",
+					"name" : "test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/mxz-code/gitee/codingce-leetcode/codingce-cpp/cmake-build-debug",
+		"source" : "D:/mxz-code/gitee/codingce-leetcode/codingce-cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
