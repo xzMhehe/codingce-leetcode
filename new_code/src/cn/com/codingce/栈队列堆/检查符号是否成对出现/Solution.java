@@ -1,4 +1,4 @@
-package cn.com.codingce.数组与矩阵.检查符号是否成对出现;
+package cn.com.codingce.栈队列堆.检查符号是否成对出现;
 
 import java.util.HashMap;
 import java.util.Map;
