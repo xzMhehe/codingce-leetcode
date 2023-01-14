@@ -1,5 +1,7 @@
 package cn.com.codingce.数组与矩阵.最长公共前缀;
 
+import java.util.Arrays;
+
 /**
  * @author mxz
  */
@@ -36,6 +38,23 @@ public class Solution {
             index++;
         }
         return str1.substring(0, index);
+    }
+
+    public String replaceSpace(String[] strs) {
+        StringBuilder ret = new StringBuilder();
+        Arrays.sort(strs);
+        int l = strs[0].length(), r = strs[strs.length - 1].length();
+        int l1 = 0, r1  = 0;
+        while (l1 < l && r1 < r) {
+            if (strs[0].charAt(l1) == strs[strs.length - 1].charAt(l1)) {
+                ret.append(strs[0].charAt(l1));
+                l1++;
+                r1++;
+            } else {
+                break;
+            }
+        }
+        return ret.toString();
     }
 
     public static void main(String[] args) {
