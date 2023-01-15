@@ -1,4 +1,4 @@
-package cn.com.codingce.随做;
+package cn.com.codingce.工具.随做;
 
 public class Test {
     public static void main(String[] args) {

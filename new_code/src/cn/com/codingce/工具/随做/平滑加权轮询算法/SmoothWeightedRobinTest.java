@@ -1,4 +1,4 @@
-package cn.com.codingce.随做.平滑加权轮询算法;
+package cn.com.codingce.工具.随做.平滑加权轮询算法;
 
 import java.util.ArrayList;
 import java.util.Collections;

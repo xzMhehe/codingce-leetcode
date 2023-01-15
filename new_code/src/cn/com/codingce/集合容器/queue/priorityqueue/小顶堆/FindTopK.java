@@ -1,4 +1,4 @@
-package cn.com.codingce.集合容器.PriorityQueue.小顶堆;
+package cn.com.codingce.集合容器.queue.priorityqueue.小顶堆;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;

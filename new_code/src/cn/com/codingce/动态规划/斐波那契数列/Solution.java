@@ -5,7 +5,7 @@ package cn.com.codingce.动态规划.斐波那契数列;
  */
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(new Solution().Fibonacci(4));
+        System.out.println(new Solution().Fibonacci2(10000));
     }
 
     public int Fibonacci(int n) {
