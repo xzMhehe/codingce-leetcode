@@ -1,50 +1,5 @@
 # 算法题
 
-## 数组
-
-### 二维数组查找
-
-在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
-
-这一道题还是比较简单的，我们需要考虑的是如何做，效率最快。这里有一种很好理解的思路：
-
-矩阵是有序的，从左下角来看，**向上数字递减，向右数字递增**， 因此从左下角开始查找，当要查找数字比左下角数字大时。右移 要查找数字比左下角数字小时，上移。这样找的速度最快。
-
-```java
-package cn.com.codingce.数组与矩阵.二维数组中的查找;
-
-/**
- * 4. 二维数组中的查找
- *
- * @author inke219223m
- */
-public class Solution {
-
-    public static void main(String[] args) {
-        System.out.println(new Solution().Find(2, new int[][]{{1, 1}}));
-    }
-
-    public boolean Find(int target, int [][] array) {
-        if(array == null || array.length == 0 || array[0].length == 0) {
-            return false;
-        }
-        int rows = array.length, cols = array[0].length;
-        int r = 0, c = cols - 1;
-        while(r <= rows - 1 && c >= 0) {
-            if(target == array[r][c]) {
-                return true;
-            } else if(target > array[r][c]) {
-                r++;
-            } else {
-                c--;
-            }
-
-        }
-        return false;
-    }
-}
-```
-
 ## 二分查找
 
 ```java
@@ -105,6 +60,149 @@ public class Solution {
     }
 }
 ```
+
+## 
+
+## 数组
+
+### 二维数组查找
+
+在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
+
+这一道题还是比较简单的，我们需要考虑的是如何做，效率最快。这里有一种很好理解的思路：
+
+矩阵是有序的，从左下角来看，**向上数字递减，向右数字递增**， 因此从左下角开始查找，当要查找数字比左下角数字大时。右移 要查找数字比左下角数字小时，上移。这样找的速度最快。
+
+```java
+package cn.com.codingce.数组与矩阵.二维数组中的查找;
+
+/**
+ * 4. 二维数组中的查找
+ *
+ * @author inke219223m
+ */
+public class Solution {
+
+    public static void main(String[] args) {
+        System.out.println(new Solution().Find(2, new int[][]{{1, 1}}));
+    }
+
+    public boolean Find(int target, int [][] array) {
+        if(array == null || array.length == 0 || array[0].length == 0) {
+            return false;
+        }
+        int rows = array.length, cols = array[0].length;
+        int r = 0, c = cols - 1;
+        while(r <= rows - 1 && c >= 0) {
+            if(target == array[r][c]) {
+                return true;
+            } else if(target > array[r][c]) {
+                r++;
+            } else {
+                c--;
+            }
+
+        }
+        return false;
+    }
+}
+```
+
+
+
+## 栈队列堆
+
+### 检查符号是否成对出现
+
+```java
+/**
+ * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断该字符串是否有效。有效字符串需满足：
+ * 左括号必须用相同类型的右括号闭合。
+ * 左括号必须以正确的顺序闭合。比如 "()"、"()[]{}"、"{[]}" 都是有效字符串，而 "(]" 、"([)]" 则不是。
+ *
+ * @param str
+ * @return
+ */
+public boolean isValid(String str) {
+    Map<Character, Character> map = new HashMap<>();
+    map.put(')', '(');
+    map.put('}', '{');
+    map.put(']', '[');
+    Stack<Character> stack = new Stack<>();
+    char[] chars = str.toCharArray();
+    for (Character c : chars) {
+        if (map.containsKey(c)) {
+            char topElement = stack.empty() ? '#' : stack.pop();
+            if (topElement != map.get(c)) {
+                return false;
+            }
+        } else {
+            stack.push(c);
+        }
+    }
+    return stack.isEmpty();
+}
+```
+
+
+
+### 反转字符串
+
+```java
+public String reverseStr(String str) {
+    Stack<Character> stack = new Stack<>();
+    char[] chars = str.toCharArray();
+    for (Character c : chars) {
+        stack.push(c);
+    }
+    StringBuilder ret = new StringBuilder();
+    int k = 0;
+    while (!stack.isEmpty()) {
+        char c = stack.pop();
+        ret.append(c);
+        chars[k++] = c;
+    }
+
+    //return ret.toString();
+    return String.copyValueOf(chars);
+}
+```
+
+
+
+## 最小的K个数
+
+```java
+public int[] getLeastNumbers(int[] arr, int k) {
+    if (k > arr.length || k == 0) {
+        return new int[]{};
+    }
+    // 初始化时使用 Lambda 表达式 (o1, o2) -> o2 - o1 来实现大顶堆
+    Queue<Integer> priorityQueue = new PriorityQueue<>((o1, o2) -> o2 - o1);
+    for (int num : arr) {
+        priorityQueue.add(num);
+        if (priorityQueue.size() > k) {
+            priorityQueue.poll();
+        }
+    }
+    return priorityQueue.stream().mapToInt(Integer::valueOf).toArray();
+}
+```
+
+PriorityQueue常用API：
+
+- add(E e)：添加元素，如果超过队列长度，抛出异常；
+- offer(E e)：添加元素，如果超过队列长度返回false；
+- remove()：获取下个元素，如果没有抛出异常；
+- poll()：获取下个元素，如果没有返回null；
+- element()：查看下个元素的内容，如果没有抛异常；
+- peek()：查看下个元素的内容，如果没有返回null；
+
+
+
+
+
+
 
 ## 链表
 

@@ -7,6 +7,7 @@ import java.util.Stack;
 public class Solution {
     public static void main(String[] args) {
     }
+
     //in
     Stack<Integer> stack1 = new Stack<Integer>();
     //out
@@ -17,22 +18,20 @@ public class Solution {
     }
 
     public int pop() throws Exception {
-        if (stack2.isEmpty())
-            while (!stack1.isEmpty())
-                stack2.push(stack1.pop());
+        if (stack2.isEmpty()) while (!stack1.isEmpty()) stack2.push(stack1.pop());
 
-        if (stack2.isEmpty())
-            throw new Exception("queue is empty");
+        if (stack2.isEmpty()) throw new Exception("queue is empty");
 
         return stack2.pop();
     }
 }
+
 class CQueue {
     //力扣
     /**
      * 用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 appendTail 和 deleteHead ，
      * 分别完成在队列尾部插入整数和在队列头部删除整数的功能。(若队列中没有元素，deleteHead 操作返回 -1 )
-     *
+     * <p>
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof
      */

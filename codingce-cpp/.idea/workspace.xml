@@ -31,61 +31,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7bb25be6-3a6f-40d0-8644-04ae500c328d" name="Changes" comment="F 替换空格">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-3fb6a392fa7ebd270605.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-fd5fa8c9b499ed3896d3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8fb7de4a048310e1056e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-28T06-43-33-0086.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ArrayFEF-Debug-2a819bb493535498d96e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-DomTree-Debug-5b32bc03afa25821d380.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-FindErrorNums-Debug-d4efa2b389f9c66eaea7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-MaximumProduct-Debug-e4b2ec1f67bc3e70c09a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NumWays-Debug-81243674e282e7adb840.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-QuickSort-Debug-72a8b20fbf884d8fb5e4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Singleton-Debug-2b28f2d2f1b5c81d91eb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ThirdMax-Debug-06d911948ae380a4ab5f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-UnorderedMapTest-Debug-21a233516f68a8f52859.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-addStrings-Debug-d66c4c9b8ede79417d73.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-codingce_cpp-Debug-070a89d8800e278023db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-generate-Debug-1e6509d6c562ae314b1b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-longestCommonPrefix-Debug-b82183f5fe7f94fc597c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-maxSubsequence-Debug-bd8cd7146dd6048b07a4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-replaceSpace-Debug-79dea5ffb1d88ed6374b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test-Debug-39bc5ac3717344352745.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-801692d215752bf11421.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ArrayFEF.dir/数组/485.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DomTree.dir/dom/DomTree.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindErrorNums.dir/数组/645.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/QuickSort.dir/排序/QuickSort.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/test/Test.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnorderedMapTest.dir/数组/UnorderedMapTest.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/addStrings.dir/dom/DomTree.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/addStrings.dir/数组/415.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codingce_cpp.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generate.dir/数组/118.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/longestCommonPrefix.dir/数组/14.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/maxSubsequence.dir/数组/2099.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/replaceSpace.dir/数组/05.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,14 +63,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\mxz-code\gitee\codingce-leetcode\codingce-cpp" />
@@ -132,12 +80,7 @@
       <recent name="D:\mxz-code\gitee\codingce-leetcode\codingce-cpp\image" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.test">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.QuickSort">
     <configuration name="ArrayFEF" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="ArrayFEF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="ArrayFEF">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -179,6 +122,11 @@
       </method>
     </configuration>
     <configuration name="UnorderedMapTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codingce_cpp" TARGET_NAME="UnorderedMapTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codingce_cpp" RUN_TARGET_NAME="UnorderedMapTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -254,6 +202,7 @@
       <workItem from="1671891684431" duration="7152000" />
       <workItem from="1672301135795" duration="502000" />
       <workItem from="1673315444371" duration="658000" />
+      <workItem from="1673782022930" duration="922000" />
     </task>
     <task id="LOCAL-00001" summary="F win">
       <created>1670458959878</created>
