@@ -16,8 +16,15 @@ public enum Singleton_07 {
 
     INSTANCE;
 
-    public void test() {
-        System.out.println("hi~");
+    public void doSomething() {
+        System.out.println("doSomething");
     }
 }
 
+class MainTest {
+
+    public static void main(String[] args) {
+        Singleton_07.INSTANCE.doSomething();
+    }
+
+}

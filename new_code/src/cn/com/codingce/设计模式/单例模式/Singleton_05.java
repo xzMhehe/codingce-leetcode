@@ -1,6 +1,7 @@
 package cn.com.codingce.设计模式.单例模式;
 
 public class Singleton_05 {
+
     private static Singleton_05 instance;
 
     private Singleton_05() {
@@ -13,5 +14,6 @@ public class Singleton_05 {
         }
         return instance;
     }
+
 }
 

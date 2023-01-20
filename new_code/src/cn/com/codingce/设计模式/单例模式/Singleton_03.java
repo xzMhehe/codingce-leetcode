@@ -8,6 +8,7 @@ package cn.com.codingce.设计模式.单例模式;
  *
  */
 public class Singleton_03 {
+
     private static Singleton_03 instance = new Singleton_03();
     public Singleton_03(){};
 
