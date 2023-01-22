@@ -256,6 +256,57 @@ public class Solution {
 }
 ```
 
+## 反转区间节点
+
+将一个节点数为 size 链表 m 位置到 n 位置之间的区间反转
+
+例如：
+给出的链表为 
+
+![](https://cdn.jsdelivr.net/gh/xzMhehe/StaticFile_CDN/static/img202301221510923.png)
+
+返回
+
+![](https://cdn.jsdelivr.net/gh/xzMhehe/StaticFile_CDN/static/img202301221510202.png)
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public ListNode reverseBetween(ListNode head, int m, int n) {
+        if(head==null) {
+            return head;
+        }
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode p = dummy;
+        for(int i=1;i<m;i++) {
+            p = p.next;
+        }
+        
+        ListNode pm = p.next;
+       
+        for(int i=m;i<n;i++) {
+            ListNode temp = pm.next;
+            pm.next = temp.next;
+            temp.next = p.next;
+            p.next = temp;
+        }
+        
+        return dummy.next;
+    }
+}
+```
+
 
 
 ## 动态规划
