@@ -6,7 +6,7 @@ public class Solution {
         // 图像将从磁盘加载
         image.display();
         System.out.println("");
-        // 图像不需要从磁盘加载
+        // 图像不需要从磁盘加载(已经创建)
         image.display();
     }
 }
