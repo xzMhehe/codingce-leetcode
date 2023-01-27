@@ -98,6 +98,7 @@ public class SynchronizedExample {
 //        executorService.execute(SynchronizedExample::func4);
 //        executorService.execute(SynchronizedExample::func4);
 
+
         SynchronizedExample example1 = new SynchronizedExample();
         SynchronizedExample example2 = new SynchronizedExample();
         ExecutorService executorService = Executors.newCachedThreadPool();
