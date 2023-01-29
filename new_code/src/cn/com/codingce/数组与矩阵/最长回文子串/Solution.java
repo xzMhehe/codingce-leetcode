@@ -1,8 +1,8 @@
 package cn.com.codingce.数组与矩阵.最长回文子串;
 
 public class Solution {
-    private int index, len;
 
+    private int index, len;
 
     /**
      * 输入: "babad"
@@ -15,7 +15,7 @@ public class Solution {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println(new Solution().longestPalindrome("babad"));
+        System.out.println(new Solution().longestPalindrome("abccccdd"));
     }
 
     /**
