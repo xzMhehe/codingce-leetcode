@@ -42,6 +42,7 @@ public class Solution {
 
     public String replaceSpace(String[] strs) {
         StringBuilder ret = new StringBuilder();
+        // 排序！ ["flight", "flow", "flower"] 比较第一个和最后一个
         Arrays.sort(strs);
         int l = strs[0].length(), r = strs[strs.length - 1].length();
         int l1 = 0, r1  = 0;
@@ -58,6 +59,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().longestCommonPrefix(new String[]{"flower", "flow", "flight"}));
+        System.out.println(new Solution().replaceSpace(new String[]{"flower", "flow", "flight"}));
     }
 }
