@@ -165,6 +165,50 @@ class Solution {
 
 
 
+### 验证回文串
+
+给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。 说明：本题中，我们将空字符串定义为有效的回文串。
+
+```text
+输入: "A man, a plan, a canal: Panama"
+输出: true
+
+输入: "race a car"
+输出: false
+```
+
+
+
+```java
+public boolean isPalindrome(String s) {
+    if (s.length() == 0) {
+        return true;
+    }
+    int l = 0, r = s.length() - 1;
+    while (l < r) {
+        // 字符不是字母和数字的情况
+        if (!Character.isLetterOrDigit(s.charAt(l))) {
+            l++;
+        } else if (!Character.isLetterOrDigit(s.charAt(r))) {
+            // 字符不是字母和数字的情况
+            r--;
+        } else {
+            // 判断二者是否相等. toLowerCase 强转成小写字母
+            if (Character.toLowerCase(s.charAt(l)) != Character.toLowerCase(s.charAt(r)))
+                return false;
+            l++;
+            r--;
+        }
+    }
+
+    return true;
+}
+```
+
+### 括号匹配深度
+
+
+
 ### 二维数组查找
 
 在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
