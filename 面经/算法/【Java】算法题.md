@@ -205,7 +205,32 @@ public boolean isPalindrome(String s) {
 }
 ```
 
+
+
 ### 括号匹配深度
+
+一个合法的括号匹配序列有以下定义:
+
+1. 空串""是一个合法的括号匹配序列
+2. 如果"X"和"Y"都是合法的括号匹配序列,"XY"也是一个合法的括号匹配序列
+3. 如果"X"是一个合法的括号匹配序列,那么"(X)"也是一个合法的括号匹配序列
+4. 每个合法的括号序列都可以由以上规则生成。
+
+例如: "()()()"的深度是1,"((()))"的深度是3。
+
+```java
+public int maxString(String s) {
+    int cnt = 0, max = 0, i;
+    for (i = 0; i < s.length(); ++i) {
+        if (s.charAt(i) == '(')
+            cnt++;
+        else
+            cnt--;
+        max = Math.max(max, cnt);
+    }
+    return max;
+}
+```
 
 
 

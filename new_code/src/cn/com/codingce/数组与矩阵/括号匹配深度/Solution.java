@@ -24,7 +24,6 @@ public class Solution {
     }
 
     public int maxString(String s) {
-
         int cnt = 0, max = 0, i;
         for (i = 0; i < s.length(); ++i) {
             if (s.charAt(i) == '(')
@@ -35,4 +34,5 @@ public class Solution {
         }
         return max;
     }
+
 }
