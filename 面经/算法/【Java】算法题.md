@@ -234,6 +234,66 @@ public int maxString(String s) {
 
 
 
+### 字符串转换成整数
+
+将一个字符串转换成一个整数(实现Integer.valueOf(string)的功能，但是string不符合数字要求时返回0)，要求不能使用字符串转换整数的库函数。 数值为0或者字符串不是一个合法的数值则返回0。
+
+```text
+输入: "42"
+输出: 42
+
+输入: "   -42"
+输出: -42
+解释: 第一个非空白字符为 '-', 它是一个负号。
+     我们尽可能将负号与后面所有连续出现的数字组合起来，最后得到 -42 。
+
+输入: "4193 with words"
+输出: 4193
+解释: 转换截止于数字 '3' ，因为它的下一个字符不为数字。
+```
+
+```java
+class Solution {
+    public int strToInt(String str) {
+        int MAX_INT = Integer.MAX_VALUE;
+        int MIN_INT = Integer.MIN_VALUE;
+        char[] arrayA = str.toCharArray();
+        int n = 0;
+        if (str.equals(""))     // 判断输入是否为空
+            return 0;
+        int i = 0;
+        while (i < arrayA.length && arrayA[i] == ' ')
+            i++;
+        if (i == arrayA.length) return 0;
+        int sign = 1;   // 用于判定输入字符串数字的正负, 初始化为1表示为正数
+        if (arrayA[i] == '+' || arrayA[i] == '-') {
+            if (arrayA[i] == '-') sign = -1;
+            i++;
+        }
+        while (i < arrayA.length && Character.isDigit(arrayA[i])) {  // 确定是数字0~9才执行循环
+            int c = arrayA[i] - '0';
+            // 当输入字符串表示数为正数, 且大于MAX_INT
+            if (sign > 0 && (n > MAX_INT / 10 || (n == MAX_INT / 10 && c > MAX_INT % 10))) {
+                n = MAX_INT;
+                break;
+            }
+            // 当输入字符串表示数为负数, 且小于MIN_INT
+            if (sign < 0 && (n + MIN_INT / 10 > 0 || (n + MIN_INT / 10 == 0 && c + MIN_INT % 10 > 0))) {
+                n = MIN_INT;
+                break;
+            }
+            // 把之前得到的数字乘以10, 再加上 当前字符表示的数字
+            n = n * 10 + c;
+            i++;
+        }
+
+        return sign > 0 ? n : -n;
+    }
+}
+```
+
+
+
 ### 二维数组查找
 
 在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
@@ -425,7 +485,7 @@ public class Solution {
 }
 ```
 
-## 反转区间节点
+### 反转区间节点
 
 将一个节点数为 size 链表 m 位置到 n 位置之间的区间反转
 
