@@ -1,0 +1,5 @@
+## 说一说hash类型的底层数据结构
+
+Redis的哈希对象的底层存储可以使用ziplist（压缩列表）和hashtable（字典）。当哈希类型元素个数小于hash-max-ziplist-entries 配置（默认512个），同时所有值都小于hash-max-ziplist-value配置（默认64 字节）时，Redis会使用ziplist作为哈希的内部实现。ziplist使用更加紧凑的结构实现多个元素的连续存储，所以在节省内存方面比hashtable更加优秀。当哈希类型无法满足ziplist的条件时，Redis会使用hashtable作为哈希的内部实现，因为此时ziplist的读写效率会下降，而 hashtable的读写时间复杂度为O(1)。
+
+压缩列表是Redis为了节约内存而开发的，它是由一系列特殊编码的连续内存块组成的顺序型数据结构。一个压缩列表可以包含多个节点，每个节点可以保存一个字节数组或者一个整数值。一个压缩列表的重要保存部分包括—zlbytes、zltail、zllen、entryX、zlend
