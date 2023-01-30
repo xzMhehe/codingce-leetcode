@@ -2,6 +2,7 @@ package cn.com.codingce.树.重建二叉树;
 
 import cn.com.codingce.树.TreeNode;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,7 +20,7 @@ public class Solution {
 
     /**
      * @param pre 先根遍历
-     * @param in 中根遍历
+     * @param in  中根遍历
      * @return
      */
     public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
@@ -30,7 +31,7 @@ public class Solution {
     }
 
     /**
-     * @param pre 先根遍历
+     * @param pre  先根遍历
      * @param preL
      * @param preR
      * @param inL
@@ -43,6 +44,35 @@ public class Solution {
         int leftTreeSize = inIndex - inL;
         root.left = reConstructBinaryTree(pre, preL + 1, preL + leftTreeSize, inL);
         root.right = reConstructBinaryTree(pre, preL + leftTreeSize + 1, preR, inL + leftTreeSize + 1);
+        return root;
+    }
+
+    /**
+     * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+     *
+     * @param preOrder int整型一维数组
+     * @param vinOrder int整型一维数组
+     * @return TreeNode类
+     */
+    public TreeNode reConstructBinaryTreeT(int[] preOrder, int[] vinOrder) {
+        // write code here
+        int n = preOrder.length;
+        int m = vinOrder.length;
+        //每个遍历都不能为0
+        if (n == 0 || m == 0)
+            return null;
+        //构建根节点
+        TreeNode root = new TreeNode(preOrder[0]);
+        for (int i = 0; i < vinOrder.length; i++) {
+            //找到中序遍历中的前序第一个元素
+            if (preOrder[0] == vinOrder[i]) {
+                //构建左子树
+                root.left = reConstructBinaryTreeT(Arrays.copyOfRange(preOrder, 1, i + 1), Arrays.copyOfRange(vinOrder, 0, i));
+                //构建右子树
+                root.right = reConstructBinaryTreeT(Arrays.copyOfRange(preOrder, i + 1, preOrder.length), Arrays.copyOfRange(vinOrder, i + 1, vinOrder.length));
+                break;
+            }
+        }
         return root;
     }
 }
