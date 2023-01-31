@@ -1,8 +1,4 @@
-package cn.com.codingce.数组与矩阵.最长递增子序列;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package cn.com.codingce.动态规划.最长递增子序列;
 
 /**
  * 给定数组arr，设长度为n，输出arr的最长递增子序列。（如果有多个答案，请输出其中字典序最小的）
