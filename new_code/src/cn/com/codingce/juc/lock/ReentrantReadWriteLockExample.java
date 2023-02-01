@@ -113,6 +113,11 @@ public class ReentrantReadWriteLockExample {
         service.shutdown();
     }
 
+    /**
+     * 写写互斥
+     *
+     * 多个线程同时使用写锁也是互斥的, 这称之为写写互斥.
+     */
     public static void writeAndWrite() {
 
         // 创建读写锁
