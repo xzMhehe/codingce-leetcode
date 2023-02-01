@@ -31,10 +31,6 @@ public class Constant {
 
     /**
      * 菜单类型
-     *
-     * @author chenshun
-     * @email sunlightcs@gmail.com
-     * @date 2016年11月15日 下午1:24:29
      */
     public enum MenuType {
         /**
