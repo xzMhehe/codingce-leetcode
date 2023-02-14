@@ -3,7 +3,7 @@ package cn.com.codingce.查找.二分查找;
 public class Solution {
 
     public static void main(String[] args) {
-        System.out.println(binSearchD(new int[]{2, 5, 6, 8, 10}, 0, 5, 1));
+        System.out.println(binSearch(new int[]{2, 5, 6, 8, 10}, 8));
     }
 
     /**
@@ -15,7 +15,8 @@ public class Solution {
      */
     public static int binSearch(int[] nums, int target) {
         int l = 0, r = nums.length - 1;
-        int ret = (l + r) >> 1;
+        // 防止数组越界, 且位运算比除法运算快
+        int ret = l + (r - l) >> 1;
         while (l < r) {
             if (nums[ret] == target) {
                 return 1;
@@ -40,7 +41,7 @@ public class Solution {
      * @return
      */
     public static int binSearchD(int[] nums, int l, int r, int target) {
-        int ret = (l + r) >> 1;
+        int ret = l + (r - l) >> 1;
         if (nums[ret] == target) {
             return 1;
         }
