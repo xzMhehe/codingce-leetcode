@@ -1,4 +1,4 @@
-package cn.com.codingce.二分查找;
+package cn.com.codingce.查找.二分查找;
 
 public class Solution {
 

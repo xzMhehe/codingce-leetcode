@@ -1,6 +1,7 @@
-package cn.com.codingce.二分查找.旋转数组的最小数字;
+package cn.com.codingce.查找.二分查找.旋转数组的最小数字;
 
 public class Solution {
+
     public static void main(String[] args) {
 
     }
