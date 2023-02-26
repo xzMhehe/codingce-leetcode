@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: codingce-customer
+nacos:
+  config:
+    auto-refresh: true
+    bootstrap:
+      enable: true
+      log-enable: true
+    data-ids: nacos-dev.properties
+    group: dev
+    namespace: 4f1d4fa1-7df7-47dd-8274-1e0cc53ebbb7
+    server-addr: 127.0.0.1:8848
+    type: properties
+    # data-id:
+
+  discovery:
+    server-addr: 127.0.0.1:8848
+    username: nacos
+    password: nacos
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
