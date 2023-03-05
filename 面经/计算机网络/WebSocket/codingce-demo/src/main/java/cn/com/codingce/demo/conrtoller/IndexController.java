@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
 
     @RequestMapping("/index")
-    public String helloThymeleaf(Model model) {
+    public String indexSocket(Model model) {
         return "index";
     }
 

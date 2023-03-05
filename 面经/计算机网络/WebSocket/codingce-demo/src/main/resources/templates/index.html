@@ -76,13 +76,28 @@
         webSocket = new WebSocket(url);
         webSocket.onopen = function () {
             console.log('webSocket连接创建。。。');
+            sendMessage('tip', username);
         }
         webSocket.onclose = function () {
             console.log('webSocket已断开。。。');
             $('#messageArea').append('websocket已断开\n');
         }
         webSocket.onmessage = function (event) {
-            $('#messageArea').append(event.data + "onmessage" + '\n');
+            //这个 data 和刚刚的 Message 一样
+            let data = {
+                operation: '',
+                msg: ''
+            };
+
+            data = JSON.parse(event.data);
+            switch (data.operation) {
+                case "tip":
+                    $('#messageArea').append(data.msg + '\n');
+                    break;
+                case "msg":     // 显示消息
+                    $('#messageArea').append(data.msg + '\n');
+                    break;
+            }
         }
         webSocket.onerror = function (event) {
             console.log(event)
@@ -105,10 +120,22 @@
             alert('请输入内容');
             return;
         }
-        webSocket.send($('#sendMessage').val());
+        sendMessage('msg', $('#sendMessage').val());
 
         $('#sendMessage').val('');
     });
+
+    // 发送消息
+    function sendMessage(operation, msg) {
+        // 这个 data 和刚刚的 Message 一样
+        let data = {
+            operation: operation,
+            msg: msg,
+        };
+
+        // 将 data 转成 json 字符串
+        webSocket.send(JSON.stringify(data));
+    }
 
 </script>
 

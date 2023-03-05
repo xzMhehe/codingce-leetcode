@@ -1,5 +1,7 @@
 package cn.com.codingce.demo.conrtoller;
 
+import cn.com.codingce.demo.entity.dto.MessageDto;
+import com.alibaba.fastjson.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -51,7 +53,6 @@ public class BaseWebSocketController {
         logger.info(res);
     }
 
-
     /**
      * 响应字符串
      *
@@ -60,9 +61,31 @@ public class BaseWebSocketController {
      */
     @OnMessage
     public void onMessage(Session session, String message) {
-        String res = "OnMessage [" + session.getId() + "]" + message;
-        sendAll(res);
-        logger.info(res);
+        // 使用 fastjson 解析 json 字符串
+        final MessageDto data = JSONObject.parseObject(message, MessageDto.class);
+        // 响应的信息
+        final MessageDto response = MessageDto.builder()
+                // 将请求的 operation 放入
+                .operation(data.getOperation())
+                .build();
+        // 根据不同的 operation 执行不同的操作
+        switch (data.getOperation()) {
+            // 进入聊天室后保存用户名
+            case "tip":
+                session.getUserProperties().put("username", data.getMsg());
+                SESSION_MAP.put(session.getId(), session);
+                response.setMsg("[" + data.getMsg() + "]进入房间");
+                sendAll(JSONObject.toJSONString(response));
+                break;
+            // 发送消息
+            case "msg":
+                final String username = (String) session.getUserProperties().get("username");
+                response.setMsg("[" + username + "]" + data.getMsg());
+                sendAll(JSONObject.toJSONString(response));
+                break;
+            default:
+                break;
+        }
     }
 
     /**
