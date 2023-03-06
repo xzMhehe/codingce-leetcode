@@ -1,0 +1,64 @@
+{
+  "target_syscode": "PEIS-HBYTZYY_FZ",
+  "logictype": "RPN",
+  "mainversion": 1,
+  "subversion": "001",
+  "label": "test",
+  "exp": [
+    {
+      "nodetype": "var",
+      "nodecontent": "sbp001",
+      "nodedesc": "收缩压"
+    },
+    {
+      "nodetype": "const",
+      "nodecontent": "120",
+      "nodedesc": "mmHg"
+    },
+    {
+      "nodetype": "op",
+      "nodecontent": "GT",
+      "nodedesc": "大于"
+    },
+    {
+      "nodetype": "op",
+      "nodecontent": "AND",
+      "nodedesc": "且"
+    },
+    {
+      "nodetype": "var",
+      "nodecontent": "dbp001",
+      "nodedesc": "舒张压"
+    },
+    {
+      "nodetype": "const",
+      "nodecontent": "140",
+      "nodedesc": "mmHg"
+    },
+    {
+      "nodetype": "op",
+      "nodecontent": "LE",
+      "nodedesc": "小于等于"
+    },
+    {
+      "nodetype": "op",
+      "nodecontent": "AND",
+      "nodedesc": "且"
+    },
+    {
+      "nodetype": "var",
+      "nodecontent": "fpg",
+      "nodedesc": "空腹血糖"
+    },
+    {
+      "nodetype": "const",
+      "nodecontent": "9.7",
+      "nodedesc": "mmol/L"
+    },
+    {
+      "nodetype": "op",
+      "nodecontent": "GT",
+      "nodedesc": "大于"
+    }
+  ]
+}
