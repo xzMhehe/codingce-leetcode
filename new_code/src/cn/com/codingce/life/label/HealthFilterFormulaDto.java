@@ -1,4 +1,4 @@
-package cn.com.codingce.life.lable;
+package cn.com.codingce.life.label;
 
 import java.io.Serializable;
 import java.util.List;

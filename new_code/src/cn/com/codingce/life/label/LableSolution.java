@@ -1,4 +1,4 @@
-package cn.com.codingce.life.lable;
+package cn.com.codingce.life.label;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ public class LableSolution {
 
     public static void main(String[] args) {
         double matchesA = 12.1;
-        String pattern = "[^-?\\\\d+.?\\\\d+]|([-+])";
+        String pattern = "[^-?\\d+.?\\d+]|([-+])";
         Pattern r = Pattern.compile(pattern);
         Matcher m = r.matcher(String.valueOf(matchesA));
         System.out.println(m.matches() + "       ================================");
