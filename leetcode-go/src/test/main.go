@@ -33,7 +33,7 @@ func test() {
 	for scanner.Scan() {
 		line := scanner.Text()
 		one++
-		b = append(b, fmt.Sprintf("%s-%s", strings.Split(line, "\t")[0], strings.Split(line, "\t")[1]))
+		b = append(b, fmt.Sprintf("%s", strings.Split(line, "\t")[0]))
 	}
 	// 创建一个 map 用于存储每个元素出现的次数
 	count := make(map[string]int)
@@ -54,7 +54,7 @@ func test() {
 	for scannerTwo.Scan() {
 		line := scannerTwo.Text()
 		two++
-		a = append(a, fmt.Sprintf("%s-%s", strings.Split(line, "\t")[0], strings.Split(line, "\t")[1]))
+		a = append(a, fmt.Sprintf("%s", strings.Split(line, "\t")[0]))
 
 	}
 
@@ -116,11 +116,20 @@ func test() {
 	}
 
 	//fmt.Println("交集:", intersection)
-	fmt.Printf("交集done Size:%d\n", len(intersection))
-	fmt.Println("交集:")
-	for _, s := range intersection {
-		fmt.Printf("'%s',", strings.Split(s, "-")[0])
+	//fmt.Println("交集:")
+	//for _, s := range intersection {
+	//	fmt.Printf("%s,", s)
+	//}
+
+	fmt.Println("差集:")
+	for _, s := range difference {
+		fmt.Printf("%s,", s)
 	}
+
+	fmt.Println()
+	fmt.Println()
+	fmt.Printf("交集done Size:%d\n", len(intersection))
+
 	//fmt.Println("并集:", union)
 	//fmt.Println("差集:")
 	//for _, s := range difference {
