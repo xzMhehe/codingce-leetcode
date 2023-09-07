@@ -1,4 +1,4 @@
-package cn.com.codingce.双指针.和为S的两个数字;
+package cn.com.codingce.doublepointer.和为S的两个数字;
 
 import java.util.ArrayList;
 

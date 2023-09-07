@@ -1,4 +1,4 @@
-package cn.com.codingce.双指针.合并区间;
+package cn.com.codingce.doublepointer.合并区间;
 
 import java.util.Arrays;
 import java.util.LinkedList;

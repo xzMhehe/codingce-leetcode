@@ -1,4 +1,4 @@
-package cn.com.codingce.双指针.移除元素;
+package cn.com.codingce.doublepointer.移除元素;
 
 /**
  * 移除元素

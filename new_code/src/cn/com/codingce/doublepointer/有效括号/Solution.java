@@ -1,4 +1,4 @@
-package cn.com.codingce.双指针.有效括号;
+package cn.com.codingce.doublepointer.有效括号;
 
 import java.util.Stack;
 

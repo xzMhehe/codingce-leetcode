@@ -1,4 +1,4 @@
-package cn.com.codingce.双指针.翻转单词顺序列;
+package cn.com.codingce.doublepointer.翻转单词顺序列;
 
 /**
  * 先翻转每个单词，再翻转整个字符串。

@@ -1,4 +1,4 @@
-package cn.com.codingce.双指针.左旋转字符串;
+package cn.com.codingce.doublepointer.左旋转字符串;
 
 public class Solution {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package cn.com.codingce.双指针.和为S的连续正数序列;
+package cn.com.codingce.doublepointer.和为S的连续正数序列;
 
 import java.util.ArrayList;
 
